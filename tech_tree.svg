@@ -40,28 +40,28 @@
 </g>
 <g id="clust7" class="cluster">
 <title>cluster_5</title>
-<polygon fill="none" stroke="lightgray" stroke-width="5" points="1808,-276 1808,-1601 2016,-1601 2016,-276 1808,-276"/>
-<text text-anchor="middle" x="1912" y="-1578" font-family="Helvetica,sans-Serif" font-size="20.00">1925&#45;1949</text>
+<polygon fill="none" stroke="lightgray" stroke-width="5" points="1808,-276 1808,-1558 2016,-1558 2016,-276 1808,-276"/>
+<text text-anchor="middle" x="1912" y="-1535" font-family="Helvetica,sans-Serif" font-size="20.00">1925&#45;1949</text>
 </g>
 <g id="clust8" class="cluster">
 <title>cluster_6</title>
-<polygon fill="none" stroke="lightgray" stroke-width="5" points="2168,-319 2168,-1601 2376,-1601 2376,-319 2168,-319"/>
-<text text-anchor="middle" x="2272" y="-1578" font-family="Helvetica,sans-Serif" font-size="20.00">1950&#45;1974</text>
+<polygon fill="none" stroke="lightgray" stroke-width="5" points="2168,-297 2168,-1579 2376,-1579 2376,-297 2168,-297"/>
+<text text-anchor="middle" x="2272" y="-1556" font-family="Helvetica,sans-Serif" font-size="20.00">1950&#45;1974</text>
 </g>
 <g id="clust9" class="cluster">
 <title>cluster_7</title>
-<polygon fill="none" stroke="lightgray" stroke-width="5" points="2528,-448 2528,-1300 2736,-1300 2736,-448 2528,-448"/>
-<text text-anchor="middle" x="2632" y="-1277" font-family="Helvetica,sans-Serif" font-size="20.00">1975&#45;2000</text>
+<polygon fill="none" stroke="lightgray" stroke-width="5" points="2528,-469 2528,-1321 2736,-1321 2736,-469 2528,-469"/>
+<text text-anchor="middle" x="2632" y="-1298" font-family="Helvetica,sans-Serif" font-size="20.00">1975&#45;2000</text>
 </g>
 <g id="clust10" class="cluster">
 <title>cluster_8</title>
-<polygon fill="none" stroke="lightgray" stroke-width="5" points="2888,-598 2888,-1192 3096,-1192 3096,-598 2888,-598"/>
-<text text-anchor="middle" x="2992" y="-1169" font-family="Helvetica,sans-Serif" font-size="20.00">2000&#45;2024</text>
+<polygon fill="none" stroke="lightgray" stroke-width="5" points="2888,-619 2888,-1213 3096,-1213 3096,-619 2888,-619"/>
+<text text-anchor="middle" x="2992" y="-1190" font-family="Helvetica,sans-Serif" font-size="20.00">2000&#45;2024</text>
 </g>
 <g id="clust11" class="cluster">
 <title>cluster_9</title>
-<polygon fill="none" stroke="lightgray" stroke-width="5" stroke-dasharray="5,2" points="3248,-641 3248,-1106 3456,-1106 3456,-641 3248,-641"/>
-<text text-anchor="middle" x="3352" y="-1083" font-family="Helvetica,sans-Serif" font-size="20.00">2025&#45;2049</text>
+<polygon fill="none" stroke="lightgray" stroke-width="5" stroke-dasharray="5,2" points="3248,-662 3248,-1127 3456,-1127 3456,-662 3248,-662"/>
+<text text-anchor="middle" x="3352" y="-1104" font-family="Helvetica,sans-Serif" font-size="20.00">2025&#45;2049</text>
 </g>
 <!-- Mixed/Other -->
 <g id="node1" class="node">
@@ -480,8 +480,8 @@
 <!-- High Pressure Steam Engine&#45;&gt;Coal Power Plant -->
 <g id="edge45" class="edge">
 <title>High Pressure Steam Engine&#45;&gt;Coal Power Plant</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M544.44,-838.7C587.98,-838.7 635,-838.7 635,-838.7 635,-838.7 635,-1189.73 635,-1189.73 635,-1189.73 1192,-1189.73 1192,-1189.73 1192,-1189.73 1192,-1193.17 1192,-1193.17"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1189.9,-1193.17 1192,-1199.17 1194.1,-1193.17 1189.9,-1193.17"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M544.44,-838.7C587.98,-838.7 635,-838.7 635,-838.7 635,-838.7 635,-1191.4 635,-1191.4 635,-1191.4 1192,-1191.4 1192,-1191.4 1192,-1191.4 1192,-1193.05 1192,-1193.05"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1189.9,-1193.05 1192,-1199.05 1194.1,-1193.05 1189.9,-1193.05"/>
 </g>
 <!-- Modern Vector Math -->
 <g id="node54" class="node">
@@ -492,8 +492,8 @@
 <!-- Quaternion Math&#45;&gt;Modern Vector Math -->
 <g id="edge22" class="edge">
 <title>Quaternion Math&#45;&gt;Modern Vector Math</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M544.33,-935.07C743.79,-935.07 1287,-935.07 1287,-935.07 1287,-935.07 1287,-1076.6 1287,-1076.6 1287,-1076.6 1271.62,-1076.6 1271.62,-1076.6"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.62,-1074.5 1265.62,-1076.6 1271.62,-1078.7 1271.62,-1074.5"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M544.42,-933.4C743.43,-933.4 1284,-933.4 1284,-933.4 1284,-933.4 1284,-1074.1 1284,-1074.1 1284,-1074.1 1271.62,-1074.1 1271.62,-1074.1"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.62,-1072 1265.62,-1074.1 1271.62,-1076.2 1271.62,-1072"/>
 </g>
 <!-- Electromagnetism Theory -->
 <g id="node55" class="node">
@@ -558,7 +558,7 @@
 <!-- Vulcanization&#45;&gt;Rubber Tire -->
 <g id="edge30" class="edge">
 <title>Vulcanization&#45;&gt;Rubber Tire</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M544.32,-1105.4C551.39,-1105.4 556,-1105.4 556,-1105.4 556,-1105.4 556,-1379.6 556,-1379.6 556,-1379.6 1112.53,-1379.6 1112.53,-1379.6"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M544.32,-1103.73C551.39,-1103.73 556,-1103.73 556,-1103.73 556,-1103.73 556,-1379.6 556,-1379.6 556,-1379.6 1112.53,-1379.6 1112.53,-1379.6"/>
 <polygon fill="black" stroke="black" stroke-width="0.75" points="1112.53,-1381.7 1118.53,-1379.6 1112.53,-1377.5 1112.53,-1381.7"/>
 </g>
 <!-- Morse Telegraph -->
@@ -576,8 +576,8 @@
 <!-- Morse Telegraph&#45;&gt;Telephone -->
 <g id="edge24" class="edge">
 <title>Morse Telegraph&#45;&gt;Telephone</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M544.41,-978.07C742.04,-978.07 1276,-978.07 1276,-978.07 1276,-978.07 1276,-1047.8 1276,-1047.8 1276,-1047.8 1271.46,-1047.8 1271.46,-1047.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.46,-1045.7 1265.46,-1047.8 1271.46,-1049.9 1271.46,-1045.7"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M544.23,-978.07C741.37,-978.07 1274,-978.07 1274,-978.07 1274,-978.07 1274,-1047.8 1274,-1047.8 1274,-1047.8 1271.41,-1047.8 1271.41,-1047.8"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.41,-1045.7 1265.41,-1047.8 1271.41,-1049.9 1271.41,-1045.7"/>
 </g>
 <!-- Urea Synthesis -->
 <g id="node40" class="node">
@@ -684,8 +684,8 @@
 <!-- Steam Turbine&#45;&gt;Gas Turbine -->
 <g id="edge76" class="edge">
 <title>Steam Turbine&#45;&gt;Gas Turbine</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.22,-995.2C1324.63,-995.2 1401,-995.2 1401,-995.2 1401,-995.2 1401,-543.9 1401,-543.9 1401,-543.9 1832.46,-543.9 1832.46,-543.9"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.46,-546 1838.46,-543.9 1832.46,-541.8 1832.46,-546"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1119.59,-995.2C1075.66,-995.2 1028,-995.2 1028,-995.2 1028,-995.2 1028,-543.9 1028,-543.9 1028,-543.9 1832.52,-543.9 1832.52,-543.9"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.52,-546 1838.52,-543.9 1832.52,-541.8 1832.52,-546"/>
 </g>
 <!-- Modern Sewers -->
 <g id="node69" class="node">
@@ -708,8 +708,8 @@
 <!-- Modern Vector Math&#45;&gt;Theory Of Relativity [P] -->
 <g id="edge78" class="edge">
 <title>Modern Vector Math&#45;&gt;Theory Of Relativity [P]</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.34,-1079.1C1328.46,-1079.1 1412,-1079.1 1412,-1079.1 1412,-1079.1 1412,-1004.8 1412,-1004.8 1412,-1004.8 1472.4,-1004.8 1472.4,-1004.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.4,-1006.9 1478.4,-1004.8 1472.4,-1002.7 1472.4,-1006.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.4,-1079.1C1294.69,-1079.1 1323,-1079.1 1323,-1079.1 1323,-1079.1 1323,-1000 1323,-1000 1323,-1000 1472.41,-1000 1472.41,-1000"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.41,-1002.1 1478.41,-1000 1472.41,-997.9 1472.41,-1002.1"/>
 </g>
 <!-- AC Power Transmission -->
 <g id="node88" class="node">
@@ -732,8 +732,8 @@
 <!-- Propeller&#45;&gt;Steam Turbine -->
 <g id="edge98" class="edge">
 <title>Propeller&#45;&gt;Steam Turbine</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M904.44,-570C952.59,-570 1007,-570 1007,-570 1007,-570 1007,-1000 1007,-1000 1007,-1000 1112.54,-1000 1112.54,-1000"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.54,-1002.1 1118.54,-1000 1112.54,-997.9 1112.54,-1002.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M904.45,-570C956.67,-570 1018,-570 1018,-570 1018,-570 1018,-1004.8 1018,-1004.8 1018,-1004.8 1112.58,-1004.8 1112.58,-1004.8"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.58,-1006.9 1118.58,-1004.8 1112.58,-1002.7 1112.58,-1006.9"/>
 </g>
 <!-- Propeller&#45;&gt;Ocean Liner -->
 <g id="edge25" class="edge">
@@ -786,20 +786,20 @@
 <!-- Bessemer Process&#45;&gt;Steel Frame Building -->
 <g id="edge52" class="edge">
 <title>Bessemer Process&#45;&gt;Steel Frame Building</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M904.43,-230.8C960.26,-230.8 1028,-230.8 1028,-230.8 1028,-230.8 1028,-531.8 1028,-531.8 1028,-531.8 1112.45,-531.8 1112.45,-531.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.45,-533.9 1118.45,-531.8 1112.45,-529.7 1112.45,-533.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M904.23,-230.8C967.02,-230.8 1048,-230.8 1048,-230.8 1048,-230.8 1048,-531.8 1048,-531.8 1048,-531.8 1112.44,-531.8 1112.44,-531.8"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.44,-533.9 1118.44,-531.8 1112.44,-529.7 1112.44,-533.9"/>
 </g>
 <!-- High Speed Electric Rail -->
-<g id="node168" class="node">
+<g id="node167" class="node">
 <title>High Speed Electric Rail</title>
-<polygon fill="white" stroke="purple" stroke-width="1.5" points="2344,-1239.4 2200,-1239.4 2200,-1210.6 2344,-1210.6 2344,-1239.4"/>
-<text text-anchor="middle" x="2272" y="-1220.72" font-family="Times,serif" font-size="12.00">High Speed Electric Rail</text>
+<polygon fill="white" stroke="purple" stroke-width="1.5" points="2344,-1217.4 2200,-1217.4 2200,-1188.6 2344,-1188.6 2344,-1217.4"/>
+<text text-anchor="middle" x="2272" y="-1198.72" font-family="Times,serif" font-size="12.00">High Speed Electric Rail</text>
 </g>
 <!-- Electric Locomotive&#45;&gt;High Speed Electric Rail -->
 <g id="edge121" class="edge">
 <title>Electric Locomotive&#45;&gt;High Speed Electric Rail</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.13,-1291.6C1477.7,-1291.6 2092,-1291.6 2092,-1291.6 2092,-1291.6 2092,-1229.8 2092,-1229.8 2092,-1229.8 2192.43,-1229.8 2192.43,-1229.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.43,-1231.9 2198.43,-1229.8 2192.43,-1227.7 2192.43,-1231.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.36,-1291.6C1334.7,-1291.6 1431,-1291.6 1431,-1291.6 1431,-1291.6 1431,-1207.27 1431,-1207.27 1431,-1207.27 2192.43,-1207.27 2192.43,-1207.27"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.43,-1209.37 2198.43,-1207.27 2192.43,-1205.17 2192.43,-1209.37"/>
 </g>
 <!-- Bicycle -->
 <g id="node98" class="node">
@@ -810,8 +810,8 @@
 <!-- Rubber Tire&#45;&gt;Bicycle -->
 <g id="edge62" class="edge">
 <title>Rubber Tire&#45;&gt;Bicycle</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1119.73,-1394C1113.78,-1394 1110,-1394 1110,-1394 1110,-1394 1110,-1465.6 1110,-1465.6 1110,-1465.6 1112.59,-1465.6 1112.59,-1465.6"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.59,-1467.7 1118.59,-1465.6 1112.59,-1463.5 1112.59,-1467.7"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.44,-1392C1344.11,-1392 1461,-1392 1461,-1392 1461,-1392 1461,-1463.6 1461,-1463.6 1461,-1463.6 1271.58,-1463.6 1271.58,-1463.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.58,-1461.5 1265.58,-1463.6 1271.58,-1465.7 1271.58,-1461.5"/>
 </g>
 <!-- Ether Anesthesia -->
 <g id="node65" class="node">
@@ -834,8 +834,8 @@
 <!-- Nitroglycerin&#45;&gt;Dynamite -->
 <g id="edge44" class="edge">
 <title>Nitroglycerin&#45;&gt;Dynamite</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M904.45,-651.2C970.88,-651.2 1059,-651.2 1059,-651.2 1059,-651.2 1059,-909.2 1059,-909.2 1059,-909.2 1112.53,-909.2 1112.53,-909.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.53,-911.3 1118.53,-909.2 1112.53,-907.1 1112.53,-911.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M904.44,-651.2C977.32,-651.2 1079,-651.2 1079,-651.2 1079,-651.2 1079,-909.2 1079,-909.2 1079,-909.2 1112.66,-909.2 1112.66,-909.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.66,-911.3 1118.66,-909.2 1112.66,-907.1 1112.66,-911.3"/>
 </g>
 <!-- Germ Theory -->
 <g id="node67" class="node">
@@ -870,8 +870,8 @@
 <!-- Germ Theory&#45;&gt;Penicilin -->
 <g id="edge46" class="edge">
 <title>Germ Theory&#45;&gt;Penicilin</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M904.45,-273.8C956.67,-273.8 1018,-273.8 1018,-273.8 1018,-273.8 1018,-613 1018,-613 1018,-613 1112.58,-613 1112.58,-613"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.58,-615.1 1118.58,-613 1112.58,-610.9 1112.58,-615.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M904.34,-273.8C963.7,-273.8 1038,-273.8 1038,-273.8 1038,-273.8 1038,-613 1038,-613 1038,-613 1112.37,-613 1112.37,-613"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.37,-615.1 1118.37,-613 1112.37,-610.9 1112.37,-615.1"/>
 </g>
 <!-- Antiseptic -->
 <g id="node81" class="node">
@@ -894,20 +894,20 @@
 <!-- Modern Sewers&#45;&gt;Water Chlorination -->
 <g id="edge84" class="edge">
 <title>Modern Sewers&#45;&gt;Water Chlorination</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M904.34,-187.8C963.7,-187.8 1038,-187.8 1038,-187.8 1038,-187.8 1038,-312 1038,-312 1038,-312 1472.58,-312 1472.58,-312"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.58,-314.1 1478.58,-312 1472.58,-309.9 1472.58,-314.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M904.45,-187.8C970.88,-187.8 1059,-187.8 1059,-187.8 1059,-187.8 1059,-312 1059,-312 1059,-312 1472.39,-312 1472.39,-312"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.39,-314.1 1478.39,-312 1472.39,-309.9 1472.39,-314.1"/>
 </g>
 <!-- Basic oxygen Steelmaking -->
-<g id="node171" class="node">
+<g id="node170" class="node">
 <title>Basic oxygen Steelmaking</title>
-<polygon fill="white" stroke="grey" stroke-width="1.5" points="2344,-379.4 2200,-379.4 2200,-350.6 2344,-350.6 2344,-379.4"/>
-<text text-anchor="middle" x="2272" y="-360.73" font-family="Times,serif" font-size="12.00">Basic oxygen Steelmaking</text>
+<polygon fill="white" stroke="grey" stroke-width="1.5" points="2344,-357.4 2200,-357.4 2200,-328.6 2344,-328.6 2344,-357.4"/>
+<text text-anchor="middle" x="2272" y="-338.73" font-family="Times,serif" font-size="12.00">Basic oxygen Steelmaking</text>
 </g>
 <!-- Open Hearth Steelmaking&#45;&gt;Basic oxygen Steelmaking -->
 <g id="edge124" class="edge">
 <title>Open Hearth Steelmaking&#45;&gt;Basic oxygen Steelmaking</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M904.4,-97C1196.4,-97 2272,-97 2272,-97 2272,-97 2272,-343.07 2272,-343.07"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2269.9,-343.07 2272,-349.07 2274.1,-343.07 2269.9,-343.07"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M904.4,-97C1196.4,-97 2272,-97 2272,-97 2272,-97 2272,-321.21 2272,-321.21"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2269.9,-321.21 2272,-327.21 2274.1,-321.21 2269.9,-321.21"/>
 </g>
 <!-- Oil Extraction -->
 <g id="node71" class="node">
@@ -948,8 +948,8 @@
 <!-- Oil Extraction&#45;&gt;Bakelite -->
 <g id="edge96" class="edge">
 <title>Oil Extraction&#45;&gt;Bakelite</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M904.23,-132.8C967.02,-132.8 1048,-132.8 1048,-132.8 1048,-132.8 1048,-264.2 1048,-264.2 1048,-264.2 1472.39,-264.2 1472.39,-264.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.39,-266.3 1478.39,-264.2 1472.39,-262.1 1472.39,-266.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M904.4,-132.8C974.09,-132.8 1069,-132.8 1069,-132.8 1069,-132.8 1069,-264.2 1069,-264.2 1069,-264.2 1472.55,-264.2 1472.55,-264.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.55,-266.3 1478.55,-264.2 1472.55,-262.1 1472.55,-266.3"/>
 </g>
 <!-- Oil Vapor Cracking -->
 <g id="node133" class="node">
@@ -1008,20 +1008,20 @@
 <!-- Dynamo&#45;&gt;Telephone -->
 <g id="edge63" class="edge">
 <title>Dynamo&#45;&gt;Telephone</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M904.37,-699C948.7,-699 997,-699 997,-699 997,-699 997,-1043 997,-1043 997,-1043 1112.53,-1043 1112.53,-1043"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.53,-1045.1 1118.53,-1043 1112.53,-1040.9 1112.53,-1045.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M904.44,-699C952.59,-699 1007,-699 1007,-699 1007,-699 1007,-1043 1007,-1043 1007,-1043 1112.54,-1043 1112.54,-1043"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.54,-1045.1 1118.54,-1043 1112.54,-1040.9 1112.54,-1045.1"/>
 </g>
 <!-- Dynamo&#45;&gt;Electric Locomotive -->
 <g id="edge50" class="edge">
 <title>Dynamo&#45;&gt;Electric Locomotive</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M904.42,-706.2C940.28,-706.2 976,-706.2 976,-706.2 976,-706.2 976,-1291.27 976,-1291.27 976,-1291.27 1112.64,-1291.27 1112.64,-1291.27"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.64,-1293.37 1118.64,-1291.27 1112.64,-1289.17 1112.64,-1293.37"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M904.05,-706.2C944.53,-706.2 987,-706.2 987,-706.2 987,-706.2 987,-1291.27 987,-1291.27 987,-1291.27 1112.59,-1291.27 1112.59,-1291.27"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.59,-1293.37 1118.59,-1291.27 1112.59,-1289.17 1112.59,-1293.37"/>
 </g>
 <!-- Dynamo&#45;&gt;Coal Power Plant -->
 <g id="edge47" class="edge">
 <title>Dynamo&#45;&gt;Coal Power Plant</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M904.05,-702.6C944.53,-702.6 987,-702.6 987,-702.6 987,-702.6 987,-1215 987,-1215 987,-1215 1112.59,-1215 1112.59,-1215"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.59,-1217.1 1118.59,-1215 1112.59,-1212.9 1112.59,-1217.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M904.37,-702.6C948.7,-702.6 997,-702.6 997,-702.6 997,-702.6 997,-1215 997,-1215 997,-1215 1112.53,-1215 1112.53,-1215"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.53,-1217.1 1118.53,-1215 1112.53,-1212.9 1112.53,-1217.1"/>
 </g>
 <!-- Hydroelectric Power Plant -->
 <g id="node87" class="node">
@@ -1032,8 +1032,8 @@
 <!-- Dynamo&#45;&gt;Hydroelectric Power Plant -->
 <g id="edge48" class="edge">
 <title>Dynamo&#45;&gt;Hydroelectric Power Plant</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M904.44,-695.4C977.32,-695.4 1079,-695.4 1079,-695.4 1079,-695.4 1079,-742 1079,-742 1079,-742 1112.66,-742 1112.66,-742"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.66,-744.1 1118.66,-742 1112.66,-739.9 1112.66,-744.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M904.17,-695.4C983.55,-695.4 1100,-695.4 1100,-695.4 1100,-695.4 1100,-742 1100,-742 1100,-742 1112.38,-742 1112.38,-742"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.38,-744.1 1118.38,-742 1112.38,-739.9 1112.38,-744.1"/>
 </g>
 <!-- Dynamo&#45;&gt;AC Power Transmission -->
 <g id="edge49" class="edge">
@@ -1102,40 +1102,40 @@
 <text text-anchor="middle" x="832" y="-1210.72" font-family="Times,serif" font-size="12.00">Typewriter</text>
 </g>
 <!-- Liquefied Natural Gas -->
-<g id="node175" class="node">
+<g id="node174" class="node">
 <title>Liquefied Natural Gas</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-422.4 2200,-422.4 2200,-393.6 2344,-393.6 2344,-422.4"/>
-<text text-anchor="middle" x="2272" y="-403.73" font-family="Times,serif" font-size="12.00">Liquefied Natural Gas</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-400.4 2200,-400.4 2200,-371.6 2344,-371.6 2344,-400.4"/>
+<text text-anchor="middle" x="2272" y="-381.73" font-family="Times,serif" font-size="12.00">Liquefied Natural Gas</text>
 </g>
 <!-- Natural Gas Pipeline&#45;&gt;Liquefied Natural Gas -->
 <g id="edge131" class="edge">
 <title>Natural Gas Pipeline&#45;&gt;Liquefied Natural Gas</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1624.45,-226C1788.26,-226 2173,-226 2173,-226 2173,-226 2173,-408 2173,-408 2173,-408 2192.4,-408 2192.4,-408"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.4,-410.1 2198.4,-408 2192.39,-405.9 2192.4,-410.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1624.29,-226C1782.22,-226 2144,-226 2144,-226 2144,-226 2144,-375.5 2144,-375.5 2144,-375.5 2192.64,-375.5 2192.64,-375.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.64,-377.6 2198.64,-375.5 2192.64,-373.4 2192.64,-377.6"/>
 </g>
 <!-- Nuclear Power Plant -->
 <g id="node114" class="node">
 <title>Nuclear Power Plant</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1196.4 2200,-1196.4 2200,-1167.6 2344,-1167.6 2344,-1196.4"/>
-<text text-anchor="middle" x="2272" y="-1177.72" font-family="Times,serif" font-size="12.00">Nuclear Power Plant</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-959.4 2200,-959.4 2200,-930.6 2344,-930.6 2344,-959.4"/>
+<text text-anchor="middle" x="2272" y="-940.73" font-family="Times,serif" font-size="12.00">Nuclear Power Plant</text>
 </g>
 <!-- Coal Power Plant&#45;&gt;Nuclear Power Plant -->
 <g id="edge72" class="edge">
 <title>Coal Power Plant&#45;&gt;Nuclear Power Plant</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.12,-1207.27C1505.8,-1207.27 2272,-1207.27 2272,-1207.27 2272,-1207.27 2272,-1203.83 2272,-1203.83"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2274.1,-1203.83 2272,-1197.83 2269.9,-1203.83 2274.1,-1203.83"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.21,-1220C1346.88,-1220 1471,-1220 1471,-1220 1471,-1220 1471,-1524.4 1471,-1524.4 1471,-1524.4 2364,-1524.4 2364,-1524.4 2364,-1524.4 2364,-945 2364,-945 2364,-945 2351.62,-945 2351.62,-945"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2351.62,-942.9 2345.62,-945 2351.62,-947.1 2351.62,-942.9"/>
 </g>
 <!-- Gas Turbine Power Plant -->
 <g id="node115" class="node">
 <title>Gas Turbine Power Plant</title>
-<polygon fill="white" stroke="grey" stroke-width="1.5" points="1984,-938.4 1840,-938.4 1840,-909.6 1984,-909.6 1984,-938.4"/>
-<text text-anchor="middle" x="1912" y="-919.73" font-family="Times,serif" font-size="12.00">Gas Turbine Power Plant</text>
+<polygon fill="white" stroke="grey" stroke-width="1.5" points="1984,-1110.4 1840,-1110.4 1840,-1081.6 1984,-1081.6 1984,-1110.4"/>
+<text text-anchor="middle" x="1912" y="-1091.72" font-family="Times,serif" font-size="12.00">Gas Turbine Power Plant</text>
 </g>
 <!-- Coal Power Plant&#45;&gt;Gas Turbine Power Plant -->
 <g id="edge73" class="edge">
 <title>Coal Power Plant&#45;&gt;Gas Turbine Power Plant</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.43,-1203.93C1414.59,-1203.93 1746,-1203.93 1746,-1203.93 1746,-1203.93 1746,-931.73 1746,-931.73 1746,-931.73 1832.54,-931.73 1832.54,-931.73"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.54,-933.83 1838.54,-931.73 1832.54,-929.63 1832.54,-933.83"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.46,-1203.93C1331.88,-1203.93 1422,-1203.93 1422,-1203.93 1422,-1203.93 1422,-1107.07 1422,-1107.07 1422,-1107.07 1832.56,-1107.07 1832.56,-1107.07"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.56,-1109.17 1838.56,-1107.07 1832.56,-1104.97 1832.56,-1109.17"/>
 </g>
 <!-- Cholera Vaccine -->
 <g id="node96" class="node">
@@ -1162,16 +1162,16 @@
 <polygon fill="black" stroke="black" stroke-width="0.75" points="1189.9,-1666.03 1192,-1672.03 1194.1,-1666.03 1189.9,-1666.03"/>
 </g>
 <!-- Electric Arc Furnace -->
-<g id="node173" class="node">
+<g id="node172" class="node">
 <title>Electric Arc Furnace</title>
-<polygon fill="white" stroke="black" stroke-width="1.5" points="2344,-1411.4 2200,-1411.4 2200,-1382.6 2344,-1382.6 2344,-1411.4"/>
-<text text-anchor="middle" x="2272" y="-1392.72" font-family="Times,serif" font-size="12.00">Electric Arc Furnace</text>
+<polygon fill="white" stroke="black" stroke-width="1.5" points="2344,-1389.4 2200,-1389.4 2200,-1360.6 2344,-1360.6 2344,-1389.4"/>
+<text text-anchor="middle" x="2272" y="-1370.72" font-family="Times,serif" font-size="12.00">Electric Arc Furnace</text>
 </g>
 <!-- AC Power Transmission&#45;&gt;Electric Arc Furnace -->
 <g id="edge127" class="edge">
 <title>AC Power Transmission&#45;&gt;Electric Arc Furnace</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.42,-1645C1481.19,-1645 2110,-1645 2110,-1645 2110,-1645 2110,-1401.8 2110,-1401.8 2110,-1401.8 2192.39,-1401.8 2192.39,-1401.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.39,-1403.9 2198.39,-1401.8 2192.39,-1399.7 2192.39,-1403.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.23,-1645C1461.37,-1645 1994,-1645 1994,-1645 1994,-1645 1994,-1377.6 1994,-1377.6 1994,-1377.6 2192.55,-1377.6 2192.55,-1377.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.55,-1379.7 2198.55,-1377.6 2192.55,-1375.5 2192.55,-1379.7"/>
 </g>
 <!-- Neon Lighting -->
 <g id="node121" class="node">
@@ -1182,32 +1182,32 @@
 <!-- Lightbulb&#45;&gt;Neon Lighting -->
 <g id="edge80" class="edge">
 <title>Lightbulb&#45;&gt;Neon Lighting</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.26,-651.2C1283.48,-651.2 1299,-651.2 1299,-651.2 1299,-651.2 1299,-527 1299,-527 1299,-527 1472.37,-527 1472.37,-527"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.37,-529.1 1478.37,-527 1472.37,-524.9 1472.37,-529.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.5,-651.2C1281.11,-651.2 1294,-651.2 1294,-651.2 1294,-651.2 1294,-527 1294,-527 1294,-527 1472.65,-527 1472.65,-527"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.65,-529.1 1478.65,-527 1472.65,-524.9 1472.65,-529.1"/>
 </g>
 <!-- Lithium&#45;Ion Battery -->
 <g id="node118" class="node">
 <title>Lithium&#45;Ion Battery</title>
-<polygon fill="white" stroke="purple" stroke-width="1.5" points="2704,-508.4 2560,-508.4 2560,-479.6 2704,-479.6 2704,-508.4"/>
-<text text-anchor="middle" x="2632" y="-489.73" font-family="Times,serif" font-size="12.00">Lithium&#45;Ion Battery</text>
+<polygon fill="white" stroke="purple" stroke-width="1.5" points="2704,-529.4 2560,-529.4 2560,-500.6 2704,-500.6 2704,-529.4"/>
+<text text-anchor="middle" x="2632" y="-510.73" font-family="Times,serif" font-size="12.00">Lithium&#45;Ion Battery</text>
 </g>
 <!-- Nickel&#45;Cadmium Battery&#45;&gt;Lithium&#45;Ion Battery -->
 <g id="edge77" class="edge">
 <title>Nickel&#45;Cadmium Battery&#45;&gt;Lithium&#45;Ion Battery</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1624.12,-183C1865.8,-183 2632,-183 2632,-183 2632,-183 2632,-472.28 2632,-472.28"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2629.9,-472.28 2632,-478.28 2634.1,-472.28 2629.9,-472.28"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1624.12,-183C1865.8,-183 2632,-183 2632,-183 2632,-183 2632,-493.17 2632,-493.17"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2629.9,-493.17 2632,-499.17 2634.1,-493.17 2629.9,-493.17"/>
 </g>
 <!-- DNA -->
 <g id="node125" class="node">
 <title>DNA</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-465.4 2200,-465.4 2200,-436.6 2344,-436.6 2344,-465.4"/>
-<text text-anchor="middle" x="2272" y="-446.73" font-family="Times,serif" font-size="12.00">DNA</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-443.4 2200,-443.4 2200,-414.6 2344,-414.6 2344,-443.4"/>
+<text text-anchor="middle" x="2272" y="-424.73" font-family="Times,serif" font-size="12.00">DNA</text>
 </g>
 <!-- Chromosome Heredity&#45;&gt;DNA -->
 <g id="edge85" class="edge">
 <title>Chromosome Heredity&#45;&gt;DNA</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1624.33,-345.6C1749.44,-345.6 1993,-345.6 1993,-345.6 1993,-345.6 1993,-451 1993,-451 1993,-451 2192.65,-451 2192.65,-451"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.65,-453.1 2198.65,-451 2192.65,-448.9 2192.65,-453.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1624.24,-343.93C1764.49,-343.93 2060,-343.93 2060,-343.93 2060,-343.93 2060,-418.5 2060,-418.5 2060,-418.5 2192.5,-418.5 2192.5,-418.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.5,-420.6 2198.5,-418.5 2192.5,-416.4 2192.5,-420.6"/>
 </g>
 <!-- Lab Seed Breeding -->
 <g id="node143" class="node">
@@ -1218,20 +1218,20 @@
 <!-- Chromosome Heredity&#45;&gt;Lab Seed Breeding -->
 <g id="edge102" class="edge">
 <title>Chromosome Heredity&#45;&gt;Lab Seed Breeding</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1624.47,-360C1664.01,-360 1705,-360 1705,-360 1705,-360 1705,-704 1705,-704 1705,-704 1832.47,-704 1832.47,-704"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.47,-706.1 1838.47,-704 1832.47,-701.9 1832.47,-706.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1624.37,-360C1671.77,-360 1725,-360 1725,-360 1725,-360 1725,-704 1725,-704 1725,-704 1832.57,-704 1832.57,-704"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.57,-706.1 1838.57,-704 1832.57,-701.9 1832.57,-706.1"/>
 </g>
 <!-- Float Glass -->
-<g id="node183" class="node">
+<g id="node182" class="node">
 <title>Float Glass</title>
-<polygon fill="white" stroke="red" stroke-width="1.5" points="2344,-1282.4 2200,-1282.4 2200,-1253.6 2344,-1253.6 2344,-1282.4"/>
-<text text-anchor="middle" x="2272" y="-1263.72" font-family="Times,serif" font-size="12.00">Float Glass</text>
+<polygon fill="white" stroke="red" stroke-width="1.5" points="2344,-1260.4 2200,-1260.4 2200,-1231.6 2344,-1231.6 2344,-1260.4"/>
+<text text-anchor="middle" x="2272" y="-1241.72" font-family="Times,serif" font-size="12.00">Float Glass</text>
 </g>
 <!-- Glass Bottle Production&#45;&gt;Float Glass -->
 <g id="edge160" class="edge">
 <title>Glass Bottle Production&#45;&gt;Float Glass</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.47,-1420.6C1479.82,-1420.6 2101,-1420.6 2101,-1420.6 2101,-1420.6 2101,-1276.64 2101,-1276.64 2101,-1276.64 2192.84,-1276.64 2192.84,-1276.64"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.84,-1278.74 2198.84,-1276.64 2192.84,-1274.54 2192.84,-1278.74"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.36,-1420.6C1337.87,-1420.6 1441,-1420.6 1441,-1420.6 1441,-1420.6 1441,-1248.6 1441,-1248.6 1441,-1248.6 2192.57,-1248.6 2192.57,-1248.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.57,-1250.7 2198.57,-1248.6 2192.57,-1246.5 2192.57,-1250.7"/>
 </g>
 <!-- Toilet Paper -->
 <g id="node94" class="node">
@@ -1248,8 +1248,8 @@
 <!-- Cholera Vaccine&#45;&gt;Antibiotics -->
 <g id="edge68" class="edge">
 <title>Cholera Vaccine&#45;&gt;Antibiotics</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.44,-819.36C1307.98,-819.36 1355,-819.36 1355,-819.36 1355,-819.36 1355,-608.2 1355,-608.2 1355,-608.2 1472.63,-608.2 1472.63,-608.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.63,-610.3 1478.63,-608.2 1472.63,-606.1 1472.63,-610.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.4,-819.36C1303.16,-819.36 1343,-819.36 1343,-819.36 1343,-819.36 1343,-608.2 1343,-608.2 1343,-608.2 1472.65,-608.2 1472.65,-608.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.65,-610.3 1478.65,-608.2 1472.65,-606.1 1472.65,-610.3"/>
 </g>
 <!-- Attenuated Vaccine -->
 <g id="node111" class="node">
@@ -1260,8 +1260,8 @@
 <!-- Cholera Vaccine&#45;&gt;Attenuated Vaccine -->
 <g id="edge69" class="edge">
 <title>Cholera Vaccine&#45;&gt;Attenuated Vaccine</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.44,-825.12C1312.59,-825.12 1367,-825.12 1367,-825.12 1367,-825.12 1367,-660.8 1367,-660.8 1367,-660.8 1472.54,-660.8 1472.54,-660.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.54,-662.9 1478.54,-660.8 1472.54,-658.7 1472.54,-662.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.49,-825.12C1307.23,-825.12 1353,-825.12 1353,-825.12 1353,-825.12 1353,-660.8 1353,-660.8 1353,-660.8 1472.46,-660.8 1472.46,-660.8"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.46,-662.9 1478.46,-660.8 1472.46,-658.7 1472.46,-662.9"/>
 </g>
 <!-- Automobile -->
 <g id="node97" class="node">
@@ -1278,14 +1278,14 @@
 <!-- Automobile&#45;&gt;Continuous Track -->
 <g id="edge70" class="edge">
 <title>Automobile&#45;&gt;Continuous Track</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.45,-871C1316.67,-871 1378,-871 1378,-871 1378,-871 1378,-699 1378,-699 1378,-699 1472.58,-699 1472.58,-699"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.58,-701.1 1478.58,-699 1472.58,-696.9 1472.58,-701.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.37,-868.12C1318.07,-868.12 1382,-868.12 1382,-868.12 1382,-868.12 1382,-699 1382,-699 1382,-699 1472.77,-699 1472.77,-699"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.77,-701.1 1478.77,-699 1472.77,-696.9 1472.77,-701.1"/>
 </g>
 <!-- Automobile&#45;&gt;Motorway -->
 <g id="edge83" class="edge">
 <title>Automobile&#45;&gt;Motorway</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.44,-863.8C1303.59,-863.8 1344,-863.8 1344,-863.8 1344,-863.8 1344,-448.2 1344,-448.2 1344,-448.2 1472.41,-448.2 1472.41,-448.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.41,-450.3 1478.41,-448.2 1472.41,-446.1 1472.41,-450.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.43,-862.36C1314.45,-862.36 1372,-862.36 1372,-862.36 1372,-862.36 1372,-448.2 1372,-448.2 1372,-448.2 1472.43,-448.2 1472.43,-448.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.43,-450.3 1478.43,-448.2 1472.43,-446.1 1472.43,-450.3"/>
 </g>
 <!-- Leaded Gasoline -->
 <g id="node132" class="node">
@@ -1296,8 +1296,8 @@
 <!-- Automobile&#45;&gt;Leaded Gasoline -->
 <g id="edge97" class="edge">
 <title>Automobile&#45;&gt;Leaded Gasoline</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.42,-878.2C1346.49,-878.2 1469,-878.2 1469,-878.2 1469,-878.2 1469,-836.64 1469,-836.64 1469,-836.64 1472.38,-836.64 1472.38,-836.64"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.38,-838.74 1478.38,-836.64 1472.38,-834.54 1472.38,-838.74"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.49,-879.64C1341.11,-879.64 1451,-879.64 1451,-879.64 1451,-879.64 1451,-836.64 1451,-836.64 1451,-836.64 1472.54,-836.64 1472.54,-836.64"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.54,-838.74 1478.54,-836.64 1472.54,-834.54 1472.54,-838.74"/>
 </g>
 <!-- Motorcycle -->
 <g id="node99" class="node">
@@ -1314,14 +1314,14 @@
 <!-- Compression Ignition&#45;&gt;Automobile -->
 <g id="edge56" class="edge">
 <title>Compression Ignition&#45;&gt;Automobile</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1119.74,-484C1092.97,-484 1069,-484 1069,-484 1069,-484 1069,-871 1069,-871 1069,-871 1112.6,-871 1112.6,-871"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.6,-873.1 1118.6,-871 1112.6,-868.9 1112.6,-873.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.02,-491.2C1310.76,-491.2 1363,-491.2 1363,-491.2 1363,-491.2 1363,-873.88 1363,-873.88 1363,-873.88 1271.16,-873.88 1271.16,-873.88"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.16,-871.78 1265.16,-873.88 1271.16,-875.98 1271.16,-871.78"/>
 </g>
 <!-- Compression Ignition&#45;&gt;Motorcycle -->
 <g id="edge57" class="edge">
 <title>Compression Ignition&#45;&gt;Motorcycle</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.45,-484C1339.52,-484 1446,-484 1446,-484 1446,-484 1446,-1506.6 1446,-1506.6 1446,-1506.6 1271.58,-1506.6 1271.58,-1506.6"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.58,-1504.5 1265.58,-1506.6 1271.58,-1508.7 1271.58,-1504.5"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1119.77,-484C1056.98,-484 976,-484 976,-484 976,-484 976,-1508.6 976,-1508.6 976,-1508.6 1112.64,-1508.6 1112.64,-1508.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.64,-1510.7 1118.64,-1508.6 1112.64,-1506.5 1112.64,-1510.7"/>
 </g>
 <!-- Refrigerator -->
 <g id="node103" class="node">
@@ -1332,8 +1332,8 @@
 <!-- Compression Ignition&#45;&gt;Refrigerator -->
 <g id="edge58" class="edge">
 <title>Compression Ignition&#45;&gt;Refrigerator</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1119.51,-491.2C1108.11,-491.2 1100,-491.2 1100,-491.2 1100,-491.2 1100,-785 1100,-785 1100,-785 1112.38,-785 1112.38,-785"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.38,-787.1 1118.38,-785 1112.38,-782.9 1112.38,-787.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1119.73,-491.2C1113.78,-491.2 1110,-491.2 1110,-491.2 1110,-491.2 1110,-785 1110,-785 1110,-785 1112.59,-785 1112.59,-785"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1112.59,-787.1 1118.59,-785 1112.59,-782.9 1112.59,-787.1"/>
 </g>
 <!-- Diesel Engine -->
 <g id="node106" class="node">
@@ -1344,8 +1344,8 @@
 <!-- Compression Ignition&#45;&gt;Diesel Engine -->
 <g id="edge75" class="edge">
 <title>Compression Ignition&#45;&gt;Diesel Engine</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.45,-491.2C1332.52,-491.2 1424,-491.2 1424,-491.2 1424,-491.2 1424,-1119.6 1424,-1119.6 1424,-1119.6 1271.59,-1119.6 1271.59,-1119.6"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.59,-1117.5 1265.59,-1119.6 1271.59,-1121.7 1271.59,-1117.5"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.27,-484C1325.02,-484 1402,-484 1402,-484 1402,-484 1402,-1121.27 1402,-1121.27 1402,-1121.27 1271.41,-1121.27 1271.41,-1121.27"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.41,-1119.17 1265.41,-1121.27 1271.41,-1123.37 1271.41,-1119.17"/>
 </g>
 <!-- Air Conditionning -->
 <g id="node109" class="node">
@@ -1386,8 +1386,8 @@
 <!-- X&#45;ray Radiology&#45;&gt;Radioactivity -->
 <g id="edge79" class="edge">
 <title>X&#45;ray Radiology&#45;&gt;Radioactivity</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.42,-961.8C1293.82,-961.8 1321,-961.8 1321,-961.8 1321,-961.8 1321,-1038.2 1321,-1038.2 1321,-1038.2 1472.41,-1038.2 1472.41,-1038.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.41,-1040.3 1478.41,-1038.2 1472.41,-1036.1 1472.41,-1040.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.38,-961.8C1290.65,-961.8 1314,-961.8 1314,-961.8 1314,-961.8 1314,-1038.2 1314,-1038.2 1314,-1038.2 1472.49,-1038.2 1472.49,-1038.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.49,-1040.3 1478.49,-1038.2 1472.49,-1036.1 1472.49,-1040.3"/>
 </g>
 <!-- Radiotransmission -->
 <g id="node102" class="node">
@@ -1398,14 +1398,14 @@
 <!-- Television -->
 <g id="node113" class="node">
 <title>Television</title>
-<polygon fill="white" stroke="grey" stroke-width="1.5" points="1984,-895.4 1840,-895.4 1840,-866.6 1984,-866.6 1984,-895.4"/>
-<text text-anchor="middle" x="1912" y="-876.73" font-family="Times,serif" font-size="12.00">Television</text>
+<polygon fill="white" stroke="grey" stroke-width="1.5" points="1984,-938.4 1840,-938.4 1840,-909.6 1984,-909.6 1984,-938.4"/>
+<text text-anchor="middle" x="1912" y="-919.73" font-family="Times,serif" font-size="12.00">Television</text>
 </g>
 <!-- Radiotransmission&#45;&gt;Television -->
 <g id="edge71" class="edge">
 <title>Radiotransmission&#45;&gt;Television</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.33,-1160.93C1343.1,-1160.93 1458,-1160.93 1458,-1160.93 1458,-1160.93 1458,-890.4 1458,-890.4 1458,-890.4 1832.43,-890.4 1832.43,-890.4"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.43,-892.5 1838.43,-890.4 1832.43,-888.3 1832.43,-892.5"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.37,-1160.1C1419.07,-1160.1 1768,-1160.1 1768,-1160.1 1768,-1160.1 1768,-919 1768,-919 1768,-919 1832.44,-919 1832.44,-919"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.44,-921.1 1838.44,-919 1832.44,-916.9 1832.44,-921.1"/>
 </g>
 <!-- CFC Refrigerant -->
 <g id="node122" class="node">
@@ -1416,8 +1416,8 @@
 <!-- Refrigerator&#45;&gt;CFC Refrigerant -->
 <g id="edge81" class="edge">
 <title>Refrigerator&#45;&gt;CFC Refrigerant</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.38,-785C1288.8,-785 1310,-785 1310,-785 1310,-785 1310,-570 1310,-570 1310,-570 1472.58,-570 1472.58,-570"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.58,-572.1 1478.58,-570 1472.58,-567.9 1472.58,-572.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.2,-785C1285.87,-785 1304,-785 1304,-785 1304,-785 1304,-570 1304,-570 1304,-570 1472.47,-570 1472.47,-570"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1472.47,-572.1 1478.47,-570 1472.47,-567.9 1472.47,-572.1"/>
 </g>
 <!-- R&amp;D Department -->
 <g id="node104" class="node">
@@ -1434,8 +1434,8 @@
 <!-- Diesel Engine&#45;&gt;Gas Turbine -->
 <g id="edge89" class="edge">
 <title>Diesel Engine&#45;&gt;Gas Turbine</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.5,-1130.87C1399.98,-1130.87 1678,-1130.87 1678,-1130.87 1678,-1130.87 1678,-532 1678,-532 1678,-532 1832.43,-532 1832.43,-532"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.43,-534.1 1838.43,-532 1832.43,-529.9 1832.43,-534.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.32,-1117.93C1390.83,-1117.93 1639,-1117.93 1639,-1117.93 1639,-1117.93 1639,-528.87 1639,-528.87 1639,-528.87 1832.42,-528.87 1832.42,-528.87"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.42,-530.97 1838.42,-528.87 1832.42,-526.77 1832.42,-530.97"/>
 </g>
 <!-- Vaccum Tube -->
 <g id="node107" class="node">
@@ -1446,26 +1446,26 @@
 <!-- Vaccum Tube&#45;&gt;X&#45;ray Radiology -->
 <g id="edge66" class="edge">
 <title>Vaccum Tube&#45;&gt;X&#45;ray Radiology</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.32,-577.2C1320.88,-577.2 1390,-577.2 1390,-577.2 1390,-577.2 1390,-952.2 1390,-952.2 1390,-952.2 1271.46,-952.2 1271.46,-952.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.46,-950.1 1265.46,-952.2 1271.46,-954.3 1271.46,-950.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.49,-577.2C1321.72,-577.2 1392,-577.2 1392,-577.2 1392,-577.2 1392,-952.2 1392,-952.2 1392,-952.2 1271.62,-952.2 1271.62,-952.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.62,-950.1 1265.62,-952.2 1271.62,-954.3 1271.62,-950.1"/>
 </g>
 <!-- Vaccum Tube&#45;&gt;Radiotransmission -->
 <g id="edge60" class="edge">
 <title>Vaccum Tube&#45;&gt;Radiotransmission</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1264.25,-562.8C1335.88,-562.8 1435,-562.8 1435,-562.8 1435,-562.8 1435,-1164.27 1435,-1164.27 1435,-1164.27 1271.39,-1164.27 1271.39,-1164.27"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.39,-1162.17 1265.39,-1164.27 1271.39,-1166.37 1271.39,-1162.17"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1264.34,-562.8C1328.46,-562.8 1412,-562.8 1412,-562.8 1412,-562.8 1412,-1162.6 1412,-1162.6 1412,-1162.6 1271.48,-1162.6 1271.48,-1162.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1271.48,-1160.5 1265.48,-1162.6 1271.48,-1164.7 1271.48,-1160.5"/>
 </g>
 <!-- Polio&amp;Measles Vaccine -->
 <g id="node136" class="node">
 <title>Polio&amp;Measles Vaccine</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-508.4 2200,-508.4 2200,-479.6 2344,-479.6 2344,-508.4"/>
-<text text-anchor="middle" x="2272" y="-489.73" font-family="Times,serif" font-size="12.00">Polio&amp;Measles Vaccine</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-486.4 2200,-486.4 2200,-457.6 2344,-457.6 2344,-486.4"/>
+<text text-anchor="middle" x="2272" y="-467.73" font-family="Times,serif" font-size="12.00">Polio&amp;Measles Vaccine</text>
 </g>
 <!-- Attenuated Vaccine&#45;&gt;Polio&amp;Measles Vaccine -->
 <g id="edge88" class="edge">
 <title>Attenuated Vaccine&#45;&gt;Polio&amp;Measles Vaccine</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1624.42,-646.6C1823.43,-646.6 2364,-646.6 2364,-646.6 2364,-646.6 2364,-494 2364,-494 2364,-494 2351.62,-494 2351.62,-494"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2351.62,-491.9 2345.62,-494 2351.62,-496.1 2351.62,-491.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1624.28,-646.6C1754.03,-646.6 2013,-646.6 2013,-646.6 2013,-646.6 2013,-474.6 2013,-474.6 2013,-474.6 2192.37,-474.6 2192.37,-474.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.37,-476.7 2198.37,-474.6 2192.37,-472.5 2192.37,-476.7"/>
 </g>
 <!-- Helicopter -->
 <g id="node137" class="node">
@@ -1476,8 +1476,8 @@
 <!-- Airplane&#45;&gt;Helicopter -->
 <g id="edge90" class="edge">
 <title>Airplane&#45;&gt;Helicopter</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1624.44,-403C1693.16,-403 1786,-403 1786,-403 1786,-403 1786,-446 1786,-446 1786,-446 1832.67,-446 1832.67,-446"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.67,-448.1 1838.67,-446 1832.67,-443.9 1832.67,-448.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1624.46,-403C1692.2,-403 1783,-403 1783,-403 1783,-403 1783,-446 1783,-446 1783,-446 1832.45,-446 1832.45,-446"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.45,-448.1 1838.45,-446 1832.45,-443.9 1832.45,-448.1"/>
 </g>
 <!-- Pressurized Cabin -->
 <g id="node138" class="node">
@@ -1488,98 +1488,98 @@
 <!-- Airplane&#45;&gt;Pressurized Cabin -->
 <g id="edge91" class="edge">
 <title>Airplane&#45;&gt;Pressurized Cabin</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1624.46,-407.7C1658.62,-407.7 1692,-407.7 1692,-407.7 1692,-407.7 1692,-747 1692,-747 1692,-747 1832.52,-747 1832.52,-747"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.52,-749.1 1838.52,-747 1832.52,-744.9 1832.52,-749.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1624.06,-407.7C1666.13,-407.7 1711,-407.7 1711,-407.7 1711,-407.7 1711,-747 1711,-747 1711,-747 1832.58,-747 1832.58,-747"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.58,-749.1 1838.58,-747 1832.58,-744.9 1832.58,-749.1"/>
 </g>
 <!-- Gas Turbine&#45;&gt;Gas Turbine Power Plant -->
 <g id="edge100" class="edge">
 <title>Gas Turbine&#45;&gt;Gas Turbine Power Plant</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1839.65,-546.4C1805.88,-546.4 1773,-546.4 1773,-546.4 1773,-546.4 1773,-919 1773,-919 1773,-919 1832.51,-919 1832.51,-919"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.51,-921.1 1838.51,-919 1832.51,-916.9 1832.51,-921.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1839.77,-546.4C1776.98,-546.4 1696,-546.4 1696,-546.4 1696,-546.4 1696,-1091 1696,-1091 1696,-1091 1832.64,-1091 1832.64,-1091"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.64,-1093.1 1838.64,-1091 1832.64,-1088.9 1832.64,-1093.1"/>
 </g>
 <!-- Jet Engine -->
 <g id="node147" class="node">
 <title>Jet Engine</title>
-<polygon fill="white" stroke="grey" stroke-width="1.5" points="1984,-680.4 1840,-680.4 1840,-651.6 1984,-651.6 1984,-680.4"/>
-<text text-anchor="middle" x="1912" y="-661.73" font-family="Times,serif" font-size="12.00">Jet Engine</text>
+<polygon fill="white" stroke="grey" stroke-width="1.5" points="1984,-637.4 1840,-637.4 1840,-608.6 1984,-608.6 1984,-637.4"/>
+<text text-anchor="middle" x="1912" y="-618.73" font-family="Times,serif" font-size="12.00">Jet Engine</text>
 </g>
 <!-- Gas Turbine&#45;&gt;Jet Engine -->
 <g id="edge104" class="edge">
 <title>Gas Turbine&#45;&gt;Jet Engine</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1839.54,-548.9C1831.99,-548.9 1827,-548.9 1827,-548.9 1827,-548.9 1827,-661 1827,-661 1827,-661 1832.41,-661 1832.41,-661"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.41,-663.1 1838.41,-661 1832.41,-658.9 1832.41,-663.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1839.82,-548.9C1831.54,-548.9 1826,-548.9 1826,-548.9 1826,-548.9 1826,-618 1826,-618 1826,-618 1832.68,-618 1832.68,-618"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.68,-620.1 1838.68,-618 1832.68,-615.9 1832.68,-620.1"/>
 </g>
 <!-- Rocket Engine -->
 <g id="node151" class="node">
 <title>Rocket Engine</title>
-<polygon fill="white" stroke="grey" stroke-width="1.5" points="1984,-1110.4 1840,-1110.4 1840,-1081.6 1984,-1081.6 1984,-1110.4"/>
-<text text-anchor="middle" x="1912" y="-1091.72" font-family="Times,serif" font-size="12.00">Rocket Engine</text>
+<polygon fill="white" stroke="grey" stroke-width="1.5" points="1984,-1153.4 1840,-1153.4 1840,-1124.6 1984,-1124.6 1984,-1153.4"/>
+<text text-anchor="middle" x="1912" y="-1134.72" font-family="Times,serif" font-size="12.00">Rocket Engine</text>
 </g>
 <!-- Gas Turbine&#45;&gt;Rocket Engine -->
 <g id="edge105" class="edge">
 <title>Gas Turbine&#45;&gt;Rocket Engine</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.47,-541.8C1999.57,-541.8 2011,-541.8 2011,-541.8 2011,-541.8 2011,-1098.88 2011,-1098.88 2011,-1098.88 1991.6,-1098.88 1991.6,-1098.88"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1991.61,-1096.78 1985.6,-1098.88 1991.6,-1100.98 1991.61,-1096.78"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1839.54,-535.13C1772.12,-535.13 1682,-535.13 1682,-535.13 1682,-535.13 1682,-1134 1682,-1134 1682,-1134 1832.41,-1134 1832.41,-1134"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.41,-1136.1 1838.41,-1134 1832.41,-1131.9 1832.41,-1136.1"/>
 </g>
 <!-- Smartphone -->
-<g id="node205" class="node">
+<g id="node204" class="node">
 <title>Smartphone</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-787.4 2920,-787.4 2920,-758.6 3064,-758.6 3064,-787.4"/>
-<text text-anchor="middle" x="2992" y="-768.73" font-family="Times,serif" font-size="12.00">Smartphone</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-808.4 2920,-808.4 2920,-779.6 3064,-779.6 3064,-808.4"/>
+<text text-anchor="middle" x="2992" y="-789.73" font-family="Times,serif" font-size="12.00">Smartphone</text>
 </g>
 <!-- Lithium&#45;Ion Battery&#45;&gt;Smartphone -->
 <g id="edge161" class="edge">
 <title>Lithium&#45;Ion Battery&#45;&gt;Smartphone</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.44,-498.8C2832.62,-498.8 3086,-498.8 3086,-498.8 3086,-498.8 3086,-768.2 3086,-768.2 3086,-768.2 3071.33,-768.2 3071.33,-768.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="3071.33,-766.1 3065.33,-768.2 3071.33,-770.3 3071.33,-766.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.31,-519.8C2778.14,-519.8 2882,-519.8 2882,-519.8 2882,-519.8 2882,-792.13 2882,-792.13 2882,-792.13 2912.41,-792.13 2912.41,-792.13"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.41,-794.23 2918.41,-792.13 2912.41,-790.03 2912.41,-794.23"/>
 </g>
 <!-- Flying Drone -->
-<g id="node210" class="node">
+<g id="node209" class="node">
 <title>Flying Drone</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-959.4 2920,-959.4 2920,-930.6 3064,-930.6 3064,-959.4"/>
-<text text-anchor="middle" x="2992" y="-940.73" font-family="Times,serif" font-size="12.00">Flying Drone</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-980.4 2920,-980.4 2920,-951.6 3064,-951.6 3064,-980.4"/>
+<text text-anchor="middle" x="2992" y="-961.73" font-family="Times,serif" font-size="12.00">Flying Drone</text>
 </g>
 <!-- Lithium&#45;Ion Battery&#45;&gt;Flying Drone -->
 <g id="edge169" class="edge">
 <title>Lithium&#45;Ion Battery&#45;&gt;Flying Drone</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.29,-494C2837.45,-494 3108,-494 3108,-494 3108,-494 3108,-940.2 3108,-940.2 3108,-940.2 3071.61,-940.2 3071.61,-940.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="3071.61,-938.1 3065.61,-940.2 3071.61,-942.3 3071.61,-938.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.38,-524.6C2774.4,-524.6 2870,-524.6 2870,-524.6 2870,-524.6 2870,-964.13 2870,-964.13 2870,-964.13 2912.49,-964.13 2912.49,-964.13"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.49,-966.23 2918.49,-964.13 2912.49,-962.03 2912.49,-966.23"/>
 </g>
 <!-- Electric Car -->
-<g id="node211" class="node">
+<g id="node210" class="node">
 <title>Electric Car</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-701.4 2920,-701.4 2920,-672.6 3064,-672.6 3064,-701.4"/>
-<text text-anchor="middle" x="2992" y="-682.73" font-family="Times,serif" font-size="12.00">Electric Car</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-722.4 2920,-722.4 2920,-693.6 3064,-693.6 3064,-722.4"/>
+<text text-anchor="middle" x="2992" y="-703.73" font-family="Times,serif" font-size="12.00">Electric Car</text>
 </g>
 <!-- Lithium&#45;Ion Battery&#45;&gt;Electric Car -->
 <g id="edge170" class="edge">
 <title>Lithium&#45;Ion Battery&#45;&gt;Electric Car</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.45,-503.6C2770.88,-503.6 2859,-503.6 2859,-503.6 2859,-503.6 2859,-674.55 2859,-674.55 2859,-674.55 2912.53,-674.55 2912.53,-674.55"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.53,-676.65 2918.53,-674.55 2912.53,-672.45 2912.53,-676.65"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.21,-515C2782.07,-515 2895,-515 2895,-515 2895,-515 2895,-695.55 2895,-695.55 2895,-695.55 2912.59,-695.55 2912.59,-695.55"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.59,-697.65 2918.59,-695.55 2912.59,-693.45 2912.59,-697.65"/>
 </g>
 <!-- Sodium&#45;Ion Battery -->
-<g id="node215" class="node">
+<g id="node214" class="node">
 <title>Sodium&#45;Ion Battery</title>
-<polygon fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-701.4 3280,-701.4 3280,-672.6 3424,-672.6 3424,-701.4"/>
-<text text-anchor="middle" x="3352" y="-682.73" font-family="Times,serif" font-size="12.00">Sodium&#45;Ion Battery</text>
+<polygon fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-722.4 3280,-722.4 3280,-693.6 3424,-693.6 3424,-722.4"/>
+<text text-anchor="middle" x="3352" y="-703.73" font-family="Times,serif" font-size="12.00">Sodium&#45;Ion Battery</text>
 </g>
 <!-- Lithium&#45;Ion Battery&#45;&gt;Sodium&#45;Ion Battery -->
 <g id="edge176" class="edge">
 <title>Lithium&#45;Ion Battery&#45;&gt;Sodium&#45;Ion Battery</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.33,-484.4C2886.92,-484.4 3352,-484.4 3352,-484.4 3352,-484.4 3352,-664.97 3352,-664.97"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="3349.9,-664.97 3352,-670.97 3354.1,-664.97 3349.9,-664.97"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.33,-505.4C2886.92,-505.4 3352,-505.4 3352,-505.4 3352,-505.4 3352,-685.97 3352,-685.97"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="3349.9,-685.97 3352,-691.97 3354.1,-685.97 3349.9,-685.97"/>
 </g>
 <!-- Solid State Lithium Battery -->
-<g id="node216" class="node">
+<g id="node215" class="node">
 <title>Solid State Lithium Battery</title>
-<polygon fill="none" stroke="purple" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-744.4 3280,-744.4 3280,-715.6 3424,-715.6 3424,-744.4"/>
-<text text-anchor="middle" x="3352" y="-725.73" font-family="Times,serif" font-size="12.00">Solid State Lithium Battery</text>
+<polygon fill="none" stroke="purple" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-765.4 3280,-765.4 3280,-736.6 3424,-736.6 3424,-765.4"/>
+<text text-anchor="middle" x="3352" y="-746.73" font-family="Times,serif" font-size="12.00">Solid State Lithium Battery</text>
 </g>
 <!-- Lithium&#45;Ion Battery&#45;&gt;Solid State Lithium Battery -->
 <g id="edge177" class="edge">
 <title>Lithium&#45;Ion Battery&#45;&gt;Solid State Lithium Battery</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.32,-489.2C2856.11,-489.2 3194,-489.2 3194,-489.2 3194,-489.2 3194,-730 3194,-730 3194,-730 3272.8,-730 3272.8,-730"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="3272.8,-732.1 3278.8,-730 3272.8,-727.9 3272.8,-732.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.48,-510.2C2833.82,-510.2 3091,-510.2 3091,-510.2 3091,-510.2 3091,-751 3091,-751 3091,-751 3272.51,-751 3272.51,-751"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="3272.51,-753.1 3278.51,-751 3272.51,-748.9 3272.51,-753.1"/>
 </g>
 <!-- Quantum Mecanics -->
 <g id="node135" class="node">
@@ -1590,26 +1590,26 @@
 <!-- Theory Of Relativity [P]&#45;&gt;Quantum Mecanics -->
 <g id="edge109" class="edge">
 <title>Theory Of Relativity [P]&#45;&gt;Quantum Mecanics</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1624.28,-988.93C1669.41,-988.93 1719,-988.93 1719,-988.93 1719,-988.93 1719,-801.9 1719,-801.9 1719,-801.9 1832.45,-801.9 1832.45,-801.9"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.45,-804 1838.45,-801.9 1832.45,-799.8 1832.45,-804"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1624.42,-988.93C1677.38,-988.93 1740,-988.93 1740,-988.93 1740,-988.93 1740,-801.9 1740,-801.9 1740,-801.9 1832.42,-801.9 1832.42,-801.9"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.42,-804 1838.42,-801.9 1832.42,-799.8 1832.42,-804"/>
 </g>
 <!-- Satellite -->
-<g id="node167" class="node">
+<g id="node166" class="node">
 <title>Satellite</title>
-<polygon fill="white" stroke="yellow" stroke-width="1.5" points="2344,-637.4 2200,-637.4 2200,-608.6 2344,-608.6 2344,-637.4"/>
-<text text-anchor="middle" x="2272" y="-618.73" font-family="Times,serif" font-size="12.00">Satellite</text>
+<polygon fill="white" stroke="yellow" stroke-width="1.5" points="2344,-658.4 2200,-658.4 2200,-629.6 2344,-629.6 2344,-658.4"/>
+<text text-anchor="middle" x="2272" y="-639.73" font-family="Times,serif" font-size="12.00">Satellite</text>
 </g>
 <!-- Theory Of Relativity [P]&#45;&gt;Satellite -->
 <g id="edge129" class="edge">
 <title>Theory Of Relativity [P]&#45;&gt;Satellite</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1624.2,-1005C1646.35,-1005 1665,-1005 1665,-1005 1665,-1005 1665,-517.6 1665,-517.6 1665,-517.6 2146,-517.6 2146,-517.6 2146,-517.6 2146,-614.36 2146,-614.36 2146,-614.36 2192.67,-614.36 2192.67,-614.36"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.67,-616.46 2198.67,-614.36 2192.67,-612.26 2192.67,-616.46"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1624.48,-1005C1647.92,-1005 1668,-1005 1668,-1005 1668,-1005 1668,-773.1 1668,-773.1 1668,-773.1 2003,-773.1 2003,-773.1 2003,-773.1 2003,-667.87 2003,-667.87 2003,-667.87 2248,-667.87 2248,-667.87 2248,-667.87 2248,-665.84 2248,-665.84"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2250.1,-665.84 2248,-659.84 2245.9,-665.84 2250.1,-665.84"/>
 </g>
 <!-- Radioactivity&#45;&gt;Quantum Mecanics -->
 <g id="edge87" class="edge">
 <title>Radioactivity&#45;&gt;Quantum Mecanics</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1624.43,-1033.6C1674.45,-1033.6 1732,-1033.6 1732,-1033.6 1732,-1033.6 1732,-804.4 1732,-804.4 1732,-804.4 1832.43,-804.4 1832.43,-804.4"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.43,-806.5 1838.43,-804.4 1832.43,-802.3 1832.43,-806.5"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1624.36,-1031.1C1682.32,-1031.1 1754,-1031.1 1754,-1031.1 1754,-1031.1 1754,-804.4 1754,-804.4 1754,-804.4 1832.8,-804.4 1832.8,-804.4"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.8,-806.5 1838.8,-804.4 1832.8,-802.3 1832.8,-806.5"/>
 </g>
 <!-- Fluorescent Lamp -->
 <g id="node141" class="node">
@@ -1632,32 +1632,32 @@
 <!-- Water Chlorination&#45;&gt;Wastewater Treatment -->
 <g id="edge86" class="edge">
 <title>Water Chlorination&#45;&gt;Wastewater Treatment</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1624.4,-317C1697.6,-317 1800,-317 1800,-317 1800,-317 1800,-398.3 1800,-398.3 1800,-398.3 1832.67,-398.3 1832.67,-398.3"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.67,-400.4 1838.67,-398.3 1832.67,-396.2 1832.67,-400.4"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1624.18,-317C1696.45,-317 1797,-317 1797,-317 1797,-317 1797,-398.3 1797,-398.3 1797,-398.3 1832.69,-398.3 1832.69,-398.3"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.69,-400.4 1838.69,-398.3 1832.69,-396.2 1832.69,-400.4"/>
 </g>
 <!-- GMO -->
-<g id="node193" class="node">
+<g id="node192" class="node">
 <title>GMO</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-551.4 2560,-551.4 2560,-522.6 2704,-522.6 2704,-551.4"/>
-<text text-anchor="middle" x="2632" y="-532.73" font-family="Times,serif" font-size="12.00">GMO</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-572.4 2560,-572.4 2560,-543.6 2704,-543.6 2704,-572.4"/>
+<text text-anchor="middle" x="2632" y="-553.73" font-family="Times,serif" font-size="12.00">GMO</text>
 </g>
 <!-- DNA&#45;&gt;GMO -->
 <g id="edge147" class="edge">
 <title>DNA&#45;&gt;GMO</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.44,-455.8C2424.11,-455.8 2541,-455.8 2541,-455.8 2541,-455.8 2541,-532.2 2541,-532.2 2541,-532.2 2552.72,-532.2 2552.72,-532.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.72,-534.3 2558.72,-532.2 2552.72,-530.1 2552.72,-534.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2344.44,-433.8C2424.11,-433.8 2541,-433.8 2541,-433.8 2541,-433.8 2541,-553.2 2541,-553.2 2541,-553.2 2552.72,-553.2 2552.72,-553.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.72,-555.3 2558.72,-553.2 2552.72,-551.1 2552.72,-555.3"/>
 </g>
 <!-- CRISPR&#45;Cas9 -->
-<g id="node208" class="node">
+<g id="node207" class="node">
 <title>CRISPR&#45;Cas9</title>
-<polygon fill="white" stroke="black" stroke-width="1.5" points="3064,-1045.4 2920,-1045.4 2920,-1016.6 3064,-1016.6 3064,-1045.4"/>
-<text text-anchor="middle" x="2992" y="-1026.72" font-family="Times,serif" font-size="12.00">CRISPR&#45;Cas9</text>
+<polygon fill="white" stroke="black" stroke-width="1.5" points="3064,-1066.4 2920,-1066.4 2920,-1037.6 3064,-1037.6 3064,-1066.4"/>
+<text text-anchor="middle" x="2992" y="-1047.72" font-family="Times,serif" font-size="12.00">CRISPR&#45;Cas9</text>
 </g>
 <!-- DNA&#45;&gt;CRISPR&#45;Cas9 -->
 <g id="edge166" class="edge">
 <title>DNA&#45;&gt;CRISPR&#45;Cas9</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.31,-446.2C2554.57,-446.2 3151,-446.2 3151,-446.2 3151,-446.2 3151,-1031 3151,-1031 3151,-1031 3071.19,-1031 3071.19,-1031"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="3071.19,-1028.9 3065.19,-1031 3071.19,-1033.1 3071.19,-1028.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2344.35,-424.2C2562.52,-424.2 3199,-424.2 3199,-424.2 3199,-424.2 3199,-1052 3199,-1052 3199,-1052 3071.53,-1052 3071.53,-1052"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="3071.53,-1049.9 3065.53,-1052 3071.53,-1054.1 3071.53,-1049.9"/>
 </g>
 <!-- Vacuum Cleaner -->
 <g id="node126" class="node">
@@ -1704,14 +1704,14 @@
 <!-- Shale Oil Extraction -->
 <g id="node140" class="node">
 <title>Shale Oil Extraction</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-658.4 2920,-658.4 2920,-629.6 3064,-629.6 3064,-658.4"/>
-<text text-anchor="middle" x="2992" y="-639.73" font-family="Times,serif" font-size="12.00">Shale Oil Extraction</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-679.4 2920,-679.4 2920,-650.6 3064,-650.6 3064,-679.4"/>
+<text text-anchor="middle" x="2992" y="-660.73" font-family="Times,serif" font-size="12.00">Shale Oil Extraction</text>
 </g>
 <!-- Oil Vapor Cracking&#45;&gt;Shale Oil Extraction -->
 <g id="edge94" class="edge">
 <title>Oil Vapor Cracking&#45;&gt;Shale Oil Extraction</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1624.4,-135.2C1916.4,-135.2 2992,-135.2 2992,-135.2 2992,-135.2 2992,-622.19 2992,-622.19"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2989.9,-622.19 2992,-628.19 2994.1,-622.19 2989.9,-622.19"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1624.4,-135.2C1916.4,-135.2 2992,-135.2 2992,-135.2 2992,-135.2 2992,-643.14 2992,-643.14"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2989.9,-643.14 2992,-649.14 2994.1,-643.14 2989.9,-643.14"/>
 </g>
 <!-- Oil Vapor Cracking&#45;&gt;Plastics -->
 <g id="edge107" class="edge">
@@ -1722,74 +1722,74 @@
 <!-- Nuclear Research Reactor -->
 <g id="node150" class="node">
 <title>Nuclear Research Reactor</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="1984,-1196.4 1840,-1196.4 1840,-1167.6 1984,-1167.6 1984,-1196.4"/>
-<text text-anchor="middle" x="1912" y="-1177.72" font-family="Times,serif" font-size="12.00">Nuclear Research Reactor</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="1984,-895.4 1840,-895.4 1840,-866.6 1984,-866.6 1984,-895.4"/>
+<text text-anchor="middle" x="1912" y="-876.73" font-family="Times,serif" font-size="12.00">Nuclear Research Reactor</text>
 </g>
 <!-- Quantum Mecanics&#45;&gt;Nuclear Research Reactor -->
 <g id="edge106" class="edge">
 <title>Quantum Mecanics&#45;&gt;Nuclear Research Reactor</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1839.53,-806.9C1799.99,-806.9 1759,-806.9 1759,-806.9 1759,-806.9 1759,-1177 1759,-1177 1759,-1177 1832.4,-1177 1832.4,-1177"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.4,-1179.1 1838.4,-1177 1832.4,-1174.9 1832.4,-1179.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1839.59,-806.9C1823.95,-806.9 1812,-806.9 1812,-806.9 1812,-806.9 1812,-876 1812,-876 1812,-876 1832.45,-876 1832.45,-876"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.46,-878.1 1838.45,-876 1832.45,-873.9 1832.46,-878.1"/>
 </g>
 <!-- Laser -->
-<g id="node169" class="node">
+<g id="node168" class="node">
 <title>Laser</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-809.4 2200,-809.4 2200,-780.6 2344,-780.6 2344,-809.4"/>
-<text text-anchor="middle" x="2272" y="-790.73" font-family="Times,serif" font-size="12.00">Laser</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-787.4 2200,-787.4 2200,-758.6 2344,-758.6 2344,-787.4"/>
+<text text-anchor="middle" x="2272" y="-768.73" font-family="Times,serif" font-size="12.00">Laser</text>
 </g>
 <!-- Quantum Mecanics&#45;&gt;Laser -->
 <g id="edge128" class="edge">
 <title>Quantum Mecanics&#45;&gt;Laser</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.42,-795C1984.42,-795 2192.56,-795 2192.56,-795"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.56,-797.1 2198.56,-795 2192.56,-792.9 2192.56,-797.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1912,-780.5C1912,-777.69 1912,-775.6 1912,-775.6 1912,-775.6 2192.45,-775.6 2192.45,-775.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.45,-777.7 2198.45,-775.6 2192.45,-773.5 2192.45,-777.7"/>
 </g>
 <!-- Jet Aircraft -->
 <g id="node139" class="node">
 <title>Jet Aircraft</title>
-<polygon fill="white" stroke="red" stroke-width="1.5" points="2344,-766.4 2200,-766.4 2200,-737.6 2344,-737.6 2344,-766.4"/>
-<text text-anchor="middle" x="2272" y="-747.73" font-family="Times,serif" font-size="12.00">Jet Aircraft</text>
+<polygon fill="white" stroke="red" stroke-width="1.5" points="2344,-744.4 2200,-744.4 2200,-715.6 2344,-715.6 2344,-744.4"/>
+<text text-anchor="middle" x="2272" y="-725.73" font-family="Times,serif" font-size="12.00">Jet Aircraft</text>
 </g>
 <!-- Pressurized Cabin&#45;&gt;Jet Aircraft -->
 <g id="edge92" class="edge">
 <title>Pressurized Cabin&#45;&gt;Jet Aircraft</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.42,-756.8C1984.42,-756.8 2192.56,-756.8 2192.56,-756.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.56,-758.9 2198.56,-756.8 2192.56,-754.7 2192.56,-758.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1912,-737.5C1912,-734.69 1912,-732.6 1912,-732.6 1912,-732.6 2192.45,-732.6 2192.45,-732.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.45,-734.7 2198.45,-732.6 2192.45,-730.5 2192.45,-734.7"/>
 </g>
 <!-- LED -->
-<g id="node164" class="node">
+<g id="node163" class="node">
 <title>LED</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-594.4 2200,-594.4 2200,-565.6 2344,-565.6 2344,-594.4"/>
-<text text-anchor="middle" x="2272" y="-575.73" font-family="Times,serif" font-size="12.00">LED</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-572.4 2200,-572.4 2200,-543.6 2344,-543.6 2344,-572.4"/>
+<text text-anchor="middle" x="2272" y="-553.73" font-family="Times,serif" font-size="12.00">LED</text>
 </g>
 <!-- Fluorescent Lamp&#45;&gt;LED -->
 <g id="edge112" class="edge">
 <title>Fluorescent Lamp&#45;&gt;LED</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.25,-494C2055.88,-494 2155,-494 2155,-494 2155,-494 2155,-571.36 2155,-571.36 2155,-571.36 2192.43,-571.36 2192.43,-571.36"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.43,-573.46 2198.43,-571.36 2192.43,-569.26 2192.43,-573.46"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.41,-505.8C2046.16,-505.8 2125,-505.8 2125,-505.8 2125,-505.8 2125,-547.5 2125,-547.5 2125,-547.5 2192.66,-547.5 2192.66,-547.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.66,-549.6 2198.66,-547.5 2192.66,-545.4 2192.66,-549.6"/>
 </g>
 <!-- Composite Materials -->
 <g id="node156" class="node">
 <title>Composite Materials</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="1984,-1153.4 1840,-1153.4 1840,-1124.6 1984,-1124.6 1984,-1153.4"/>
-<text text-anchor="middle" x="1912" y="-1134.72" font-family="Times,serif" font-size="12.00">Composite Materials</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="1984,-1196.4 1840,-1196.4 1840,-1167.6 1984,-1167.6 1984,-1196.4"/>
+<text text-anchor="middle" x="1912" y="-1177.72" font-family="Times,serif" font-size="12.00">Composite Materials</text>
 </g>
 <!-- Plastics&#45;&gt;Composite Materials -->
 <g id="edge110" class="edge">
 <title>Plastics&#45;&gt;Composite Materials</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1839.64,-331.4C1762.4,-331.4 1651,-331.4 1651,-331.4 1651,-331.4 1651,-1137.13 1651,-1137.13 1651,-1137.13 1832.51,-1137.13 1832.51,-1137.13"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.51,-1139.23 1838.51,-1137.13 1832.51,-1135.03 1832.51,-1139.23"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1839.51,-331.4C1762.89,-331.4 1653,-331.4 1653,-331.4 1653,-331.4 1653,-1177 1653,-1177 1653,-1177 1832.37,-1177 1832.37,-1177"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.37,-1179.1 1838.37,-1177 1832.37,-1174.9 1832.37,-1179.1"/>
 </g>
 <!-- Optical Fiber -->
-<g id="node170" class="node">
+<g id="node169" class="node">
 <title>Optical Fiber</title>
-<polygon fill="white" stroke="green" stroke-width="1.5" points="2344,-551.4 2200,-551.4 2200,-522.6 2344,-522.6 2344,-551.4"/>
-<text text-anchor="middle" x="2272" y="-532.73" font-family="Times,serif" font-size="12.00">Optical Fiber</text>
+<polygon fill="white" stroke="green" stroke-width="1.5" points="2344,-529.4 2200,-529.4 2200,-500.6 2344,-500.6 2344,-529.4"/>
+<text text-anchor="middle" x="2272" y="-510.73" font-family="Times,serif" font-size="12.00">Optical Fiber</text>
 </g>
 <!-- Plastics&#45;&gt;Optical Fiber -->
 <g id="edge125" class="edge">
 <title>Plastics&#45;&gt;Optical Fiber</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.21,-322C2058.68,-322 2164,-322 2164,-322 2164,-322 2164,-532.2 2164,-532.2 2164,-532.2 2192.53,-532.2 2192.53,-532.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.53,-534.3 2198.53,-532.2 2192.53,-530.1 2192.53,-534.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.4,-332.5C2049.52,-332.5 2135,-332.5 2135,-332.5 2135,-332.5 2135,-503.2 2135,-503.2 2135,-503.2 2192.75,-503.2 2192.75,-503.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.75,-505.3 2198.75,-503.2 2192.75,-501.1 2192.75,-505.3"/>
 </g>
 <!-- Vitamin C syntesis -->
 <g id="node144" class="node">
@@ -1812,8 +1812,8 @@
 <!-- Jet Engine&#45;&gt;Jet Aircraft -->
 <g id="edge113" class="edge">
 <title>Jet Engine&#45;&gt;Jet Aircraft</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.4,-670.8C2044.09,-670.8 2119,-670.8 2119,-670.8 2119,-670.8 2119,-747.2 2119,-747.2 2119,-747.2 2192.4,-747.2 2192.4,-747.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.4,-749.3 2198.4,-747.2 2192.4,-745.1 2192.4,-749.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.5,-633.5C2043.13,-633.5 2116,-633.5 2116,-633.5 2116,-633.5 2116,-719.5 2116,-719.5 2116,-719.5 2192.8,-719.5 2192.8,-719.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.8,-721.6 2198.8,-719.5 2192.8,-717.4 2192.8,-721.6"/>
 </g>
 <!-- P&#45;n Junction -->
 <g id="node148" class="node">
@@ -1830,26 +1830,26 @@
 <!-- P&#45;n Junction&#45;&gt;Transistor -->
 <g id="edge108" class="edge">
 <title>P&#45;n Junction&#45;&gt;Transistor</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.22,-588.64C1994.68,-588.64 2002,-588.64 2002,-588.64 2002,-588.64 2002,-1220.2 2002,-1220.2 2002,-1220.2 1991.35,-1220.2 1991.35,-1220.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1991.35,-1218.1 1985.35,-1220.2 1991.35,-1222.3 1991.35,-1218.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.45,-591.8C2005.05,-591.8 2022,-591.8 2022,-591.8 2022,-591.8 2022,-1224.5 2022,-1224.5 2022,-1224.5 1991.59,-1224.5 1991.59,-1224.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1991.59,-1222.4 1985.59,-1224.5 1991.59,-1226.6 1991.59,-1222.4"/>
 </g>
 <!-- P&#45;n Junction&#45;&gt;LED -->
 <g id="edge117" class="edge">
 <title>P&#45;n Junction&#45;&gt;LED</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.42,-577.12C1984.42,-577.12 2192.56,-577.12 2192.56,-577.12"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.56,-579.22 2198.56,-577.12 2192.56,-575.02 2192.56,-579.22"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1912,-565.5C1912,-562.69 1912,-560.6 1912,-560.6 1912,-560.6 2192.45,-560.6 2192.45,-560.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.45,-562.7 2198.45,-560.6 2192.45,-558.5 2192.45,-562.7"/>
 </g>
 <!-- Photovoltaic Cell -->
-<g id="node166" class="node">
+<g id="node165" class="node">
 <title>Photovoltaic Cell</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-680.4 2200,-680.4 2200,-651.6 2344,-651.6 2344,-680.4"/>
-<text text-anchor="middle" x="2272" y="-661.73" font-family="Times,serif" font-size="12.00">Photovoltaic Cell</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-615.4 2200,-615.4 2200,-586.6 2344,-586.6 2344,-615.4"/>
+<text text-anchor="middle" x="2272" y="-596.73" font-family="Times,serif" font-size="12.00">Photovoltaic Cell</text>
 </g>
 <!-- P&#45;n Junction&#45;&gt;Photovoltaic Cell -->
 <g id="edge118" class="edge">
 <title>P&#45;n Junction&#45;&gt;Photovoltaic Cell</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.43,-582.88C2050.2,-582.88 2137,-582.88 2137,-582.88 2137,-582.88 2137,-661.2 2137,-661.2 2137,-661.2 2192.62,-661.2 2192.62,-661.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.62,-663.3 2198.62,-661.2 2192.62,-659.1 2192.62,-663.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.42,-589.2C1984.42,-589.2 2192.56,-589.2 2192.56,-589.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.56,-591.3 2198.56,-589.2 2192.56,-587.1 2192.56,-591.3"/>
 </g>
 <!-- Nuclear Explosive -->
 <g id="node149" class="node">
@@ -1860,32 +1860,32 @@
 <!-- Nuclear Research Reactor&#45;&gt;Nuclear Power Plant -->
 <g id="edge115" class="edge">
 <title>Nuclear Research Reactor&#45;&gt;Nuclear Power Plant</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.42,-1186.8C1984.42,-1186.8 2192.56,-1186.8 2192.56,-1186.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.56,-1188.9 2198.56,-1186.8 2192.56,-1184.7 2192.56,-1188.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.28,-890.2C2055.59,-890.2 2154,-890.2 2154,-890.2 2154,-890.2 2154,-934.5 2154,-934.5 2154,-934.5 2192.49,-934.5 2192.49,-934.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.49,-936.6 2198.49,-934.5 2192.49,-932.4 2192.49,-936.6"/>
 </g>
 <!-- Nuclear Research Reactor&#45;&gt;Nuclear Explosive -->
 <g id="edge103" class="edge">
 <title>Nuclear Research Reactor&#45;&gt;Nuclear Explosive</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1839.53,-1193.07C1824.43,-1193.07 1813,-1193.07 1813,-1193.07 1813,-1193.07 1813,-1349 1813,-1349 1813,-1349 1832.4,-1349 1832.4,-1349"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.4,-1351.1 1838.4,-1349 1832.39,-1346.9 1832.4,-1351.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.42,-892.8C2013.82,-892.8 2041,-892.8 2041,-892.8 2041,-892.8 2041,-1353.5 2041,-1353.5 2041,-1353.5 1991.55,-1353.5 1991.55,-1353.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1991.55,-1351.4 1985.55,-1353.5 1991.55,-1355.6 1991.55,-1351.4"/>
 </g>
 <!-- Radiotherapy -->
-<g id="node165" class="node">
+<g id="node164" class="node">
 <title>Radiotherapy</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-938.4 2200,-938.4 2200,-909.6 2344,-909.6 2344,-938.4"/>
-<text text-anchor="middle" x="2272" y="-919.73" font-family="Times,serif" font-size="12.00">Radiotherapy</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-873.4 2200,-873.4 2200,-844.6 2344,-844.6 2344,-873.4"/>
+<text text-anchor="middle" x="2272" y="-854.73" font-family="Times,serif" font-size="12.00">Radiotherapy</text>
 </g>
 <!-- Nuclear Research Reactor&#45;&gt;Radiotherapy -->
 <g id="edge116" class="edge">
 <title>Nuclear Research Reactor&#45;&gt;Radiotherapy</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.24,-1177.2C2016.34,-1177.2 2047,-1177.2 2047,-1177.2 2047,-1177.2 2047,-924 2047,-924 2047,-924 2192.43,-924 2192.43,-924"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.43,-926.1 2198.43,-924 2192.43,-921.9 2192.43,-926.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1912,-866.5C1912,-863.69 1912,-861.6 1912,-861.6 1912,-861.6 2192.45,-861.6 2192.45,-861.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.45,-863.7 2198.45,-861.6 2192.45,-859.5 2192.45,-863.7"/>
 </g>
 <!-- Rocket Engine&#45;&gt;Satellite -->
 <g id="edge120" class="edge">
 <title>Rocket Engine&#45;&gt;Satellite</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.43,-1087.36C2008.37,-1087.36 2029,-1087.36 2029,-1087.36 2029,-1087.36 2029,-620.12 2029,-620.12 2029,-620.12 2192.61,-620.12 2192.61,-620.12"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.61,-622.22 2198.61,-620.12 2192.61,-618.02 2192.61,-622.22"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.46,-1138.5C2116.77,-1138.5 2384,-1138.5 2384,-1138.5 2384,-1138.5 2384,-648.8 2384,-648.8 2384,-648.8 2351.33,-648.8 2351.33,-648.8"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2351.33,-646.7 2345.33,-648.8 2351.33,-650.9 2351.33,-646.7"/>
 </g>
 <!-- Computer -->
 <g id="node159" class="node">
@@ -1902,26 +1902,26 @@
 <!-- Cavity Magnetron -->
 <g id="node153" class="node">
 <title>Cavity Magnetron</title>
-<polygon fill="white" stroke="red" stroke-width="1.5" points="1984,-637.4 1840,-637.4 1840,-608.6 1984,-608.6 1984,-637.4"/>
-<text text-anchor="middle" x="1912" y="-618.73" font-family="Times,serif" font-size="12.00">Cavity Magnetron</text>
+<polygon fill="white" stroke="red" stroke-width="1.5" points="1984,-680.4 1840,-680.4 1840,-651.6 1984,-651.6 1984,-680.4"/>
+<text text-anchor="middle" x="1912" y="-661.73" font-family="Times,serif" font-size="12.00">Cavity Magnetron</text>
 </g>
 <!-- Cavity Magnetron&#45;&gt;Laser -->
 <g id="edge122" class="edge">
 <title>Cavity Magnetron&#45;&gt;Laser</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.47,-631.64C2027.6,-631.64 2074,-631.64 2074,-631.64 2074,-631.64 2074,-787.8 2074,-787.8 2074,-787.8 2192.54,-787.8 2192.54,-787.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.54,-789.9 2198.54,-787.8 2192.54,-785.7 2192.54,-789.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.33,-677.8C2039.83,-677.8 2107,-677.8 2107,-677.8 2107,-677.8 2107,-761.2 2107,-761.2 2107,-761.2 2192.49,-761.2 2192.49,-761.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.49,-763.3 2198.49,-761.2 2192.49,-759.1 2192.49,-763.3"/>
 </g>
 <!-- Microwave Oven -->
-<g id="node172" class="node">
+<g id="node171" class="node">
 <title>Microwave Oven</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-723.4 2200,-723.4 2200,-694.6 2344,-694.6 2344,-723.4"/>
-<text text-anchor="middle" x="2272" y="-704.73" font-family="Times,serif" font-size="12.00">Microwave Oven</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-701.4 2200,-701.4 2200,-672.6 2344,-672.6 2344,-701.4"/>
+<text text-anchor="middle" x="2272" y="-682.73" font-family="Times,serif" font-size="12.00">Microwave Oven</text>
 </g>
 <!-- Cavity Magnetron&#45;&gt;Microwave Oven -->
 <g id="edge126" class="edge">
 <title>Cavity Magnetron&#45;&gt;Microwave Oven</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.23,-625.88C2047.02,-625.88 2128,-625.88 2128,-625.88 2128,-625.88 2128,-709 2128,-709 2128,-709 2192.44,-709 2192.44,-709"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.44,-711.1 2198.44,-709 2192.44,-706.9 2192.44,-711.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.42,-675.2C1984.42,-675.2 2192.56,-675.2 2192.56,-675.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.56,-677.3 2198.56,-675.2 2192.56,-673.1 2192.56,-677.3"/>
 </g>
 <!-- Information Theory -->
 <g id="node154" class="node">
@@ -1932,8 +1932,8 @@
 <!-- Information Theory&#45;&gt;Computer -->
 <g id="edge114" class="edge">
 <title>Information Theory&#45;&gt;Computer</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1839.65,-374.4C1758.47,-374.4 1638,-374.4 1638,-374.4 1638,-374.4 1638,-1263 1638,-1263 1638,-1263 1832.52,-1263 1832.52,-1263"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="1832.52,-1265.1 1838.52,-1263 1832.52,-1260.9 1832.52,-1265.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.31,-364.5C2009.23,-364.5 2031,-364.5 2031,-364.5 2031,-364.5 2031,-1263.24 2031,-1263.24 2031,-1263.24 1991.44,-1263.24 1991.44,-1263.24"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="1991.44,-1261.14 1985.44,-1263.24 1991.44,-1265.34 1991.44,-1261.14"/>
 </g>
 <!-- DDT -->
 <g id="node155" class="node">
@@ -1942,16 +1942,16 @@
 <text text-anchor="middle" x="1912" y="-1306.72" font-family="Times,serif" font-size="12.00">DDT</text>
 </g>
 <!-- Carbon Fiber -->
-<g id="node174" class="node">
+<g id="node173" class="node">
 <title>Carbon Fiber</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-895.4 2200,-895.4 2200,-866.6 2344,-866.6 2344,-895.4"/>
-<text text-anchor="middle" x="2272" y="-876.73" font-family="Times,serif" font-size="12.00">Carbon Fiber</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-916.4 2200,-916.4 2200,-887.6 2344,-887.6 2344,-916.4"/>
+<text text-anchor="middle" x="2272" y="-897.73" font-family="Times,serif" font-size="12.00">Carbon Fiber</text>
 </g>
 <!-- Composite Materials&#45;&gt;Carbon Fiber -->
 <g id="edge130" class="edge">
 <title>Composite Materials&#45;&gt;Carbon Fiber</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.2,-1139C2012.35,-1139 2038,-1139 2038,-1139 2038,-1139 2038,-881 2038,-881 2038,-881 2192.43,-881 2192.43,-881"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.43,-883.1 2198.43,-881 2192.43,-878.9 2192.43,-883.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.07,-1181.5C2025.34,-1181.5 2069,-1181.5 2069,-1181.5 2069,-1181.5 2069,-904.6 2069,-904.6 2069,-904.6 2192.44,-904.6 2192.44,-904.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.44,-906.7 2198.44,-904.6 2192.44,-902.5 2192.44,-906.7"/>
 </g>
 <!-- Body Reconstruction -->
 <g id="node157" class="node">
@@ -1960,16 +1960,16 @@
 <text text-anchor="middle" x="1912" y="-833.73" font-family="Times,serif" font-size="12.00">Body Reconstruction</text>
 </g>
 <!-- Organ Transplantation -->
-<g id="node163" class="node">
+<g id="node162" class="node">
 <title>Organ Transplantation</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-852.4 2200,-852.4 2200,-823.6 2344,-823.6 2344,-852.4"/>
-<text text-anchor="middle" x="2272" y="-833.73" font-family="Times,serif" font-size="12.00">Organ Transplantation</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-830.4 2200,-830.4 2200,-801.6 2344,-801.6 2344,-830.4"/>
+<text text-anchor="middle" x="2272" y="-811.73" font-family="Times,serif" font-size="12.00">Organ Transplantation</text>
 </g>
 <!-- Body Reconstruction&#45;&gt;Organ Transplantation -->
 <g id="edge111" class="edge">
 <title>Body Reconstruction&#45;&gt;Organ Transplantation</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.42,-838C1984.42,-838 2192.56,-838 2192.56,-838"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.56,-840.1 2198.56,-838 2192.56,-835.9 2192.56,-840.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1912,-823.5C1912,-820.69 1912,-818.6 1912,-818.6 1912,-818.6 2192.45,-818.6 2192.45,-818.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.45,-820.7 2198.45,-818.6 2192.45,-816.5 2192.45,-820.7"/>
 </g>
 <!-- Teflon -->
 <g id="node158" class="node">
@@ -1978,40 +1978,40 @@
 <text text-anchor="middle" x="1912" y="-1392.72" font-family="Times,serif" font-size="12.00">Teflon</text>
 </g>
 <!-- Microprocessor -->
-<g id="node178" class="node">
+<g id="node177" class="node">
 <title>Microprocessor</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1024.4 2200,-1024.4 2200,-995.6 2344,-995.6 2344,-1024.4"/>
-<text text-anchor="middle" x="2272" y="-1005.73" font-family="Times,serif" font-size="12.00">Microprocessor</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1174.4 2200,-1174.4 2200,-1145.6 2344,-1145.6 2344,-1174.4"/>
+<text text-anchor="middle" x="2272" y="-1155.72" font-family="Times,serif" font-size="12.00">Microprocessor</text>
 </g>
 <!-- Computer&#45;&gt;Microprocessor -->
 <g id="edge136" class="edge">
 <title>Computer&#45;&gt;Microprocessor</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.42,-1259.36C2020.28,-1259.36 2056,-1259.36 2056,-1259.36 2056,-1259.36 2056,-1010 2056,-1010 2056,-1010 2192.64,-1010 2192.64,-1010"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.64,-1012.1 2198.64,-1010 2192.64,-1007.9 2192.64,-1012.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.32,-1271.76C2036.21,-1271.76 2097,-1271.76 2097,-1271.76 2097,-1271.76 2097,-1165.1 2097,-1165.1 2097,-1165.1 2192.42,-1165.1 2192.42,-1165.1"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.42,-1167.2 2198.42,-1165.1 2192.42,-1163 2192.42,-1167.2"/>
 </g>
 <!-- Programming Languages -->
-<g id="node179" class="node">
+<g id="node178" class="node">
 <title>Programming Languages</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1067.4 2200,-1067.4 2200,-1038.6 2344,-1038.6 2344,-1067.4"/>
-<text text-anchor="middle" x="2272" y="-1048.72" font-family="Times,serif" font-size="12.00">Programming Languages</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1045.4 2200,-1045.4 2200,-1016.6 2344,-1016.6 2344,-1045.4"/>
+<text text-anchor="middle" x="2272" y="-1026.72" font-family="Times,serif" font-size="12.00">Programming Languages</text>
 </g>
 <!-- Computer&#45;&gt;Programming Languages -->
 <g id="edge132" class="edge">
 <title>Computer&#45;&gt;Programming Languages</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.47,-1265.12C2024.01,-1265.12 2065,-1265.12 2065,-1265.12 2065,-1265.12 2065,-1048.2 2065,-1048.2 2065,-1048.2 2192.47,-1048.2 2192.47,-1048.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.47,-1050.3 2198.47,-1048.2 2192.47,-1046.1 2192.47,-1050.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.33,-1266.08C2029.06,-1266.08 2078,-1266.08 2078,-1266.08 2078,-1266.08 2078,-1033.6 2078,-1033.6 2078,-1033.6 2192.63,-1033.6 2192.63,-1033.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.63,-1035.7 2198.63,-1033.6 2192.63,-1031.5 2192.63,-1035.7"/>
 </g>
 <!-- Hard Disk -->
-<g id="node180" class="node">
+<g id="node179" class="node">
 <title>Hard Disk</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1110.4 2200,-1110.4 2200,-1081.6 2344,-1081.6 2344,-1110.4"/>
-<text text-anchor="middle" x="2272" y="-1091.72" font-family="Times,serif" font-size="12.00">Hard Disk</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1088.4 2200,-1088.4 2200,-1059.6 2344,-1059.6 2344,-1088.4"/>
+<text text-anchor="middle" x="2272" y="-1069.72" font-family="Times,serif" font-size="12.00">Hard Disk</text>
 </g>
 <!-- Computer&#45;&gt;Hard Disk -->
 <g id="edge134" class="edge">
 <title>Computer&#45;&gt;Hard Disk</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M1984.02,-1270.88C2030.76,-1270.88 2083,-1270.88 2083,-1270.88 2083,-1270.88 2083,-1104.64 2083,-1104.64 2083,-1104.64 2192.6,-1104.64 2192.6,-1104.64"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.6,-1106.74 2198.6,-1104.64 2192.6,-1102.54 2192.6,-1106.74"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M1984.35,-1268.92C2032.89,-1268.92 2088,-1268.92 2088,-1268.92 2088,-1268.92 2088,-1076.6 2088,-1076.6 2088,-1076.6 2192.41,-1076.6 2192.41,-1076.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.41,-1078.7 2198.41,-1076.6 2192.41,-1074.5 2192.41,-1078.7"/>
 </g>
 <!-- Gas Tungsten Arc Welding -->
 <g id="node160" class="node">
@@ -2025,473 +2025,467 @@
 <polygon fill="white" stroke="lightblue" stroke-width="1.5" points="1984,-1497.4 1840,-1497.4 1840,-1468.6 1984,-1468.6 1984,-1497.4"/>
 <text text-anchor="middle" x="1912" y="-1478.72" font-family="Times,serif" font-size="12.00">Sorbic Acid</text>
 </g>
-<!-- z -->
-<g id="node162" class="node">
-<title>z</title>
-<polygon fill="white" stroke="black" stroke-width="1.5" points="1984,-1540.4 1840,-1540.4 1840,-1511.6 1984,-1511.6 1984,-1540.4"/>
-<text text-anchor="middle" x="1912" y="-1521.72" font-family="Times,serif" font-size="12.00">z</text>
-</g>
 <!-- Blue LED -->
-<g id="node196" class="node">
+<g id="node195" class="node">
 <title>Blue LED</title>
-<polygon fill="white" stroke="purple" stroke-width="1.5" points="2704,-594.4 2560,-594.4 2560,-565.6 2704,-565.6 2704,-594.4"/>
-<text text-anchor="middle" x="2632" y="-575.73" font-family="Times,serif" font-size="12.00">Blue LED</text>
+<polygon fill="white" stroke="purple" stroke-width="1.5" points="2704,-615.4 2560,-615.4 2560,-586.6 2704,-586.6 2704,-615.4"/>
+<text text-anchor="middle" x="2632" y="-596.73" font-family="Times,serif" font-size="12.00">Blue LED</text>
 </g>
 <!-- LED&#45;&gt;Blue LED -->
 <g id="edge150" class="edge">
 <title>LED&#45;&gt;Blue LED</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.42,-580C2344.42,-580 2552.56,-580 2552.56,-580"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.56,-582.1 2558.56,-580 2552.56,-577.9 2552.56,-582.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2344.36,-562.8C2417.87,-562.8 2521,-562.8 2521,-562.8 2521,-562.8 2521,-601 2521,-601 2521,-601 2552.38,-601 2552.38,-601"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.38,-603.1 2558.38,-601 2552.38,-598.9 2552.38,-603.1"/>
 </g>
 <!-- Reusable Rocket -->
-<g id="node190" class="node">
+<g id="node189" class="node">
 <title>Reusable Rocket</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-1088.4 2920,-1088.4 2920,-1059.6 3064,-1059.6 3064,-1088.4"/>
-<text text-anchor="middle" x="2992" y="-1069.72" font-family="Times,serif" font-size="12.00">Reusable Rocket</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-1109.4 2920,-1109.4 2920,-1080.6 3064,-1080.6 3064,-1109.4"/>
+<text text-anchor="middle" x="2992" y="-1090.72" font-family="Times,serif" font-size="12.00">Reusable Rocket</text>
 </g>
 <!-- Satellite&#45;&gt;Reusable Rocket -->
 <g id="edge167" class="edge">
 <title>Satellite&#45;&gt;Reusable Rocket</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2272,-608.5C2272,-605.69 2272,-603.6 2272,-603.6 2272,-603.6 3172,-603.6 3172,-603.6 3172,-603.6 3172,-1069.2 3172,-1069.2 3172,-1069.2 3071.57,-1069.2 3071.57,-1069.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="3071.57,-1067.1 3065.57,-1069.2 3071.57,-1071.3 3071.57,-1067.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2296,-658.7C2296,-661.26 2296,-663.13 2296,-663.13 2296,-663.13 2857,-663.13 2857,-663.13 2857,-663.13 2857,-1093.13 2857,-1093.13 2857,-1093.13 2912.62,-1093.13 2912.62,-1093.13"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.62,-1095.23 2918.62,-1093.13 2912.62,-1091.03 2912.62,-1095.23"/>
 </g>
 <!-- GPS -->
-<g id="node191" class="node">
+<g id="node190" class="node">
 <title>GPS</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-637.4 2560,-637.4 2560,-608.6 2704,-608.6 2704,-637.4"/>
-<text text-anchor="middle" x="2632" y="-618.73" font-family="Times,serif" font-size="12.00">GPS</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-658.4 2560,-658.4 2560,-629.6 2704,-629.6 2704,-658.4"/>
+<text text-anchor="middle" x="2632" y="-639.73" font-family="Times,serif" font-size="12.00">GPS</text>
 </g>
 <!-- Satellite&#45;&gt;GPS -->
 <g id="edge143" class="edge">
 <title>Satellite&#45;&gt;GPS</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.42,-623C2344.42,-623 2552.56,-623 2552.56,-623"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.56,-625.1 2558.56,-623 2552.56,-620.9 2552.56,-625.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2344.42,-639.2C2344.42,-639.2 2552.56,-639.2 2552.56,-639.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.56,-641.3 2558.56,-639.2 2552.56,-637.1 2552.56,-641.3"/>
 </g>
 <!-- Laser&#45;&gt;Optical Fiber -->
 <g id="edge123" class="edge">
 <title>Laser&#45;&gt;Optical Fiber</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.36,-795C2417.87,-795 2521,-795 2521,-795 2521,-795 2521,-541.8 2521,-541.8 2521,-541.8 2351.49,-541.8 2351.49,-541.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2351.49,-539.7 2345.49,-541.8 2351.49,-543.9 2351.49,-539.7"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2199.59,-763.8C2183.95,-763.8 2172,-763.8 2172,-763.8 2172,-763.8 2172,-517.6 2172,-517.6 2172,-517.6 2192.45,-517.6 2192.45,-517.6"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.46,-519.7 2198.45,-517.6 2192.45,-515.5 2192.46,-519.7"/>
 </g>
 <!-- Laser&#45;&gt;Hard Disk -->
 <g id="edge135" class="edge">
 <title>Laser&#45;&gt;Hard Disk</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2199.78,-802.2C2189.32,-802.2 2182,-802.2 2182,-802.2 2182,-802.2 2182,-1093.12 2182,-1093.12 2182,-1093.12 2192.65,-1093.12 2192.65,-1093.12"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.65,-1095.22 2198.65,-1093.12 2192.65,-1091.02 2192.65,-1095.22"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2199.6,-778.1C2179.47,-778.1 2163,-778.1 2163,-778.1 2163,-778.1 2163,-1063.5 2163,-1063.5 2163,-1063.5 2192.46,-1063.5 2192.46,-1063.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.46,-1065.6 2198.46,-1063.5 2192.46,-1061.4 2192.46,-1065.6"/>
 </g>
 <!-- Basic oxygen Steelmaking&#45;&gt;Electric Arc Furnace -->
 <g id="edge137" class="edge">
 <title>Basic oxygen Steelmaking&#45;&gt;Electric Arc Furnace</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2199.79,-365C2125.32,-365 2020,-365 2020,-365 2020,-365 2020,-1392.2 2020,-1392.2 2020,-1392.2 2192.65,-1392.2 2192.65,-1392.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.65,-1394.3 2198.65,-1392.2 2192.65,-1390.1 2192.65,-1394.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2199.62,-347.27C2134.83,-347.27 2050,-347.27 2050,-347.27 2050,-347.27 2050,-1364.5 2050,-1364.5 2050,-1364.5 2192.48,-1364.5 2192.48,-1364.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.48,-1366.6 2198.48,-1364.5 2192.48,-1362.4 2192.48,-1366.6"/>
 </g>
 <!-- Containerization -->
-<g id="node176" class="node">
+<g id="node175" class="node">
 <title>Containerization</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1153.4 2200,-1153.4 2200,-1124.6 2344,-1124.6 2344,-1153.4"/>
-<text text-anchor="middle" x="2272" y="-1134.72" font-family="Times,serif" font-size="12.00">Containerization</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1131.4 2200,-1131.4 2200,-1102.6 2344,-1102.6 2344,-1131.4"/>
+<text text-anchor="middle" x="2272" y="-1112.72" font-family="Times,serif" font-size="12.00">Containerization</text>
 </g>
 <!-- Photolithography -->
-<g id="node177" class="node">
+<g id="node176" class="node">
 <title>Photolithography</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-981.4 2200,-981.4 2200,-952.6 2344,-952.6 2344,-981.4"/>
-<text text-anchor="middle" x="2272" y="-962.73" font-family="Times,serif" font-size="12.00">Photolithography</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1002.4 2200,-1002.4 2200,-973.6 2344,-973.6 2344,-1002.4"/>
+<text text-anchor="middle" x="2272" y="-983.73" font-family="Times,serif" font-size="12.00">Photolithography</text>
 </g>
 <!-- Photolithography&#45;&gt;Microprocessor -->
 <g id="edge138" class="edge">
 <title>Photolithography&#45;&gt;Microprocessor</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2272,-981.56C2272,-981.56 2272,-988.03 2272,-988.03"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2269.9,-988.03 2272,-994.03 2274.1,-988.03 2269.9,-988.03"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2199.67,-992.27C2194.34,-992.27 2191,-992.27 2191,-992.27 2191,-992.27 2191,-1149.5 2191,-1149.5 2191,-1149.5 2192.53,-1149.5 2192.53,-1149.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.53,-1151.6 2198.53,-1149.5 2192.53,-1147.4 2192.53,-1151.6"/>
 </g>
 <!-- Personal Computer -->
-<g id="node187" class="node">
+<g id="node186" class="node">
 <title>Personal Computer</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-852.4 2560,-852.4 2560,-823.6 2704,-823.6 2704,-852.4"/>
-<text text-anchor="middle" x="2632" y="-833.73" font-family="Times,serif" font-size="12.00">Personal Computer</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-873.4 2560,-873.4 2560,-844.6 2704,-844.6 2704,-873.4"/>
+<text text-anchor="middle" x="2632" y="-854.73" font-family="Times,serif" font-size="12.00">Personal Computer</text>
 </g>
 <!-- Microprocessor&#45;&gt;Personal Computer -->
 <g id="edge145" class="edge">
 <title>Microprocessor&#45;&gt;Personal Computer</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.2,-1005.2C2365.87,-1005.2 2384,-1005.2 2384,-1005.2 2384,-1005.2 2384,-830.8 2384,-830.8 2384,-830.8 2552.47,-830.8 2552.47,-830.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.47,-832.9 2558.47,-830.8 2552.47,-828.7 2552.47,-832.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2344.4,-1160C2383.16,-1160 2423,-1160 2423,-1160 2423,-1160 2423,-859 2423,-859 2423,-859 2552.65,-859 2552.65,-859"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.65,-861.1 2558.65,-859 2552.65,-856.9 2552.65,-861.1"/>
 </g>
 <!-- Operating Systems -->
-<g id="node181" class="node">
+<g id="node180" class="node">
 <title>Operating Systems</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1325.4 2200,-1325.4 2200,-1296.6 2344,-1296.6 2344,-1325.4"/>
-<text text-anchor="middle" x="2272" y="-1306.72" font-family="Times,serif" font-size="12.00">Operating Systems</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1303.4 2200,-1303.4 2200,-1274.6 2344,-1274.6 2344,-1303.4"/>
+<text text-anchor="middle" x="2272" y="-1284.72" font-family="Times,serif" font-size="12.00">Operating Systems</text>
 </g>
 <!-- Programming Languages&#45;&gt;Operating Systems -->
 <g id="edge133" class="edge">
 <title>Programming Languages&#45;&gt;Operating Systems</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2199.67,-1057.8C2194.34,-1057.8 2191,-1057.8 2191,-1057.8 2191,-1057.8 2191,-1311 2191,-1311 2191,-1311 2192.53,-1311 2192.53,-1311"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.53,-1313.1 2198.53,-1311 2192.53,-1308.9 2192.53,-1313.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2199.78,-1036.1C2189.32,-1036.1 2182,-1036.1 2182,-1036.1 2182,-1036.1 2182,-1278.5 2182,-1278.5 2182,-1278.5 2192.65,-1278.5 2192.65,-1278.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2192.65,-1280.6 2198.65,-1278.5 2192.65,-1276.4 2192.65,-1280.6"/>
 </g>
 <!-- Hard Disk&#45;&gt;Personal Computer -->
 <g id="edge139" class="edge">
 <title>Hard Disk&#45;&gt;Personal Computer</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.4,-1096C2374.69,-1096 2403,-1096 2403,-1096 2403,-1096 2403,-838 2403,-838 2403,-838 2552.41,-838 2552.41,-838"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.41,-840.1 2558.41,-838 2552.41,-835.9 2552.41,-840.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2344.4,-1069.2C2374.69,-1069.2 2403,-1069.2 2403,-1069.2 2403,-1069.2 2403,-851.8 2403,-851.8 2403,-851.8 2552.41,-851.8 2552.41,-851.8"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.41,-853.9 2558.41,-851.8 2552.41,-849.7 2552.41,-853.9"/>
 </g>
 <!-- Operating Systems&#45;&gt;Personal Computer -->
 <g id="edge144" class="edge">
 <title>Operating Systems&#45;&gt;Personal Computer</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.4,-1301.4C2383.16,-1301.4 2423,-1301.4 2423,-1301.4 2423,-1301.4 2423,-845.2 2423,-845.2 2423,-845.2 2552.65,-845.2 2552.65,-845.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.65,-847.3 2558.65,-845.2 2552.65,-843.1 2552.65,-847.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2344.02,-1279.4C2390.76,-1279.4 2443,-1279.4 2443,-1279.4 2443,-1279.4 2443,-866.2 2443,-866.2 2443,-866.2 2552.6,-866.2 2552.6,-866.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.6,-868.3 2558.6,-866.2 2552.6,-864.1 2552.6,-868.3"/>
 </g>
 <!-- Operating Systems&#45;&gt;Reusable Rocket -->
 <g id="edge142" class="edge">
 <title>Operating Systems&#45;&gt;Reusable Rocket</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.36,-1320.6C2481.57,-1320.6 2766,-1320.6 2766,-1320.6 2766,-1320.6 2766,-1074.1 2766,-1074.1 2766,-1074.1 2912.42,-1074.1 2912.42,-1074.1"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.42,-1076.2 2918.42,-1074.1 2912.42,-1072 2912.42,-1076.2"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2344.3,-1298.6C2490.18,-1298.6 2806,-1298.6 2806,-1298.6 2806,-1298.6 2806,-1097.87 2806,-1097.87 2806,-1097.87 2912.42,-1097.87 2912.42,-1097.87"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.42,-1099.97 2918.42,-1097.87 2912.42,-1095.77 2912.42,-1099.97"/>
 </g>
 <!-- Internet -->
-<g id="node192" class="node">
+<g id="node191" class="node">
 <title>Internet</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-895.4 2560,-895.4 2560,-866.6 2704,-866.6 2704,-895.4"/>
-<text text-anchor="middle" x="2632" y="-876.73" font-family="Times,serif" font-size="12.00">Internet</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-916.4 2560,-916.4 2560,-887.6 2704,-887.6 2704,-916.4"/>
+<text text-anchor="middle" x="2632" y="-897.73" font-family="Times,serif" font-size="12.00">Internet</text>
 </g>
 <!-- Operating Systems&#45;&gt;Internet -->
 <g id="edge146" class="edge">
 <title>Operating Systems&#45;&gt;Internet</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.02,-1306.2C2390.76,-1306.2 2443,-1306.2 2443,-1306.2 2443,-1306.2 2443,-881 2443,-881 2443,-881 2552.6,-881 2552.6,-881"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.6,-883.1 2558.6,-881 2552.6,-878.9 2552.6,-883.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2344.37,-1284.2C2398.07,-1284.2 2462,-1284.2 2462,-1284.2 2462,-1284.2 2462,-902 2462,-902 2462,-902 2552.77,-902 2552.77,-902"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.77,-904.1 2558.77,-902 2552.77,-899.9 2552.77,-904.1"/>
 </g>
 <!-- Industrial Robots -->
-<g id="node194" class="node">
+<g id="node193" class="node">
 <title>Industrial Robots</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-1067.4 2560,-1067.4 2560,-1038.6 2704,-1038.6 2704,-1067.4"/>
-<text text-anchor="middle" x="2632" y="-1048.72" font-family="Times,serif" font-size="12.00">Industrial Robots</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-1088.4 2560,-1088.4 2560,-1059.6 2704,-1059.6 2704,-1088.4"/>
+<text text-anchor="middle" x="2632" y="-1069.72" font-family="Times,serif" font-size="12.00">Industrial Robots</text>
 </g>
 <!-- Operating Systems&#45;&gt;Industrial Robots -->
 <g id="edge148" class="edge">
 <title>Operating Systems&#45;&gt;Industrial Robots</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.46,-1315.8C2411.88,-1315.8 2502,-1315.8 2502,-1315.8 2502,-1315.8 2502,-1053 2502,-1053 2502,-1053 2552.64,-1053 2552.64,-1053"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.64,-1055.1 2558.64,-1053 2552.64,-1050.9 2552.64,-1055.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2344.46,-1293.8C2411.88,-1293.8 2502,-1293.8 2502,-1293.8 2502,-1293.8 2502,-1078.8 2502,-1078.8 2502,-1078.8 2552.64,-1078.8 2552.64,-1078.8"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.64,-1080.9 2558.64,-1078.8 2552.64,-1076.7 2552.64,-1080.9"/>
 </g>
 <!-- Graphical User Interface -->
-<g id="node197" class="node">
+<g id="node196" class="node">
 <title>Graphical User Interface</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-1024.4 2560,-1024.4 2560,-995.6 2704,-995.6 2704,-1024.4"/>
-<text text-anchor="middle" x="2632" y="-1005.73" font-family="Times,serif" font-size="12.00">Graphical User Interface</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-1045.4 2560,-1045.4 2560,-1016.6 2704,-1016.6 2704,-1045.4"/>
+<text text-anchor="middle" x="2632" y="-1026.72" font-family="Times,serif" font-size="12.00">Graphical User Interface</text>
 </g>
 <!-- Operating Systems&#45;&gt;Graphical User Interface -->
 <g id="edge151" class="edge">
 <title>Operating Systems&#45;&gt;Graphical User Interface</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.37,-1311C2398.07,-1311 2462,-1311 2462,-1311 2462,-1311 2462,-1014.8 2462,-1014.8 2462,-1014.8 2552.77,-1014.8 2552.77,-1014.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.77,-1016.9 2558.77,-1014.8 2552.77,-1012.7 2552.77,-1016.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2344.27,-1289C2405.02,-1289 2482,-1289 2482,-1289 2482,-1289 2482,-1031 2482,-1031 2482,-1031 2552.5,-1031 2552.5,-1031"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2552.5,-1033.1 2558.5,-1031 2552.5,-1028.9 2552.5,-1033.1"/>
 </g>
 <!-- Contraceptive pill -->
-<g id="node182" class="node">
+<g id="node181" class="node">
 <title>Contraceptive pill</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1368.4 2200,-1368.4 2200,-1339.6 2344,-1339.6 2344,-1368.4"/>
-<text text-anchor="middle" x="2272" y="-1349.72" font-family="Times,serif" font-size="12.00">Contraceptive pill</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1346.4 2200,-1346.4 2200,-1317.6 2344,-1317.6 2344,-1346.4"/>
+<text text-anchor="middle" x="2272" y="-1327.72" font-family="Times,serif" font-size="12.00">Contraceptive pill</text>
 </g>
 <!-- Industrial Desalination -->
-<g id="node184" class="node">
+<g id="node183" class="node">
 <title>Industrial Desalination</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1454.4 2200,-1454.4 2200,-1425.6 2344,-1425.6 2344,-1454.4"/>
-<text text-anchor="middle" x="2272" y="-1435.72" font-family="Times,serif" font-size="12.00">Industrial Desalination</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1432.4 2200,-1432.4 2200,-1403.6 2344,-1403.6 2344,-1432.4"/>
+<text text-anchor="middle" x="2272" y="-1413.72" font-family="Times,serif" font-size="12.00">Industrial Desalination</text>
 </g>
 <!-- Intensive Fish Farming -->
-<g id="node185" class="node">
+<g id="node184" class="node">
 <title>Intensive Fish Farming</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1497.4 2200,-1497.4 2200,-1468.6 2344,-1468.6 2344,-1497.4"/>
-<text text-anchor="middle" x="2272" y="-1478.72" font-family="Times,serif" font-size="12.00">Intensive Fish Farming</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1475.4 2200,-1475.4 2200,-1446.6 2344,-1446.6 2344,-1475.4"/>
+<text text-anchor="middle" x="2272" y="-1456.72" font-family="Times,serif" font-size="12.00">Intensive Fish Farming</text>
 </g>
 <!-- Samarium Magnet -->
-<g id="node186" class="node">
+<g id="node185" class="node">
 <title>Samarium Magnet</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1540.4 2200,-1540.4 2200,-1511.6 2344,-1511.6 2344,-1540.4"/>
-<text text-anchor="middle" x="2272" y="-1521.72" font-family="Times,serif" font-size="12.00">Samarium Magnet</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2344,-1518.4 2200,-1518.4 2200,-1489.6 2344,-1489.6 2344,-1518.4"/>
+<text text-anchor="middle" x="2272" y="-1499.72" font-family="Times,serif" font-size="12.00">Samarium Magnet</text>
 </g>
 <!-- Neodymium Magnet -->
-<g id="node195" class="node">
+<g id="node194" class="node">
 <title>Neodymium Magnet</title>
-<polygon fill="white" stroke="purple" stroke-width="1.5" points="2704,-1239.4 2560,-1239.4 2560,-1210.6 2704,-1210.6 2704,-1239.4"/>
-<text text-anchor="middle" x="2632" y="-1220.72" font-family="Times,serif" font-size="12.00">Neodymium Magnet</text>
+<polygon fill="white" stroke="purple" stroke-width="1.5" points="2704,-1260.4 2560,-1260.4 2560,-1231.6 2704,-1231.6 2704,-1260.4"/>
+<text text-anchor="middle" x="2632" y="-1241.72" font-family="Times,serif" font-size="12.00">Neodymium Magnet</text>
 </g>
 <!-- Samarium Magnet&#45;&gt;Neodymium Magnet -->
 <g id="edge149" class="edge">
 <title>Samarium Magnet&#45;&gt;Neodymium Magnet</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2344.42,-1526C2449.54,-1526 2632,-1526 2632,-1526 2632,-1526 2632,-1246.65 2632,-1246.65"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2634.1,-1246.65 2632,-1240.65 2629.9,-1246.65 2634.1,-1246.65"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2344.42,-1504C2449.54,-1504 2632,-1504 2632,-1504 2632,-1504 2632,-1267.75 2632,-1267.75"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2634.1,-1267.75 2632,-1261.75 2629.9,-1267.75 2634.1,-1267.75"/>
 </g>
 <!-- Video Games -->
-<g id="node188" class="node">
+<g id="node187" class="node">
 <title>Video Games</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-938.4 2560,-938.4 2560,-909.6 2704,-909.6 2704,-938.4"/>
-<text text-anchor="middle" x="2632" y="-919.73" font-family="Times,serif" font-size="12.00">Video Games</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-959.4 2560,-959.4 2560,-930.6 2704,-930.6 2704,-959.4"/>
+<text text-anchor="middle" x="2632" y="-940.73" font-family="Times,serif" font-size="12.00">Video Games</text>
 </g>
 <!-- Personal Computer&#45;&gt;Video Games -->
 <g id="edge140" class="edge">
 <title>Personal Computer&#45;&gt;Video Games</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.37,-849.8C2748.7,-849.8 2797,-849.8 2797,-849.8 2797,-849.8 2797,-923.5 2797,-923.5 2797,-923.5 2711.51,-923.5 2711.51,-923.5"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.51,-921.4 2705.51,-923.5 2711.51,-925.6 2711.51,-921.4"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.38,-870.8C2736.86,-870.8 2768,-870.8 2768,-870.8 2768,-870.8 2768,-944.5 2768,-944.5 2768,-944.5 2711.52,-944.5 2711.52,-944.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.52,-942.4 2705.52,-944.5 2711.52,-946.6 2711.52,-942.4"/>
 </g>
 <!-- Productivity Software -->
-<g id="node189" class="node">
+<g id="node188" class="node">
 <title>Productivity Software</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-981.4 2560,-981.4 2560,-952.6 2704,-952.6 2704,-981.4"/>
-<text text-anchor="middle" x="2632" y="-962.73" font-family="Times,serif" font-size="12.00">Productivity Software</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-1002.4 2560,-1002.4 2560,-973.6 2704,-973.6 2704,-1002.4"/>
+<text text-anchor="middle" x="2632" y="-983.73" font-family="Times,serif" font-size="12.00">Productivity Software</text>
 </g>
 <!-- Personal Computer&#45;&gt;Productivity Software -->
 <g id="edge141" class="edge">
 <title>Personal Computer&#45;&gt;Productivity Software</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.43,-847.2C2754.45,-847.2 2812,-847.2 2812,-847.2 2812,-847.2 2812,-966.5 2812,-966.5 2812,-966.5 2711.57,-966.5 2711.57,-966.5"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.57,-964.4 2705.57,-966.5 2711.57,-968.6 2711.57,-964.4"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.32,-868.2C2742.28,-868.2 2781,-868.2 2781,-868.2 2781,-868.2 2781,-987.5 2781,-987.5 2781,-987.5 2711.45,-987.5 2711.45,-987.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.45,-985.4 2705.45,-987.5 2711.45,-989.6 2711.45,-985.4"/>
 </g>
 <!-- Personal Computer&#45;&gt;Smartphone -->
 <g id="edge164" class="edge">
 <title>Personal Computer&#45;&gt;Smartphone</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.28,-837.5C2775.59,-837.5 2874,-837.5 2874,-837.5 2874,-837.5 2874,-777.27 2874,-777.27 2874,-777.27 2912.49,-777.27 2912.49,-777.27"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.49,-779.37 2918.49,-777.27 2912.49,-775.17 2912.49,-779.37"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.16,-856.13C2785.93,-856.13 2908,-856.13 2908,-856.13 2908,-856.13 2908,-796.87 2908,-796.87 2908,-796.87 2912.54,-796.87 2912.54,-796.87"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.54,-798.97 2918.54,-796.87 2912.54,-794.77 2912.54,-798.97"/>
 </g>
 <!-- Social Network -->
-<g id="node209" class="node">
+<g id="node208" class="node">
 <title>Social Network</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-830.4 2920,-830.4 2920,-801.6 3064,-801.6 3064,-830.4"/>
-<text text-anchor="middle" x="2992" y="-811.73" font-family="Times,serif" font-size="12.00">Social Network</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-851.4 2920,-851.4 2920,-822.6 3064,-822.6 3064,-851.4"/>
+<text text-anchor="middle" x="2992" y="-832.73" font-family="Times,serif" font-size="12.00">Social Network</text>
 </g>
 <!-- Personal Computer&#45;&gt;Social Network -->
 <g id="edge173" class="edge">
 <title>Personal Computer&#45;&gt;Social Network</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2632,-823.14C2632,-819.65 2632,-816.93 2632,-816.93 2632,-816.93 2912.45,-816.93 2912.45,-816.93"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.45,-819.03 2918.45,-816.93 2912.45,-814.83 2912.45,-819.03"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.42,-860.87C2809.54,-860.87 2992,-860.87 2992,-860.87 2992,-860.87 2992,-858.84 2992,-858.84"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2994.1,-858.84 2992,-852.84 2989.9,-858.84 2994.1,-858.84"/>
 </g>
 <!-- Fully Reusable Rocket -->
-<g id="node221" class="node">
+<g id="node220" class="node">
 <title>Fully Reusable Rocket</title>
-<polygon fill="none" stroke="lightblue" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-1002.4 3280,-1002.4 3280,-973.6 3424,-973.6 3424,-1002.4"/>
-<text text-anchor="middle" x="3352" y="-983.73" font-family="Times,serif" font-size="12.00">Fully Reusable Rocket</text>
+<polygon fill="none" stroke="lightblue" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-1023.4 3280,-1023.4 3280,-994.6 3424,-994.6 3424,-1023.4"/>
+<text text-anchor="middle" x="3352" y="-1004.73" font-family="Times,serif" font-size="12.00">Fully Reusable Rocket</text>
 </g>
 <!-- Reusable Rocket&#45;&gt;Fully Reusable Rocket -->
 <g id="edge180" class="edge">
 <title>Reusable Rocket&#45;&gt;Fully Reusable Rocket</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M3064.42,-1078.8C3129.86,-1078.8 3216,-1078.8 3216,-1078.8 3216,-1078.8 3216,-992.8 3216,-992.8 3216,-992.8 3272.48,-992.8 3272.48,-992.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="3272.48,-994.9 3278.48,-992.8 3272.48,-990.7 3272.48,-994.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M3064.44,-1095C3133.16,-1095 3226,-1095 3226,-1095 3226,-1095 3226,-1013.8 3226,-1013.8 3226,-1013.8 3272.67,-1013.8 3272.67,-1013.8"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="3272.67,-1015.9 3278.67,-1013.8 3272.67,-1011.7 3272.67,-1015.9"/>
 </g>
 <!-- Search Engine -->
-<g id="node198" class="node">
+<g id="node197" class="node">
 <title>Search Engine</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-1153.4 2560,-1153.4 2560,-1124.6 2704,-1124.6 2704,-1153.4"/>
-<text text-anchor="middle" x="2632" y="-1134.72" font-family="Times,serif" font-size="12.00">Search Engine</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-1174.4 2560,-1174.4 2560,-1145.6 2704,-1145.6 2704,-1174.4"/>
+<text text-anchor="middle" x="2632" y="-1155.72" font-family="Times,serif" font-size="12.00">Search Engine</text>
 </g>
 <!-- Internet&#45;&gt;Search Engine -->
 <g id="edge165" class="edge">
 <title>Internet&#45;&gt;Search Engine</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.31,-884.76C2729.23,-884.76 2751,-884.76 2751,-884.76 2751,-884.76 2751,-1142.4 2751,-1142.4 2751,-1142.4 2711.44,-1142.4 2711.44,-1142.4"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.44,-1140.3 2705.44,-1142.4 2711.44,-1144.5 2711.44,-1140.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.49,-906.23C2725.55,-906.23 2743,-906.23 2743,-906.23 2743,-906.23 2743,-1163.4 2743,-1163.4 2743,-1163.4 2711.62,-1163.4 2711.62,-1163.4"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.62,-1161.3 2705.62,-1163.4 2711.62,-1165.5 2711.62,-1161.3"/>
 </g>
 <!-- World Wide Web -->
-<g id="node199" class="node">
+<g id="node198" class="node">
 <title>World Wide Web</title>
-<polygon fill="white" stroke="red" stroke-width="1.5" points="2704,-1110.4 2560,-1110.4 2560,-1081.6 2704,-1081.6 2704,-1110.4"/>
-<text text-anchor="middle" x="2632" y="-1091.72" font-family="Times,serif" font-size="12.00">World Wide Web</text>
+<polygon fill="white" stroke="red" stroke-width="1.5" points="2704,-1131.4 2560,-1131.4 2560,-1102.6 2704,-1102.6 2704,-1131.4"/>
+<text text-anchor="middle" x="2632" y="-1112.72" font-family="Times,serif" font-size="12.00">World Wide Web</text>
 </g>
 <!-- Internet&#45;&gt;World Wide Web -->
 <g id="edge153" class="edge">
 <title>Internet&#45;&gt;World Wide Web</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.38,-892.8C2721.55,-892.8 2735,-892.8 2735,-892.8 2735,-892.8 2735,-1095.5 2735,-1095.5 2735,-1095.5 2711.51,-1095.5 2711.51,-1095.5"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.51,-1093.4 2705.51,-1095.5 2711.51,-1097.6 2711.51,-1093.4"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.25,-913.8C2718.94,-913.8 2730,-913.8 2730,-913.8 2730,-913.8 2730,-1116.5 2730,-1116.5 2730,-1116.5 2711.39,-1116.5 2711.39,-1116.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.39,-1114.4 2705.39,-1116.5 2711.39,-1118.6 2711.39,-1114.4"/>
 </g>
 <!-- Wireless Internet -->
-<g id="node200" class="node">
+<g id="node199" class="node">
 <title>Wireless Internet</title>
-<polygon fill="white" stroke="black" stroke-width="1.5" points="2704,-766.4 2560,-766.4 2560,-737.6 2704,-737.6 2704,-766.4"/>
-<text text-anchor="middle" x="2632" y="-747.73" font-family="Times,serif" font-size="12.00">Wireless Internet</text>
+<polygon fill="white" stroke="black" stroke-width="1.5" points="2704,-787.4 2560,-787.4 2560,-758.6 2704,-758.6 2704,-787.4"/>
+<text text-anchor="middle" x="2632" y="-768.73" font-family="Times,serif" font-size="12.00">Wireless Internet</text>
 </g>
 <!-- Internet&#45;&gt;Wireless Internet -->
 <g id="edge152" class="edge">
 <title>Internet&#45;&gt;Wireless Internet</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.36,-876.24C2742.72,-876.24 2782,-876.24 2782,-876.24 2782,-876.24 2782,-763.8 2782,-763.8 2782,-763.8 2711.5,-763.8 2711.5,-763.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.5,-761.7 2705.5,-763.8 2711.5,-765.9 2711.5,-761.7"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.26,-896.77C2731.03,-896.77 2755,-896.77 2755,-896.77 2755,-896.77 2755,-784.8 2755,-784.8 2755,-784.8 2711.4,-784.8 2711.4,-784.8"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.4,-782.7 2705.4,-784.8 2711.4,-786.9 2711.4,-782.7"/>
 </g>
 <!-- Fast Prototyping -->
-<g id="node206" class="node">
+<g id="node205" class="node">
 <title>Fast Prototyping</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-1002.4 2920,-1002.4 2920,-973.6 3064,-973.6 3064,-1002.4"/>
-<text text-anchor="middle" x="2992" y="-983.73" font-family="Times,serif" font-size="12.00">Fast Prototyping</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-1023.4 2920,-1023.4 2920,-994.6 3064,-994.6 3064,-1023.4"/>
+<text text-anchor="middle" x="2992" y="-1004.73" font-family="Times,serif" font-size="12.00">Fast Prototyping</text>
 </g>
 <!-- Internet&#45;&gt;Fast Prototyping -->
 <g id="edge158" class="edge">
 <title>Internet&#45;&gt;Fast Prototyping</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.27,-881.92C2842.11,-881.92 3129,-881.92 3129,-881.92 3129,-881.92 3129,-983.2 3129,-983.2 3129,-983.2 3071.25,-983.2 3071.25,-983.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="3071.25,-981.1 3065.25,-983.2 3071.25,-985.3 3071.25,-981.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.5,-903.87C2839.98,-903.87 3118,-903.87 3118,-903.87 3118,-903.87 3118,-1004.2 3118,-1004.2 3118,-1004.2 3071.33,-1004.2 3071.33,-1004.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="3071.33,-1002.1 3065.33,-1004.2 3071.33,-1006.3 3071.33,-1002.1"/>
 </g>
 <!-- Livestreaming -->
-<g id="node207" class="node">
+<g id="node206" class="node">
 <title>Livestreaming</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-916.4 2920,-916.4 2920,-887.6 3064,-887.6 3064,-916.4"/>
-<text text-anchor="middle" x="2992" y="-897.73" font-family="Times,serif" font-size="12.00">Livestreaming</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-937.4 2920,-937.4 2920,-908.6 3064,-908.6 3064,-937.4"/>
+<text text-anchor="middle" x="2992" y="-918.73" font-family="Times,serif" font-size="12.00">Livestreaming</text>
 </g>
 <!-- Internet&#45;&gt;Livestreaming -->
 <g id="edge162" class="edge">
 <title>Internet&#45;&gt;Livestreaming</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.42,-890.2C2704.42,-890.2 2912.56,-890.2 2912.56,-890.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.56,-892.3 2918.56,-890.2 2912.56,-888.1 2912.56,-892.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.42,-911.2C2704.42,-911.2 2912.56,-911.2 2912.56,-911.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.56,-913.3 2918.56,-911.2 2912.56,-909.1 2912.56,-913.3"/>
 </g>
 <!-- Internet&#45;&gt;Social Network -->
 <g id="edge168" class="edge">
 <title>Internet&#45;&gt;Social Network</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.21,-879.08C2780.54,-879.08 2890,-879.08 2890,-879.08 2890,-879.08 2890,-820.27 2890,-820.27 2890,-820.27 2912.37,-820.27 2912.37,-820.27"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.37,-822.37 2918.37,-820.27 2912.37,-818.17 2912.37,-822.37"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.27,-901.5C2851.41,-901.5 3172,-901.5 3172,-901.5 3172,-901.5 3172,-837 3172,-837 3172,-837 3071.57,-837 3071.57,-837"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="3071.57,-834.9 3065.57,-837 3071.57,-839.1 3071.57,-834.9"/>
 </g>
 <!-- Neural Network -->
-<g id="node213" class="node">
+<g id="node212" class="node">
 <title>Neural Network</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-873.4 2920,-873.4 2920,-844.6 3064,-844.6 3064,-873.4"/>
-<text text-anchor="middle" x="2992" y="-854.73" font-family="Times,serif" font-size="12.00">Neural Network</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-894.4 2920,-894.4 2920,-865.6 3064,-865.6 3064,-894.4"/>
+<text text-anchor="middle" x="2992" y="-875.73" font-family="Times,serif" font-size="12.00">Neural Network</text>
 </g>
 <!-- Internet&#45;&gt;Neural Network -->
 <g id="edge174" class="edge">
 <title>Internet&#45;&gt;Neural Network</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2632,-866.14C2632,-862.65 2632,-859.93 2632,-859.93 2632,-859.93 2912.45,-859.93 2912.45,-859.93"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.45,-862.03 2918.45,-859.93 2912.45,-857.83 2912.45,-862.03"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.42,-899.13C2809.54,-899.13 2992,-899.13 2992,-899.13 2992,-899.13 2992,-898.69 2992,-898.69"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2994.1,-901.83 2992,-895.83 2989.9,-901.83 2994.1,-901.83"/>
 </g>
 <!-- Industrial Robots&#45;&gt;Fast Prototyping -->
 <g id="edge157" class="edge">
 <title>Industrial Robots&#45;&gt;Fast Prototyping</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.27,-1052.5C2713.61,-1052.5 2720,-1052.5 2720,-1052.5 2720,-1052.5 2720,-992.27 2720,-992.27 2720,-992.27 2912.69,-992.27 2912.69,-992.27"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.69,-994.37 2918.69,-992.27 2912.69,-990.17 2912.69,-994.37"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.46,-1073.5C2712.01,-1073.5 2717,-1073.5 2717,-1073.5 2717,-1073.5 2717,-1009.5 2717,-1009.5 2717,-1009.5 2912.61,-1009.5 2912.61,-1009.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.61,-1011.6 2918.61,-1009.5 2912.61,-1007.4 2912.61,-1011.6"/>
 </g>
 <!-- Neodymium Magnet&#45;&gt;Flying Drone -->
 <g id="edge171" class="edge">
 <title>Neodymium Magnet&#45;&gt;Flying Drone</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2559.64,-1225C2521.28,-1225 2482,-1225 2482,-1225 2482,-1225 2482,-947.6 2482,-947.6 2482,-947.6 2912.61,-947.6 2912.61,-947.6"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.61,-949.7 2918.61,-947.6 2912.61,-945.5 2912.61,-949.7"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.49,-1246C2747.23,-1246 2793,-1246 2793,-1246 2793,-1246 2793,-968.87 2793,-968.87 2793,-968.87 2912.46,-968.87 2912.46,-968.87"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.46,-970.97 2918.46,-968.87 2912.46,-966.77 2912.46,-970.97"/>
 </g>
 <!-- Wireless Internet&#45;&gt;Smartphone -->
 <g id="edge163" class="edge">
 <title>Wireless Internet&#45;&gt;Smartphone</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.42,-761.2C2704.42,-761.2 2912.56,-761.2 2912.56,-761.2"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.56,-763.3 2918.56,-761.2 2912.56,-759.1 2912.56,-763.3"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.42,-782.2C2704.42,-782.2 2912.56,-782.2 2912.56,-782.2"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.56,-784.3 2918.56,-782.2 2912.56,-780.1 2912.56,-784.3"/>
 </g>
 <!-- Cellular Network -->
-<g id="node201" class="node">
+<g id="node200" class="node">
 <title>Cellular Network</title>
-<polygon fill="white" stroke="purple" stroke-width="1.5" points="2704,-680.4 2560,-680.4 2560,-651.6 2704,-651.6 2704,-680.4"/>
-<text text-anchor="middle" x="2632" y="-661.73" font-family="Times,serif" font-size="12.00">Cellular Network</text>
+<polygon fill="white" stroke="purple" stroke-width="1.5" points="2704,-701.4 2560,-701.4 2560,-672.6 2704,-672.6 2704,-701.4"/>
+<text text-anchor="middle" x="2632" y="-682.73" font-family="Times,serif" font-size="12.00">Cellular Network</text>
 </g>
 <!-- Cellular Network&#45;&gt;Wireless Internet -->
 <g id="edge155" class="edge">
 <title>Cellular Network&#45;&gt;Wireless Internet</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.43,-678.45C2760.26,-678.45 2828,-678.45 2828,-678.45 2828,-678.45 2828,-751.5 2828,-751.5 2828,-751.5 2711.56,-751.5 2711.56,-751.5"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.56,-749.4 2705.56,-751.5 2711.56,-753.6 2711.56,-749.4"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.49,-699.45C2761.72,-699.45 2832,-699.45 2832,-699.45 2832,-699.45 2832,-772.5 2832,-772.5 2832,-772.5 2711.62,-772.5 2711.62,-772.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.62,-770.4 2705.62,-772.5 2711.62,-774.6 2711.62,-770.4"/>
 </g>
 <!-- Mobile Phone -->
-<g id="node202" class="node">
+<g id="node201" class="node">
 <title>Mobile Phone</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-809.4 2560,-809.4 2560,-780.6 2704,-780.6 2704,-809.4"/>
-<text text-anchor="middle" x="2632" y="-790.73" font-family="Times,serif" font-size="12.00">Mobile Phone</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-830.4 2560,-830.4 2560,-801.6 2704,-801.6 2704,-830.4"/>
+<text text-anchor="middle" x="2632" y="-811.73" font-family="Times,serif" font-size="12.00">Mobile Phone</text>
 </g>
 <!-- Cellular Network&#45;&gt;Mobile Phone -->
 <g id="edge154" class="edge">
 <title>Cellular Network&#45;&gt;Mobile Phone</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.32,-676.5C2765.4,-676.5 2843,-676.5 2843,-676.5 2843,-676.5 2843,-794.5 2843,-794.5 2843,-794.5 2711.45,-794.5 2711.45,-794.5"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.45,-792.4 2705.45,-794.5 2711.45,-796.6 2711.45,-792.4"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.37,-697.5C2765.78,-697.5 2844,-697.5 2844,-697.5 2844,-697.5 2844,-817.87 2844,-817.87 2844,-817.87 2711.5,-817.87 2711.5,-817.87"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2711.5,-815.77 2705.5,-817.87 2711.5,-819.97 2711.5,-815.77"/>
 </g>
 <!-- Mobile Phone&#45;&gt;Smartphone -->
 <g id="edge156" class="edge">
 <title>Mobile Phone&#45;&gt;Smartphone</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2632,-780.14C2632,-776.65 2632,-773.93 2632,-773.93 2632,-773.93 2912.45,-773.93 2912.45,-773.93"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.45,-776.03 2918.45,-773.93 2912.45,-771.83 2912.45,-776.03"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.42,-813.13C2809.54,-813.13 2992,-813.13 2992,-813.13 2992,-813.13 2992,-812.69 2992,-812.69"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2994.1,-815.83 2992,-809.83 2989.9,-815.83 2994.1,-815.83"/>
 </g>
 <!-- Solid State Drive -->
-<g id="node203" class="node">
+<g id="node202" class="node">
 <title>Solid State Drive</title>
-<polygon fill="white" stroke="purple" stroke-width="1.5" points="2704,-1196.4 2560,-1196.4 2560,-1167.6 2704,-1167.6 2704,-1196.4"/>
-<text text-anchor="middle" x="2632" y="-1177.72" font-family="Times,serif" font-size="12.00">Solid State Drive</text>
+<polygon fill="white" stroke="purple" stroke-width="1.5" points="2704,-1217.4 2560,-1217.4 2560,-1188.6 2704,-1188.6 2704,-1217.4"/>
+<text text-anchor="middle" x="2632" y="-1198.72" font-family="Times,serif" font-size="12.00">Solid State Drive</text>
 </g>
 <!-- Asymetric Encryption -->
-<g id="node204" class="node">
+<g id="node203" class="node">
 <title>Asymetric Encryption</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-723.4 2560,-723.4 2560,-694.6 2704,-694.6 2704,-723.4"/>
-<text text-anchor="middle" x="2632" y="-704.73" font-family="Times,serif" font-size="12.00">Asymetric Encryption</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="2704,-744.4 2560,-744.4 2560,-715.6 2704,-715.6 2704,-744.4"/>
+<text text-anchor="middle" x="2632" y="-725.73" font-family="Times,serif" font-size="12.00">Asymetric Encryption</text>
 </g>
 <!-- Blockchain -->
-<g id="node212" class="node">
+<g id="node211" class="node">
 <title>Blockchain</title>
-<polygon fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5,2" points="3064,-744.4 2920,-744.4 2920,-715.6 3064,-715.6 3064,-744.4"/>
-<text text-anchor="middle" x="2992" y="-725.73" font-family="Times,serif" font-size="12.00">Blockchain</text>
+<polygon fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5,2" points="3064,-765.4 2920,-765.4 2920,-736.6 3064,-736.6 3064,-765.4"/>
+<text text-anchor="middle" x="2992" y="-746.73" font-family="Times,serif" font-size="12.00">Blockchain</text>
 </g>
 <!-- Asymetric Encryption&#45;&gt;Blockchain -->
 <g id="edge172" class="edge">
 <title>Asymetric Encryption&#45;&gt;Blockchain</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2704.42,-719.5C2704.42,-719.5 2912.56,-719.5 2912.56,-719.5"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.56,-721.6 2918.56,-719.5 2912.56,-717.4 2912.56,-721.6"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2704.42,-740.5C2704.42,-740.5 2912.56,-740.5 2912.56,-740.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.56,-742.6 2918.56,-740.5 2912.56,-738.4 2912.56,-742.6"/>
 </g>
 <!-- Flying Taxi Drone -->
-<g id="node220" class="node">
+<g id="node219" class="node">
 <title>Flying Taxi Drone</title>
-<polygon fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-959.4 3280,-959.4 3280,-930.6 3424,-930.6 3424,-959.4"/>
-<text text-anchor="middle" x="3352" y="-940.73" font-family="Times,serif" font-size="12.00">Flying Taxi Drone</text>
+<polygon fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-980.4 3280,-980.4 3280,-951.6 3424,-951.6 3424,-980.4"/>
+<text text-anchor="middle" x="3352" y="-961.73" font-family="Times,serif" font-size="12.00">Flying Taxi Drone</text>
 </g>
 <!-- Flying Drone&#45;&gt;Flying Taxi Drone -->
 <g id="edge181" class="edge">
 <title>Flying Drone&#45;&gt;Flying Taxi Drone</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M3064.42,-949.8C3064.42,-949.8 3272.56,-949.8 3272.56,-949.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="3272.56,-951.9 3278.56,-949.8 3272.56,-947.7 3272.56,-951.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M3064.42,-966C3064.42,-966 3272.56,-966 3272.56,-966"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="3272.56,-968.1 3278.56,-966 3272.56,-963.9 3272.56,-968.1"/>
 </g>
 <!-- Large Language Model -->
-<g id="node214" class="node">
+<g id="node213" class="node">
 <title>Large Language Model</title>
-<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-1131.4 2920,-1131.4 2920,-1102.6 3064,-1102.6 3064,-1131.4"/>
-<text text-anchor="middle" x="2992" y="-1112.72" font-family="Times,serif" font-size="12.00">Large Language Model</text>
+<polygon fill="white" stroke="lightblue" stroke-width="1.5" points="3064,-1152.4 2920,-1152.4 2920,-1123.6 3064,-1123.6 3064,-1152.4"/>
+<text text-anchor="middle" x="2992" y="-1133.72" font-family="Times,serif" font-size="12.00">Large Language Model</text>
 </g>
 <!-- Neural Network&#45;&gt;Large Language Model -->
 <g id="edge175" class="edge">
 <title>Neural Network&#45;&gt;Large Language Model</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M2919.76,-863.27C2910.96,-863.27 2905,-863.27 2905,-863.27 2905,-863.27 2905,-1106.5 2905,-1106.5 2905,-1106.5 2912.62,-1106.5 2912.62,-1106.5"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.62,-1108.6 2918.62,-1106.5 2912.62,-1104.4 2912.62,-1108.6"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M2919.63,-880.5C2872.23,-880.5 2819,-880.5 2819,-880.5 2819,-880.5 2819,-1127.5 2819,-1127.5 2819,-1127.5 2912.5,-1127.5 2912.5,-1127.5"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="2912.5,-1129.6 2918.5,-1127.5 2912.5,-1125.4 2912.5,-1129.6"/>
 </g>
 <!-- Brain&#45;Computer Interface -->
-<g id="node217" class="node">
+<g id="node216" class="node">
 <title>Brain&#45;Computer Interface</title>
-<polygon fill="none" stroke="lightblue" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-916.4 3280,-916.4 3280,-887.6 3424,-887.6 3424,-916.4"/>
-<text text-anchor="middle" x="3352" y="-897.73" font-family="Times,serif" font-size="12.00">Brain&#45;Computer Interface</text>
+<polygon fill="none" stroke="lightblue" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-937.4 3280,-937.4 3280,-908.6 3424,-908.6 3424,-937.4"/>
+<text text-anchor="middle" x="3352" y="-918.73" font-family="Times,serif" font-size="12.00">Brain&#45;Computer Interface</text>
 </g>
 <!-- Neural Network&#45;&gt;Brain&#45;Computer Interface -->
 <g id="edge178" class="edge">
 <title>Neural Network&#45;&gt;Brain&#45;Computer Interface</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M3064.25,-863.8C3143.33,-863.8 3259,-863.8 3259,-863.8 3259,-863.8 3259,-902 3259,-902 3259,-902 3272.5,-902 3272.5,-902"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="3272.5,-904.1 3278.5,-902 3272.5,-899.9 3272.5,-904.1"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M3064.36,-884.8C3141.6,-884.8 3253,-884.8 3253,-884.8 3253,-884.8 3253,-923 3253,-923 3253,-923 3272.4,-923 3272.4,-923"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="3272.4,-925.1 3278.4,-923 3272.39,-920.9 3272.4,-925.1"/>
 </g>
 <!-- Self Driving Car -->
-<g id="node222" class="node">
+<g id="node221" class="node">
 <title>Self Driving Car</title>
-<polygon fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-787.4 3280,-787.4 3280,-758.6 3424,-758.6 3424,-787.4"/>
-<text text-anchor="middle" x="3352" y="-768.73" font-family="Times,serif" font-size="12.00">Self Driving Car</text>
+<polygon fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-808.4 3280,-808.4 3280,-779.6 3424,-779.6 3424,-808.4"/>
+<text text-anchor="middle" x="3352" y="-789.73" font-family="Times,serif" font-size="12.00">Self Driving Car</text>
 </g>
 <!-- Neural Network&#45;&gt;Self Driving Car -->
 <g id="edge182" class="edge">
 <title>Neural Network&#45;&gt;Self Driving Car</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M3064.18,-854.2C3136.45,-854.2 3237,-854.2 3237,-854.2 3237,-854.2 3237,-777.8 3237,-777.8 3237,-777.8 3272.69,-777.8 3272.69,-777.8"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="3272.69,-779.9 3278.69,-777.8 3272.69,-775.7 3272.69,-779.9"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M3064.47,-875.2C3104.01,-875.2 3145,-875.2 3145,-875.2 3145,-875.2 3145,-794 3145,-794 3145,-794 3272.47,-794 3272.47,-794"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="3272.47,-796.1 3278.47,-794 3272.47,-791.9 3272.47,-796.1"/>
 </g>
 <!-- AI Supremacy -->
-<g id="node223" class="node">
+<g id="node222" class="node">
 <title>AI Supremacy</title>
-<polygon fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-1045.4 3280,-1045.4 3280,-1016.6 3424,-1016.6 3424,-1045.4"/>
-<text text-anchor="middle" x="3352" y="-1026.72" font-family="Times,serif" font-size="12.00">AI Supremacy</text>
+<polygon fill="none" stroke="black" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-1066.4 3280,-1066.4 3280,-1037.6 3424,-1037.6 3424,-1066.4"/>
+<text text-anchor="middle" x="3352" y="-1047.72" font-family="Times,serif" font-size="12.00">AI Supremacy</text>
 </g>
 <!-- Large Language Model&#45;&gt;AI Supremacy -->
 <g id="edge179" class="edge">
 <title>Large Language Model&#45;&gt;AI Supremacy</title>
-<path fill="none" stroke="black" stroke-width="0.75" d="M3064.42,-1117C3169.54,-1117 3352,-1117 3352,-1117 3352,-1117 3352,-1052.72 3352,-1052.72"/>
-<polygon fill="black" stroke="black" stroke-width="0.75" points="3354.1,-1052.72 3352,-1046.72 3349.9,-1052.72 3354.1,-1052.72"/>
+<path fill="none" stroke="black" stroke-width="0.75" d="M3064.42,-1138C3169.54,-1138 3352,-1138 3352,-1138 3352,-1138 3352,-1073.72 3352,-1073.72"/>
+<polygon fill="black" stroke="black" stroke-width="0.75" points="3354.1,-1073.72 3352,-1067.72 3349.9,-1073.72 3354.1,-1073.72"/>
 </g>
 <!-- Domestic Humanoid Robot -->
-<g id="node218" class="node">
+<g id="node217" class="node">
 <title>Domestic Humanoid Robot</title>
-<polygon fill="none" stroke="lightblue" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-830.4 3280,-830.4 3280,-801.6 3424,-801.6 3424,-830.4"/>
-<text text-anchor="middle" x="3352" y="-811.73" font-family="Times,serif" font-size="12.00">Domestic Humanoid Robot</text>
+<polygon fill="none" stroke="lightblue" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-851.4 3280,-851.4 3280,-822.6 3424,-822.6 3424,-851.4"/>
+<text text-anchor="middle" x="3352" y="-832.73" font-family="Times,serif" font-size="12.00">Domestic Humanoid Robot</text>
 </g>
 <!-- Thermophotovoltaic Nuclear -->
-<g id="node219" class="node">
+<g id="node218" class="node">
 <title>Thermophotovoltaic Nuclear</title>
-<polygon fill="none" stroke="lightblue" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-873.4 3280,-873.4 3280,-844.6 3424,-844.6 3424,-873.4"/>
-<text text-anchor="middle" x="3352" y="-854.73" font-family="Times,serif" font-size="12.00">Thermophotovoltaic Nuclear</text>
+<polygon fill="none" stroke="lightblue" stroke-width="1.5" stroke-dasharray="5,2" points="3424,-894.4 3280,-894.4 3280,-865.6 3424,-865.6 3424,-894.4"/>
+<text text-anchor="middle" x="3352" y="-875.73" font-family="Times,serif" font-size="12.00">Thermophotovoltaic Nuclear</text>
 </g>
 </g>
 </svg>
