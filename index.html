@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG Explorer</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        #svg-container {
+            width: 80%;
+            height: 80%;
+            border: 1px solid #ccc;
+            overflow: hidden;
+            position: relative;
+            cursor: grab;
+        }
+        object {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="svg-container">
+        <object id="svg-object" type="image/svg+xml" data="tech_tree.svg"></object>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const svgObject = document.getElementById('svg-object');
+            const svgContainer = document.getElementById('svg-container');
+            let isPanning = false;
+            let startX, startY;
+            let startLeft, startTop;
+
+            svgObject.addEventListener('load', function() {
+                const svgDoc = svgObject.contentDocument;
+                const svgRoot = svgDoc.documentElement;
+
+                svgContainer.addEventListener('mousedown', (e) => {
+                    isPanning = true;
+                    startX = e.clientX;
+                    startY = e.clientY;
+                    startLeft = svgContainer.scrollLeft;
+                    startTop = svgContainer.scrollTop;
+                    svgContainer.style.cursor = 'grabbing';
+                });
+
+                svgContainer.addEventListener('mousemove', (e) => {
+                    if (!isPanning) return;
+                    const dx = startX - e.clientX;
+                    const dy = startY - e.clientY;
+                    svgContainer.scrollLeft = startLeft + dx;
+                    svgContainer.scrollTop = startTop + dy;
+                });
+
+                svgContainer.addEventListener('mouseup', () => {
+                    isPanning = false;
+                    svgContainer.style.cursor = 'grab';
+                });
+
+                svgContainer.addEventListener('mouseleave', () => {
+                    isPanning = false;
+                    svgContainer.style.cursor = 'grab';
+                });
+
+                svgContainer.addEventListener('wheel', (e) => {
+                    e.preventDefault();
+                    const scale = e.deltaY < 0 ? 1.1 : 0.9;
+                    const svg = svgRoot;
+                    const viewBox = svg.viewBox.baseVal;
+
+                    const mouseX = (e.clientX - svg.getBoundingClientRect().left) / svg.getBoundingClientRect().width * viewBox.width;
+                    const mouseY = (e.clientY - svg.getBoundingClientRect().top) / svg.getBoundingClientRect().height * viewBox.height;
+
+                    const newWidth = viewBox.width * scale;
+                    const newHeight = viewBox.height * scale;
+
+                    const newX = viewBox.x + (mouseX - mouseX * scale);
+                    const newY = viewBox.y + (mouseY - mouseY * scale);
+
+                    svg.setAttribute('viewBox', `${newX} ${newY} ${newWidth} ${newHeight}`);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
