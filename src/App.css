@@ -7,6 +7,19 @@
   pointer-events: none;
 }
 
+.svg-container {
+  width: 80%;
+  height: 80%;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  position: relative;
+  cursor: grab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
