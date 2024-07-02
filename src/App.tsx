@@ -19,7 +19,7 @@ const App: React.FC = () => {
     return (
         <>
         <h1>The Modernity Tech Tree: A comprehensive summary of innovation in the modern era</h1>
-        <h2>Source: I saw it in a dream</h2>
+        <h2>Source: I saw it in a dream!</h2>
         <div className='svg-container'>
         <TransformWrapper
           initialScale={1}
