@@ -1,15 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.cb0088a0.css",
-    "main.js": "/static/js/main.0bb3ef1e.js",
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.0c55c78f.js",
+    "static/css/733.a9d0e9ba.chunk.css": "/static/css/733.a9d0e9ba.chunk.css",
+    "static/js/733.a1bac946.chunk.js": "/static/js/733.a1bac946.chunk.js",
+    "static/css/316.ab0f1922.chunk.css": "/static/css/316.ab0f1922.chunk.css",
+    "static/js/316.7bcd88a8.chunk.js": "/static/js/316.7bcd88a8.chunk.js",
     "static/js/453.6d958810.chunk.js": "/static/js/453.6d958810.chunk.js",
+    "static/js/85.dc5b0985.chunk.js": "/static/js/85.dc5b0985.chunk.js",
+    "static/media/unnamed-horse.mp3": "/static/media/unnamed-horse.020a4b3b3a23057b0c11.mp3",
+    "static/media/lamento.mp3": "/static/media/lamento.ecf73d068257d27f32a5.mp3",
+    "static/media/the-crickets.mp3": "/static/media/the-crickets.d8be4f95cfc56d068a3f.mp3",
+    "static/media/eternal_sources.png": "/static/media/eternal_sources.5abbae5d5090104b553b.png",
+    "static/media/prologue_and_promise.jpeg": "/static/media/prologue_and_promise.0c1fa0f2a64ab18f2999.jpeg",
+    "static/media/new_emphase1.png": "/static/media/new_emphase1.5a5557163cc5ee3386f9.png",
+    "static/media/hermann-kahn.jpg": "/static/media/hermann-kahn.f0507dc09fe4461b4326.jpg",
+    "static/media/cultural_phases.png": "/static/media/cultural_phases.831d83b7707b7cfc31ec.png",
+    "static/media/new_emphase2.png": "/static/media/new_emphase2.66009551779d60662708.png",
+    "static/media/gdpcap.png": "/static/media/gdpcap.9b9a9d98103e884c6c57.png",
+    "static/media/great-transition.png": "/static/media/great-transition.78f8ea77a8199084ddba.png",
     "index.html": "/index.html",
-    "main.cb0088a0.css.map": "/static/css/main.cb0088a0.css.map",
-    "main.0bb3ef1e.js.map": "/static/js/main.0bb3ef1e.js.map",
-    "453.6d958810.chunk.js.map": "/static/js/453.6d958810.chunk.js.map"
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.0c55c78f.js.map": "/static/js/main.0c55c78f.js.map",
+    "733.a9d0e9ba.chunk.css.map": "/static/css/733.a9d0e9ba.chunk.css.map",
+    "733.a1bac946.chunk.js.map": "/static/js/733.a1bac946.chunk.js.map",
+    "316.ab0f1922.chunk.css.map": "/static/css/316.ab0f1922.chunk.css.map",
+    "316.7bcd88a8.chunk.js.map": "/static/js/316.7bcd88a8.chunk.js.map",
+    "453.6d958810.chunk.js.map": "/static/js/453.6d958810.chunk.js.map",
+    "85.dc5b0985.chunk.js.map": "/static/js/85.dc5b0985.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb0088a0.css",
-    "static/js/main.0bb3ef1e.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.0c55c78f.js"
   ]
 }
