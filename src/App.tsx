@@ -1,24 +1,24 @@
-import React from 'react';
-import { HelmetProvider } from 'react-helmet-async';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import React from "react";
+import { HelmetProvider } from "react-helmet-async";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-const TechTreePage = React.lazy(() => import('./TechTree/TechTree'));
+const TechTreePage = React.lazy(() => import("./TechTree/TechTree"));
 const PostIndustrialSocietyPage = React.lazy(
-  () => import('./PostIndustrialSociety/PostIndustrialSociety'),
+  () => import("./PostIndustrialSociety/PostIndustrialSociety")
 );
 
 const App: React.FC = () => {
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: "/",
       element: <PostIndustrialSocietyPage />,
     },
     {
-      path: '/techtree',
+      path: "/techtree",
       element: <TechTreePage />,
     },
     {
-      path: '/postindustrialsociety',
+      path: "/postindustrialsociety",
       element: <PostIndustrialSocietyPage />,
     },
   ]);

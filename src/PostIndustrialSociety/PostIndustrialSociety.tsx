@@ -30,6 +30,7 @@ const PostIndustrialSociety: React.FC = () => {
         />
         <meta name="author" content="Alexis Gros" />
         <meta name="dcterms.date" content="2024-08-26" />
+        <link rel="icon" href={hermannKahnImage} />
       </Helmet>
       <table className="header">
         <tr>
@@ -159,22 +160,21 @@ const PostIndustrialSociety: React.FC = () => {
         Hermann Kahn is one of those transient intellectual figures, whose ideas
         have already almost completely faded from public consciousness despite
         their influence and popularity at the time. A futurist and analyst with
-        a formation in physics, he was fist launched into public notoriety while
-        working for the RAND corporation with his book
-        <em>On Thermonuclear War (1960)</em> launching him into public notoriety
+        a formation in physics, he was first launched into public notoriety
+        while working for the RAND corporation with his book
+        <em>On Thermonuclear War (1960)</em>
         (which made him one of the inspirations for the eponymous character in
         Stanley Kubrick's Dr. Strangelove). He became and influential voice in
         policy and forecasting. But since his predictions were by and large
-        quite reasonable and accurate (boring?), he doesn not possess the kind
-        of cult following that could keep his ideas and legacy alive like Ayn
-        Rand or the Club of Rome. In addition, his books are not always written
-        in a very rigorous, scholarly manner. Add to that being the founder and
-        head of the Hudson Institute, a right leaning think tank, and it is easy
-        to see why his work is largely uninteresting to contemporary academia.
-        His ideas also reflected his generation's focus on progress and economic
-        growth that weren't particularily fashionable to what he defines as the
-        "New Class" of upper middle class intelligentia that had emerged in the
-        1960s.
+        quite reasonable and accurate (boring?), he does not possess the kind of
+        cult following that could keep his ideas and legacy alive like Ayn Rand
+        or the Club of Rome. In addition, his books are not always written in a
+        very rigorous, scholarly manner. Add to that being the founder and head
+        of the Hudson Institute, a right leaning think tank, and that his ideas
+        reflected his generation's focus on progress and economic growth, you
+        can see why they might not be particularly fashionable to what he
+        defines as the "New Class" of upper middle class intelligentia that have
+        emerged since the 1960s.
       </p>
 
       <p>
@@ -245,8 +245,8 @@ const PostIndustrialSociety: React.FC = () => {
         the far future, the great transition will probably be viewed as one
         continuous process, much like we view the agricultural revolution today.
         Yet the stages provide insights into the changing nature of the economy.
-        He even provide us with a rough range of the gdp per capita for each
-        stage to make the picture more concrete:
+        He even gives us a rough range of the gdp per capita for each stage to
+        make the picture more concrete:
       </p>
 
       <table>
@@ -417,21 +417,21 @@ const PostIndustrialSociety: React.FC = () => {
         economy, an increasing amount of peoples lives will be spent not just on
         services, but on non-transactional activities, such as leisure, hanging
         out with family and friends, cheap entertainment, aesthetic pursuits,
-        learning for leisure, etc. As the price of both services and commodities
-        fall, their consumption will not increase proportionally to their
-        abundance. A good example today is probably the internet. How much time
-        do people spend consuming essentially free content? Internet companies
-        are some of the biggest in the world, yet they arguably only capture a
-        small fraction of the value they create, much less so for example than a
-        railroad or a textile factory. Thus as the price of goods and services
-        decreases, the incentive to make more money to buy them weakens as the
-        things people actually want to buy are easier to obtain, and non-market
-        activities take more and more space in people's lives. Reduced incentive
-        for making more money would make most people, with the exception of the
-        most competitively driven, work less hard or less productively in the
-        economical sense. Thus altough the post-industrial society is
-        characterised by a high GDP per capita, it is also harder to relate this
-        figure to the average person's standard of living.
+        learning for its own sake, etc. As the price of both services and
+        commodities fall, their consumption will not increase proportionally to
+        their abundance. A good example today is probably the internet. How much
+        time do people spend consuming essentially free content? Internet
+        companies are some of the biggest in the world, yet they arguably only
+        capture a small fraction of the value they create, much less so for
+        example than a railroad or a textile factory. Thus as the price of goods
+        and services decreases, the incentive to make more money to buy them
+        weakens as the things people actually want to buy are easier to obtain,
+        and non-market activities take more and more space in people's lives.
+        Reduced incentive for making more money would make most people, with the
+        exception of the most competitively driven, work less hard or less
+        productively in the economical sense. Thus altough the post-industrial
+        society is characterised by a high GDP per capita, it is also harder to
+        relate this figure to the average person's standard of living.
       </p>
 
       <p>
@@ -513,7 +513,7 @@ const PostIndustrialSociety: React.FC = () => {
         poverty. One of the great source of political mobilisation they have is
         to look at the more developped countries for guidance. A similar concern
         is that the New Class might be too self serving in its own country,
-        prioritising its needs for safety and conservatism over needs of the
+        prioritising its needs for safety and conservatism over the needs of the
         still less affluent parts of society, slowing its transition toward a
         true post-industrial economy.
       </p>
@@ -532,17 +532,16 @@ const PostIndustrialSociety: React.FC = () => {
         time and the lack of pressure to work hard to gain a living could lead
         to an increase in discretionary behaviour, such as hedonistic behavior,
         drug abuse, crime, etc. He also points out that the New Class could fall
-        victim to what he calls learned disabilities, where people living their
-        entire lives inside a sheltered, engineered and comfortable reality, and
-        living in a service oriented world centered around abstractions and
-        personal relationships instead of materialistic struggles with nature
-        may create a generation of highly educated but impractical and
-        delusional people, who might be increasingly unable to maintain the
-        superindustrial society. He points out that if the rest of the
-        intellectual class were to put in practice the values expressed by the
-        "high art" of his days (what he calls 'late sensate' values), it will
-        become truly decadent and unable to cope with the challenges of the
-        superindustrial society.
+        victim to what he calls learned disabilities. People living their entire
+        lives inside a sheltered, engineered and comfortable reality, in a
+        service oriented world centered around abstractions and personal
+        relationships instead of materialistic struggles with nature may create
+        a generation of highly educated but impractical and delusional people,
+        who might be increasingly unable to maintain the superindustrial
+        society. He points out that if the rest of the intellectual class were
+        to put in practice the values expressed by the "high art" of his days
+        (what he calls 'late sensate' values), it will become truly decadent and
+        unable to cope with the challenges of the superindustrial society.
       </p>
 
       <p>
@@ -574,7 +573,7 @@ const PostIndustrialSociety: React.FC = () => {
         />
         <figcaption>
           Representation of the cultural phases according to various authors. We
-          is the late sensate phase.
+          are in the late sensate phase.
         </figcaption>
       </figure>
 
@@ -594,7 +593,7 @@ const PostIndustrialSociety: React.FC = () => {
 
       <p>
         The elephant in the room is the collapse of the eastern block and the
-        dissolution of the soviet union . He did consider the possibility of
+        dissolution of the Soviet Union. He did consider the possibility of
         extended economic stagnation or some political turmoil, and even the
         possibility of more autonomy for the eastern block countries, but these
         scenarios were definitely at the fringe of his thinking. However, who
@@ -605,10 +604,10 @@ const PostIndustrialSociety: React.FC = () => {
       </p>
       <p>
         However, taking one step back, it is striking that the dissolution of
-        the soviet union does not fundamentally challenge his vision of the
-        future. After all, the soviet union was a rather marginal and insular
-        part of the world economy. On the other fronts, it seems that his
-        picture of the early twenty first century wasn't that far off:
+        the Soviet Union does not fundamentally challenge his vision of the
+        future. After all, the USSR was a rather marginal and insular part of
+        the world economy. In many respects, his picture of the early twenty
+        first century wasn't that far off:
       </p>
 
       <table>
@@ -664,32 +663,33 @@ const PostIndustrialSociety: React.FC = () => {
       </figcaption>
 
       <p>
-        Notable is how close his estimate of worldwide population and world gdp
-        per capita was in both 1967 and 1979. However, the differences between
-        his world and our world is his forecast of much stronger growth of the
-        developped countries (especially in 1967), whereas in our world it is
-        the developing countries that have carried world growth. In particular,
-        initially he underestimates the growth of China , but then gives a
-        perfect estimate in 1979, reflecting a more optimistic attitude with the
-        change in direction imparted by Deng Xiaoping. While in 1967 he wildly
+        It is notable how accurate his estimate of worldwide population and
+        world gdp per capita was in both 1967 and 1979. However, the differences
+        between his world and our world is his forecast of much stronger growth
+        of the developped countries (especially in 1967), whereas in our world
+        it is the developing countries that have carried world growth.
+        Initially, he underestimated the growth of China, but then he gives a
+        stellar estimate in 1979, reflecting a more optimistic attitude with the
+        change in direction imparted by Deng Xiaoping. In 1967 he wildly
         overestimates the growth of Japan, France and the US (altough it is
         remarkable how close the US numbers were to his long term trend
-        projection). In 1967, he had not not yet developped his model of slowing
-        growth in the advanced economies, thus why his projection is too high. I
-        could not find his precise projections for the United-States, Japan and
-        France in 1979, but they would have probably been closer to the real
-        numbers.
+        projection). At the time he had not not yet developped his model of
+        slowing growth in the advanced economies, thus why his projection is too
+        high. I could not find his precise projections for the United-States,
+        Japan and France in 1979, but they would have probably been closer to
+        the real numbers, like with China.
       </p>
       <p>
         Japan's economic performance falls short of his projections. In the
         1976, he projected that Japan would surpass the United States in GDP per
-        capita around the 1990. However this was not to be. To the contrary,
-        Japan's economy entered a long period of stagnation in the 1990s, which
-        is in part due to the unforseen fertility problems mentionned below,
-        causing a decreasing workforce and increasing dependency ratio. On the
-        other hand, Taiwan, South Korea, Singapore and Hong Kong have done
-        pretty much as well as he predicted. He did believe strongly in the
-        potential of what he called the "Neo-Confuscian" societies.
+        capita around 1990. However this was not to be. To the contrary, Japan's
+        economy entered a long period of stagnation in the 1990s, which is in
+        part due to the unforseen fertility problems mentionned below, causing a
+        decreasing workforce and increasing dependency ratio. On the other hand,
+        Taiwan, South Korea, Singapore and Hong Kong have done pretty much as
+        well as he predicted. He did believe strongly in the ability of what he
+        called the "Neo-Confuscian" cultures to develop in some ways better than
+        the original industrial nations.
       </p>
 
       <p>
@@ -708,7 +708,7 @@ const PostIndustrialSociety: React.FC = () => {
         acid rains, waste or the ozone layer were seen by some as almost
         intractable problems, yet, as he predicted, we were able to aquedately
         mitigate them, and today we mostly enjoy the benefits of
-        industrialisation while enjoying clean air, water, and a better
+        industrialisation while also having clean air, water, and a better
         preserved countryside. For example, as he predicted, we were able to
         greatly reduce particle emissions from car thanks to catalytic
         converters and various improvements in engine design. In comparaison, at
@@ -728,8 +728,8 @@ const PostIndustrialSociety: React.FC = () => {
       <p>
         However, the challenges remain very real, with the sharp decline in
         biodiversity probably being the most worrying trend, and we do have to
-        limit global warming.We are still navigating the tortuous road to marry
-        machine and garden.
+        limit global warming. We are still navigating the tortuous road of the
+        marriage of machine and garden.
       </p>
 
       <h3>Energy reserves / energy consumption</h3>
@@ -740,16 +740,15 @@ const PostIndustrialSociety: React.FC = () => {
         substituted) or energy would be a serious constraint on growth. For him,
         the oil shocks were a temporary road bump caused by cartel economics. In
         fact, he believed that there was likely plenty of oil and gas to last
-        for the foreseeable future. In addition, as we enter the post-industrial
-        economy, additionnal growth would become less energy intensive, easing
-        the potential requirements on energy ressources. Interestingly, in{" "}
+        for the foreseeable future. As we enter the post-industrial economy,
+        additionnal growth would become less energy intensive, easing the
+        potential requirements on energy ressources. In
         <em>The Next 200 Years</em>, he was already anticipating the use of
         shale oil, as well as other unconventional sources such as synthetics
-        made from coal liquefaction. In particular, he estimated (citing
-        Brobst,D.A and Pratt, W. P., Eds., U.S geological survey) that from
-        shale oil alone, the United States could sustain 120 years of energy
-        consumption at current projections. Let's have a look at these
-        projections:
+        made from coal liquefaction. He estimated (citing Brobst,D.A and Pratt,
+        W. P., Eds., U.S geological survey) that from shale oil alone, the
+        United States could sustain 120 years of energy consumption at current
+        projections. Let's have a look at these projections:
       </p>
 
       <table>
@@ -810,13 +809,14 @@ const PostIndustrialSociety: React.FC = () => {
         <img
           src={eternalSourcesImage}
           alt="Kahn's World A"
-          style={{ maxWidth: "50%", height: "auto", display: "block" }}
+          style={{ maxWidth: "60%", height: "auto", display: "block" }}
         />
+        <figcaption>
+          A graph showing the projected competitiveness of various eternal
+          sources of energy. Impressive how spot on the photovoltaic estimate
+          is.
+        </figcaption>
       </figure>
-      <figcaption>
-        A graph showing the projected competitiveness of various eternal sources
-        of energy. Impressive how spot on the photovoltaic estimate is.
-      </figcaption>
       <p>
         It might be surprising that he had quite an ambivalent attitude
         regarding nuclear power. He was very sensitive to the possibility of
@@ -829,9 +829,9 @@ const PostIndustrialSociety: React.FC = () => {
         He projected a continuation of the reduction in working hours, with the
         US worker working around 1600 hours per year by the year 2000. We see in
         the graph below that in fact, this trend in reduced working hours has
-        been broadly followed, altough the US is somewhat an outlier, with the
-        amount of working hours per worker remaining more or less constant since
-        the 1970s.
+        been broadly followed, altough the US is somewhat of an outlier, with
+        the amount of working hours per worker remaining more or less constant
+        since the 1970s.
       </p>
       <iframe
         src="https://ourworldindata.org/grapher/annual-working-hours-per-worker?tab=chart"
@@ -849,13 +849,14 @@ const PostIndustrialSociety: React.FC = () => {
         close to the replacement rate (~2.1 children per woman). Indeed, in the
         70s, it might have seemed plausible, as the sharp declines in fertility
         of Japan, the US, the Soviet Union and western europe seemed to have
-        plataued around replacement level. After all, the developed nations were
-        just coming out of a "baby boom", so the decrease might be temporary.
-        Thus he did not forsee that aging and even declining populations would
-        be one of the biggest challenges of the twenty first century, and a
-        strong incentive for replacement migration. He would probably be
-        appalled by South Korea's genocide-level demographic collapse, and the
-        extremely low fertility of what he called the Neo-Confuscian societies.
+        plateaued around replacement level. After all, the developed nations
+        were just coming out of a "baby boom", so the decrease might be
+        temporary. Thus he did not forsee that aging and even declining
+        populations would be one of the biggest challenges of the twenty first
+        century, and a strong incentive for replacement migration. He would
+        probably be appalled by South Korea's genocide-level demographic
+        collapse, and the extremely low fertility of the Neo-Confuscian
+        societies.
       </p>
       <p>
         In term of immigration, he did forsee the shortage of cheap labour in
@@ -1191,7 +1192,7 @@ const PostIndustrialSociety: React.FC = () => {
         the doom and gloom projections of his time, he predicted:
       </p>
       <ul>
-        <li>No major war</li>
+        <li>No major wars</li>
         <li>No ressource shortage, or food shortage</li>
         <li>A richer world for almost everyone</li>
         <li>The rise of Taiwan, South Korea, Singapore and Hong Kong</li>
@@ -1208,13 +1209,13 @@ const PostIndustrialSociety: React.FC = () => {
         less energy intensive our world ended up being. His analysis of the New
         Class and the challenges of the post-industrial society give a clear
         framing for challenges with which we are still grappling today. Looking
-        at the expected innovations for the year 2000 shows that he really had a
-        good grasp of technological trends.
+        at the expected innovations for the year 2000 shows that he had a really
+        good grasp of the real technological trends.
       </p>
       <p>
         Thus, Hermann Kahn was able to get a lot of things right, which is quite
         impressive, especially his 1967 predictions. It is unfortunate that he
-        did not live to see the rise of China, the collapse of the soviet union,
+        did not live to see the rise of China, the collapse of the Soviet Union,
         and the stagnation of Japan as these events he would probably have been
         fascinated by these events. We are still riding the great transition,
         shaping the post-industrial society. Which one will we chose to build?
@@ -1237,20 +1238,19 @@ const PostIndustrialSociety: React.FC = () => {
       </p>
 
       <p>
-        Indeed if space exploration were to take a serious turn, it might be
-        hard to speak of speak of limits to growth. As long as man explores
-        space, there seem to no need for proximate limits for the scale of the
-        human enterprise. Indeed the entire galaxy isn't out of reach, and who
-        knows wether we wouldn't find some ways to go even further.
+        If space exploration were to take a serious turn, it might be hard to
+        speak of limits to growth. As long as man explores space, there seem to
+        no need for proximate limits for the scale of the human enterprise.
+        Indeed the entire galaxy isn't out of reach.
       </p>
 
       <p>
         Thus, the super-industrial / post-industrial society need not be the end
         point of human development, but to the contrary, provide the staging
         ground, the opulent industrial base from which humanity can muster the
-        resources to launch itself into the stars. Indeed in the future, we
-        might look back and see in the post-industrial society not an end, but
-        the true beginning of our story.
+        resources to launch itself into the stars. In the future, we might look
+        back and see in the post-industrial society not an end, but the true
+        beginning of our story.
       </p>
       <footer
         style={{

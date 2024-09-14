@@ -113,6 +113,7 @@ hr:after {
   border-top: calc(var(--border-thickness) * 3) double var(--text-color);
   height: 0;
 }
+
 em {
   padding-left: 1ch;
   padding-right: 1ch;
@@ -159,9 +160,7 @@ table {
 th,
 td {
   border: var(--border-thickness) solid var(--text-color);
-  padding: calc((var(--line-height) / 2))
-    calc(1ch - var(--border-thickness) / 2)
-    calc((var(--line-height) / 2) - (var(--border-thickness)));
+  padding: calc((var(--line-height) / 2));
   line-height: var(--line-height);
   vertical-align: top;
   text-align: left;
