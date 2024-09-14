@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.0c55c78f.js",
+    "main.js": "/static/js/main.a429655d.js",
     "static/css/733.a9d0e9ba.chunk.css": "/static/css/733.a9d0e9ba.chunk.css",
     "static/js/733.a1bac946.chunk.js": "/static/js/733.a1bac946.chunk.js",
-    "static/css/316.ab0f1922.chunk.css": "/static/css/316.ab0f1922.chunk.css",
-    "static/js/316.7bcd88a8.chunk.js": "/static/js/316.7bcd88a8.chunk.js",
+    "static/css/316.ee1afa60.chunk.css": "/static/css/316.ee1afa60.chunk.css",
+    "static/js/316.d1dfd1ff.chunk.js": "/static/js/316.d1dfd1ff.chunk.js",
     "static/js/453.6d958810.chunk.js": "/static/js/453.6d958810.chunk.js",
     "static/js/85.dc5b0985.chunk.js": "/static/js/85.dc5b0985.chunk.js",
     "static/media/unnamed-horse.mp3": "/static/media/unnamed-horse.020a4b3b3a23057b0c11.mp3",
@@ -21,16 +21,16 @@
     "static/media/great-transition.png": "/static/media/great-transition.78f8ea77a8199084ddba.png",
     "index.html": "/index.html",
     "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.0c55c78f.js.map": "/static/js/main.0c55c78f.js.map",
+    "main.a429655d.js.map": "/static/js/main.a429655d.js.map",
     "733.a9d0e9ba.chunk.css.map": "/static/css/733.a9d0e9ba.chunk.css.map",
     "733.a1bac946.chunk.js.map": "/static/js/733.a1bac946.chunk.js.map",
-    "316.ab0f1922.chunk.css.map": "/static/css/316.ab0f1922.chunk.css.map",
-    "316.7bcd88a8.chunk.js.map": "/static/js/316.7bcd88a8.chunk.js.map",
+    "316.ee1afa60.chunk.css.map": "/static/css/316.ee1afa60.chunk.css.map",
+    "316.d1dfd1ff.chunk.js.map": "/static/js/316.d1dfd1ff.chunk.js.map",
     "453.6d958810.chunk.js.map": "/static/js/453.6d958810.chunk.js.map",
     "85.dc5b0985.chunk.js.map": "/static/js/85.dc5b0985.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.0c55c78f.js"
+    "static/js/main.a429655d.js"
   ]
 }
