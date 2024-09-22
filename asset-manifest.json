@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.js": "/static/js/main.04fbbef8.js",
+    "main.js": "/static/js/main.8eaa9c47.js",
     "static/css/733.a9d0e9ba.chunk.css": "/static/css/733.a9d0e9ba.chunk.css",
     "static/js/733.a1bac946.chunk.js": "/static/js/733.a1bac946.chunk.js",
     "static/css/572.c1e7d841.chunk.css": "/static/css/572.c1e7d841.chunk.css",
     "static/js/572.37b293d3.chunk.js": "/static/js/572.37b293d3.chunk.js",
+    "static/css/928.e574ce14.chunk.css": "/static/css/928.e574ce14.chunk.css",
+    "static/js/928.efc060e4.chunk.js": "/static/js/928.efc060e4.chunk.js",
     "static/js/453.6d958810.chunk.js": "/static/js/453.6d958810.chunk.js",
     "static/js/85.dc5b0985.chunk.js": "/static/js/85.dc5b0985.chunk.js",
+    "static/js/702.5c191eed.chunk.js": "/static/js/702.5c191eed.chunk.js",
     "static/media/unnamed-horse.mp3": "/static/media/unnamed-horse.020a4b3b3a23057b0c11.mp3",
     "static/media/lamento.mp3": "/static/media/lamento.ecf73d068257d27f32a5.mp3",
     "static/media/the-crickets.mp3": "/static/media/the-crickets.d8be4f95cfc56d068a3f.mp3",
+    "static/media/6.png": "/static/media/6.0e95140f2a1e13d6a6db.png",
+    "static/media/2.png": "/static/media/2.5fafdc4a439271fd8f49.png",
+    "static/media/1.png": "/static/media/1.f491032c3f809d744ccd.png",
+    "static/media/5.png": "/static/media/5.0ffc2bc2f9ec07af450c.png",
+    "static/media/4.png": "/static/media/4.2518806d0aca6b54432c.png",
+    "static/media/3.png": "/static/media/3.3182475fde821768bdfc.png",
+    "static/media/7.png": "/static/media/7.e0193be3d17a764f7cf6.png",
     "static/media/eternal_sources.png": "/static/media/eternal_sources.5abbae5d5090104b553b.png",
     "static/media/prologue_and_promise_full.jpeg": "/static/media/prologue_and_promise_full.fd9a45b678268460c876.jpeg",
     "static/media/new_emphase1.png": "/static/media/new_emphase1.5a5557163cc5ee3386f9.png",
@@ -19,15 +29,18 @@
     "static/media/gdpcap.png": "/static/media/gdpcap.9b9a9d98103e884c6c57.png",
     "static/media/great-transition.png": "/static/media/great-transition.78f8ea77a8199084ddba.png",
     "index.html": "/index.html",
-    "main.04fbbef8.js.map": "/static/js/main.04fbbef8.js.map",
+    "main.8eaa9c47.js.map": "/static/js/main.8eaa9c47.js.map",
     "733.a9d0e9ba.chunk.css.map": "/static/css/733.a9d0e9ba.chunk.css.map",
     "733.a1bac946.chunk.js.map": "/static/js/733.a1bac946.chunk.js.map",
     "572.c1e7d841.chunk.css.map": "/static/css/572.c1e7d841.chunk.css.map",
     "572.37b293d3.chunk.js.map": "/static/js/572.37b293d3.chunk.js.map",
+    "928.e574ce14.chunk.css.map": "/static/css/928.e574ce14.chunk.css.map",
+    "928.efc060e4.chunk.js.map": "/static/js/928.efc060e4.chunk.js.map",
     "453.6d958810.chunk.js.map": "/static/js/453.6d958810.chunk.js.map",
-    "85.dc5b0985.chunk.js.map": "/static/js/85.dc5b0985.chunk.js.map"
+    "85.dc5b0985.chunk.js.map": "/static/js/85.dc5b0985.chunk.js.map",
+    "702.5c191eed.chunk.js.map": "/static/js/702.5c191eed.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.04fbbef8.js"
+    "static/js/main.8eaa9c47.js"
   ]
 }
