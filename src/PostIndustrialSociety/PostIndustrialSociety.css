@@ -152,7 +152,7 @@ sub {
 table {
   position: relative;
   top: calc(var(--line-height) / 2);
-  width: calc(round(down, 100%, 1ch));
+  width: calc((down, 100%, 1ch));
   border-collapse: collapse;
   margin: 0 0 calc(var(--line-height) * 2);
 }
@@ -160,7 +160,7 @@ table {
 th,
 td {
   border: var(--border-thickness) solid var(--text-color);
-  padding: calc((var(--line-height) / 2));
+  padding: calc(var(--line-height) / 2);
   line-height: var(--line-height);
   vertical-align: top;
   text-align: left;
@@ -348,7 +348,7 @@ input:focus {
 }
 
 input {
-  width: calc(round(down, 100%, 1ch));
+  width: calc((down, 100%, 1ch));
 }
 ::placeholder {
   color: var(--text-color-alt);
@@ -377,7 +377,7 @@ button:active {
 
 label {
   display: block;
-  width: calc(round(down, 100%, 1ch));
+  width: calc((down, 100%, 1ch));
   height: auto;
   line-height: var(--line-height);
   font-weight: var(--font-weight-medium);
@@ -431,7 +431,9 @@ label input {
   display: flex;
   gap: 1ch;
   width: calc(
-    round(down, 100%, (1ch * var(--grid-cells)) - (1ch * var(--grid-cells) - 1))
+    down,
+    100%,
+    (1ch * var(--grid-cells)) - (1ch * var(--grid-cells) - 1)
   );
   margin-bottom: var(--line-height);
 }
@@ -440,11 +442,7 @@ label input {
 .grid > input {
   flex: 0 0
     calc(
-      round(
-        down,
-        (100% - (1ch * (var(--grid-cells) - 1))) / var(--grid-cells),
-        1ch
-      )
+      (down, (100% - (1ch * (var(--grid-cells) - 1))) / var(--grid-cells), 1ch)
     );
 }
 .grid:has(> :last-child:nth-child(1)) {

@@ -6,6 +6,7 @@ const TechTreePage = React.lazy(() => import("./TechTree/TechTree"));
 const PostIndustrialSocietyPage = React.lazy(
   () => import("./PostIndustrialSociety/PostIndustrialSociety")
 );
+const BestagonPage = React.lazy(() => import("./Bestagon/Bestagon"));
 
 const App: React.FC = () => {
   const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const App: React.FC = () => {
     {
       path: "/postindustrialsociety",
       element: <PostIndustrialSocietyPage />,
+    },
+    {
+      path: "/bestagon",
+      element: <BestagonPage />,
     },
   ]);
   return (

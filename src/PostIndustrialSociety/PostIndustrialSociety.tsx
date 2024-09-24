@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet-async";
 import MusicPlayer from "./MusicPlayer";
 import gdpCapImage from "./images/gdpcap.png";
 import hermannKahnImage from "./images/hermann-kahn.jpg";
-import prologueAndThePromiseImage from "./images/prologue_and_promise.jpeg";
+import prologueAndThePromiseImage from "./images/prologue_and_promise_full.jpeg";
 import newEmphasesPart1Image from "./images/new_emphase1.png";
 import newEmphasesPart2Image from "./images/new_emphase2.png";
 import greatTransitionImage from "./images/great-transition.png";
@@ -164,7 +164,7 @@ const PostIndustrialSociety: React.FC = () => {
         while working for the RAND corporation with his book
         <em>On Thermonuclear War (1960)</em>
         (which made him one of the inspirations for the eponymous character in
-        Stanley Kubrick's Dr. Strangelove). He became and influential voice in
+        Stanley Kubrick's Dr. Strangelove). He became an influential voice in
         policy and forecasting. But since his predictions were by and large
         quite reasonable and accurate (boring?), he does not possess the kind of
         cult following that could keep his ideas and legacy alive like Ayn Rand
@@ -184,9 +184,9 @@ const PostIndustrialSociety: React.FC = () => {
         convinced that he offers us a fascinating window into the post-war
         mentality and attitude toward the future. Certainly his ideas are worth
         revisiting with the benefit of hindsight, since much of his work is
-        concerned with forecasting. It is important to note that much of his
-        forecasting books reflect not only his work but those of his colleagues
-        at the Hudson Institute as well.
+        concerned with forecasting. It is important to note that his forecasting
+        books reflect not only his work but those of his colleagues at the
+        Hudson Institute as well.
       </p>
 
       <p>
@@ -204,7 +204,7 @@ const PostIndustrialSociety: React.FC = () => {
         who expects justification and citation for every claim. Yet after
         comparing his predictions with what actually happenned, I think his
         books at the time would have provided the businessman and political
-        leader with a useful framework to approach the great trends of the
+        leader alike with a useful framework to approach the great trends of the
         future as it was actually going to unfold, despite some inevitable
         mistakes. As far as forcasting go, that's as good as it gets. For this
         reason alone it's worth trying to see how we fit in Hermann Kahn's
@@ -258,12 +258,12 @@ const PostIndustrialSociety: React.FC = () => {
         <tr>
           <th>Preindustrial</th>
           <td>Agriculture is the economy</td>
-          <td>{"~$300 -> ~$1300 per capita"}</td>
+          <td>{"~$300 -> ~$1300"}</td>
         </tr>
         <tr>
           <th>Partially industrialized or transitional</th>
           <td>Agriculture declines as a share of GDP, industry grows</td>
-          <td>{"~$1300 -> ~$4000 per capita"}</td>
+          <td>{"~$1300 -> ~$4000"}</td>
         </tr>
         <tr>
           <th>Industrial</th>
@@ -271,7 +271,7 @@ const PostIndustrialSociety: React.FC = () => {
             Growth of both industry and services (including transportation),
             agriculture is a small share of GDP
           </td>
-          <td>{"~$4000 -> ~$10000 per capita"}</td>
+          <td>{"~$4000 -> ~$10000"}</td>
         </tr>
         <tr>
           <th>Mass consumption or advanced industrial</th>
@@ -279,16 +279,16 @@ const PostIndustrialSociety: React.FC = () => {
             Industry starts declining as a share of GDP, while services continue
             to grow
           </td>
-          <td>{"~$10000 -> ~$27000 per capita"}</td>
+          <td>{"~$10000 -> ~$27000"}</td>
         </tr>
         <tr>
           <th>Postindustrial</th>
           <td>
-            Both industry and agriculture are a small share of GDP, and even
-            most classical services decline, as most industrial and commercial
-            tasks get gradually automated
+            Both industry and agriculture become an ever smaller share of GDP,
+            and even most classical services decline, as most industrial and
+            commercial tasks get gradually automated
           </td>
-          <td>{"~$27000 -> ~$130000 per capita"}</td>
+          <td>{"~$27000 -> ~$130000"}</td>
         </tr>
       </table>
 
@@ -344,16 +344,18 @@ const PostIndustrialSociety: React.FC = () => {
 
       <figure
         style={{
-          float: "right",
-          margin: "0",
+          margin: "2em -50%",
+          width: "200%",
+          maxWidth: "200%",
           padding: "1em",
           paddingBottom: "2em",
+          boxSizing: "border-box",
         }}
       >
         <img
           src={prologueAndThePromiseImage}
           alt="The Prologue And the Promise"
-          style={{ maxWidth: "100%", height: "auto", display: "block" }}
+          style={{ width: "100%", height: "auto", display: "block" }}
         />
         <figcaption>The Prologue And the Promise, Robert McCall. </figcaption>
       </figure>
@@ -584,7 +586,7 @@ const PostIndustrialSociety: React.FC = () => {
         did anticipate that american society would take a more conservative turn
         in the 1980s in part as a correction to the 1960s and 1970s. Certainly,
         his description of the post-industrial society and the New Class do seem
-        to resonate in many ways with the today's world.
+        to resonate in many ways with today's world.
       </p>
 
       <h2 id="his-projections-for-our-world">
@@ -606,8 +608,8 @@ const PostIndustrialSociety: React.FC = () => {
         However, taking one step back, it is striking that the dissolution of
         the Soviet Union does not fundamentally challenge his vision of the
         future. After all, the USSR was a rather marginal and insular part of
-        the world economy. In many respects, his picture of the early twenty
-        first century wasn't that far off:
+        the world economy. In many respects, his picture of the year 2000 first
+        century wasn't that far off:
       </p>
 
       <table>
@@ -615,7 +617,7 @@ const PostIndustrialSociety: React.FC = () => {
           <th>Zone</th>
           <th>The year 2000 (1967)</th>
           <th>World Economic Development, 1979 And Beyond (1979)</th>
-          <th>Actual</th>
+          <th>Actual year 2000</th>
         </tr>
         <tr>
           <th>World</th>
@@ -658,26 +660,27 @@ const PostIndustrialSociety: React.FC = () => {
         </tr>
       </table>
       <figcaption>
-        The estimates used are from the "most probable" or "World A" scenario.
-        Dollar values converted to 2011 dollars.
+        Various estimates for the year 2000, taken from his books and compared
+        to the actual values. The estimates used are from the "most probable" or
+        "World A" scenario. Dollar values converted to 2011 dollars.
       </figcaption>
 
       <p>
         It is notable how accurate his estimate of worldwide population and
-        world gdp per capita was in both 1967 and 1979. However, the differences
-        between his world and our world is his forecast of much stronger growth
-        of the developped countries (especially in 1967), whereas in our world
-        it is the developing countries that have carried world growth.
-        Initially, he underestimated the growth of China, but then he gives a
-        stellar estimate in 1979, reflecting a more optimistic attitude with the
-        change in direction imparted by Deng Xiaoping. In 1967 he wildly
-        overestimates the growth of Japan, France and the US (altough it is
-        remarkable how close the US numbers were to his long term trend
-        projection). At the time he had not not yet developped his model of
-        slowing growth in the advanced economies, thus why his projection is too
-        high. I could not find his precise projections for the United-States,
-        Japan and France in 1979, but they would have probably been closer to
-        the real numbers, like with China.
+        world gdp per capita for the year 2000 was in both 1967 and 1979.
+        However, the differences between his world and our world is his forecast
+        of much stronger growth of the developped countries (especially in
+        1967), whereas in our world it is the developing countries that have
+        carried world growth. Initially, he underestimated the growth of China,
+        but then he gives a stellar estimate in 1979, reflecting a more
+        optimistic attitude with the change in direction imparted by Deng
+        Xiaoping. In 1967 he wildly overestimates the growth of Japan, France
+        and the US (altough it is remarkable how close the US numbers were to
+        his long term trend projection). At the time he had not not yet
+        developped his model of slowing growth in the advanced economies, thus
+        why his projection is too high. I could not find his precise projections
+        for the United-States, Japan and France in 1979, but they would have
+        probably been closer to the real numbers, like with China.
       </p>
       <p>
         Japan's economic performance falls short of his projections. In the
@@ -710,11 +713,11 @@ const PostIndustrialSociety: React.FC = () => {
         mitigate them, and today we mostly enjoy the benefits of
         industrialisation while also having clean air, water, and a better
         preserved countryside. For example, as he predicted, we were able to
-        greatly reduce particle emissions from car thanks to catalytic
+        greatly reduce particle emissions from cars thanks to catalytic
         converters and various improvements in engine design. In comparaison, at
         the time, the potential for CO2 induced global warming was seen as a
         secondary threat. I think where he alive today he would have a thing or
-        two to say about some of the more hysterical solutions that are pushed
+        two to say about some of the more destructive solutions that are pushed
         to deal with global warming, especially the pressure put on developing
         countries to sacrifice their growth in order to emit less CO2.
       </p>
@@ -726,13 +729,13 @@ const PostIndustrialSociety: React.FC = () => {
         allow="web-share; clipboard-write"
       />
       <p>
-        However, the challenges remain very real, with the sharp decline in
+        However, the challenges remains very real, with the sharp decline in
         biodiversity probably being the most worrying trend, and we do have to
         limit global warming. We are still navigating the tortuous road of the
         marriage of machine and garden.
       </p>
 
-      <h3>Energy reserves / energy consumption</h3>
+      <h3>Ressources and energy</h3>
       <p>
         Writing around the time of the oil shocks, he did not believe that
         either minerals (he covers extensively in <em>The Next 200 Years</em>
@@ -789,7 +792,7 @@ const PostIndustrialSociety: React.FC = () => {
         We can see that he forecasted a much more energy intensive world than
         whe have had. His first projection, for 1985 is quite accurate, probably
         tempered by him taking the oil shock into account. However, after that
-        he forecast a very aggressive growth in energy consumption, which we
+        he forecasted a very aggressive growth in energy consumption, which we
         just didn't see. In that way, he is quite typical of his time, since for
         the rest of the industrial revolution, strong economic growth was always
         associated with strong growth in energy consumption. This might explain
@@ -856,15 +859,7 @@ const PostIndustrialSociety: React.FC = () => {
         century, and a strong incentive for replacement migration. He would
         probably be appalled by South Korea's genocide-level demographic
         collapse, and the extremely low fertility of the Neo-Confuscian
-        societies.
-      </p>
-      <p>
-        In term of immigration, he did forsee the shortage of cheap labour in
-        the more affluent countries. As he anticipated, this need was filled
-        through extensive guest worker programs and delocalisation. However, he
-        did not anticipate the large scale, long term and immobile nature of the
-        migration flows that we are seeing today, especially in Europe, in part
-        encouraged by low fertility.
+        societies in general.
       </p>
       <iframe
         src="https://ourworldindata.org/grapher/children-per-woman-un?tab=chart&time=1950..latest&country=OWID_WRL~JPN~KOR~USA~Europe+%28UN%29"
@@ -873,6 +868,15 @@ const PostIndustrialSociety: React.FC = () => {
         style={{ width: "100%", height: "600px", border: "0px none" }}
         allow="web-share; clipboard-write"
       />
+
+      <p>
+        In term of immigration, he did forsee the shortage of cheap labour in
+        the more affluent countries. As he anticipated, this need was filled
+        through extensive guest worker programs and delocalisation. However, he
+        did not anticipate the large scale, long term and immobile nature of the
+        migration flows that we are seeing today, especially in Europe, in part
+        encouraged by low fertility.
+      </p>
 
       <h3>A long list of innovations for the year 2000</h3>
 
@@ -1020,6 +1024,8 @@ const PostIndustrialSociety: React.FC = () => {
             stimulation of the brain
           </li>
           <li>General use of automation in management and production</li>
+          <li>Human hibernation for short periods for medical purposes</li>
+          <li>Automated housekeeping and home maintenance</li>
           <li>
             Cheap and widely available central war weapons and weapon systems
           </li>
@@ -1073,10 +1079,8 @@ const PostIndustrialSociety: React.FC = () => {
           </li>
           <li>Relatively effective appetite and weight control</li>
           <li>Postponement of aging, and limited rejuvenation</li>
-          <li>Human hibernation for short periods for medical purposes</li>
           <li>Controlled and supereffective relaxation and sleep</li>
           <li>New or improved use of the ocean (extraction of minerals)</li>
-          <li>Automated housekeeping and home maintenance</li>
           <li>Widespread use of nuclear reactors for power</li>
           <li>
             Use of nuclear explosives for excavation, mining, source of neutrons
@@ -1224,11 +1228,11 @@ const PostIndustrialSociety: React.FC = () => {
       <h2 id="post-conclusion">Post-Conclusion: What about Space?</h2>
 
       <p>
-        In this age of abundance and leisure, Herman Kahn talk of those whose
+        In this age of abundance and leisure, Herman Kahn talks of those whose
         appetite for adventure and exploration is not satiated by the safety and
-        relative stagnation of the post-industrial society. Enterprizing people
+        relative stagnation of the post-industrial society. Enterprising people
         who actively seek out challenge and difficult situations. He speculates
-        that for them the post-industrial society might be a dull and
+        that for them the post-industrial society would be a dull and
         unfulfilling existence, no matter how pleasant it might be. Space
         exploration might become the outlet for these kind of individuals. He
         does believe in the commercial potential of space, however he thinks
@@ -1238,10 +1242,10 @@ const PostIndustrialSociety: React.FC = () => {
       </p>
 
       <p>
-        If space exploration were to take a serious turn, it might be hard to
-        speak of limits to growth. As long as man explores space, there seem to
-        no need for proximate limits for the scale of the human enterprise.
-        Indeed the entire galaxy isn't out of reach.
+        If space exploration were to take a serious turn, it is hard to speak of
+        limits to growth. As long as man explores space, there seem to be no
+        need for proximate limits for the scale of the human enterprise. Indeed
+        the entire galaxy isn't out of reach.
       </p>
 
       <p>
