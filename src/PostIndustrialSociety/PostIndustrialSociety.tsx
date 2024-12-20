@@ -114,22 +114,20 @@ const PostIndustrialSociety: React.FC = () => {
       </figure>
 
       <p>
-        Hermann Kahn is one of those transient intellectual figures, whose ideas
-        have already almost completely faded from public consciousness despite
-        their influence and popularity at the time. A futurist and analyst with
-        a formation in physics, he was first launched into public notoriety
-        while working for the RAND corporation with his book
+        Hermann Kahn was a futurist and analyst with a formation in physics. He
+        was launched into public notoriety while working for the RAND
+        corporation with his book
         <em>On Thermonuclear War (1960)</em>
         (which made him one of the inspirations for the eponymous character in
         Stanley Kubrick's Dr. Strangelove). He became an influential voice in
-        policy and forecasting. But since his predictions were by and large
-        quite reasonable and accurate (boring?), he does not possess the kind of
-        cult following that could keep his ideas and legacy alive like Ayn Rand
-        or the Club of Rome. In addition, his books are not always written in a
-        very rigorous, scholarly manner. Add to that being the founder and head
-        of the Hudson Institute, a right leaning think tank, and that his ideas
-        reflected his generation's focus on progress and economic growth, you
-        can see why they might not be particularly fashionable to what he
+        policy and forecasting. He does not possess the kind of cult following
+        that could keep his ideas and legacy alive like Ayn Rand or the Club of
+        Rome, prehaps because his predictions were by and large quite reasonable
+        and accurate (boring?), . In addition, his books are not always written
+        in a very rigorous, scholarly manner. Add to that being the founder and
+        head of the Hudson Institute, a right leaning think tank, and that his
+        ideas reflected his generation's focus on progress and economic growth,
+        you can see why they might not be particularly fashionable to what he
         defines as the "New Class" of upper middle class intelligentia that have
         emerged since the 1960s.
       </p>
@@ -159,6 +157,10 @@ const PostIndustrialSociety: React.FC = () => {
         with useful broad abstractions. People such as Lee Kwan Yew, Richard
         Feynman and Henry Kissinger.
       </p>
+
+      <hr />
+
+      <br />
 
       <h2 id="the-great-transition">The Great Transition</h2>
       <figure
@@ -241,11 +243,11 @@ const PostIndustrialSociety: React.FC = () => {
       <p>
         He delineates the usual caveats about equating gdp per capita with
         standard of living, for example pointing out that altough the Soviet
-        Union, and especially the russian republic might get close to the mass
-        consumption stage, lower level of consumption caused by high level of
-        investments in capital goods and the military lowers the effective
-        standard of living of soviet citizens. Yet he believes that these range
-        are still helpful to get a picture of the general trend.
+        Union might get close to the mass consumption stage, lower level of
+        consumption caused by high level of investments in capital goods and the
+        military lowers the effective standard of living of soviet citizens. Yet
+        he believes that these range are still helpful to get a picture of the
+        general trend.
       </p>
       <p>
         How do we actually measure up with respect to his development stages?
@@ -282,6 +284,10 @@ const PostIndustrialSociety: React.FC = () => {
         would be the characteristics of our post-industrial societies?
       </p>
 
+      <hr />
+
+      <br />
+
       <h2 id="the-post-industrial-society">The Post-Industrial society</h2>
 
       <figure
@@ -303,9 +309,9 @@ const PostIndustrialSociety: React.FC = () => {
       </figure>
 
       <p>
-        As we saw in the table above, the post-industrial society is
-        characterised by a predominance of services over Industrial or
-        Agricultural activities. Services such as:
+        As seen in the table above, the post-industrial society is characterised
+        by a predominance of services over Industrial or Agricultural
+        activities. Services such as:
       </p>
 
       <ul>
@@ -405,6 +411,10 @@ const PostIndustrialSociety: React.FC = () => {
         through regulations, increasing size of inefficient government
         bureaucracies, and a diminished desire to attain enormous wealth.
       </p>
+
+      <hr />
+
+      <br />
 
       <h2 id="the-new-class">The New Class</h2>
 
@@ -530,6 +540,10 @@ const PostIndustrialSociety: React.FC = () => {
         his description of the post-industrial society and the New Class do seem
         to resonate in many ways with today's world.
       </p>
+
+      <hr />
+
+      <br />
 
       <h2 id="his-projections-for-our-world">
         Hit or miss? His projections for our world
@@ -1131,6 +1145,10 @@ const PostIndustrialSociety: React.FC = () => {
         mining. Well, for the moon base I think it's more on us than on him.
       </p>
 
+      <hr />
+
+      <br />
+
       <h2 id="conclusion">Conclusion</h2>
 
       <p>
@@ -1166,6 +1184,10 @@ const PostIndustrialSociety: React.FC = () => {
         fascinated by these events. We are still riding the great transition,
         shaping the post-industrial society. Which one will we chose to build?
       </p>
+
+      <hr />
+
+      <br />
 
       <h2 id="post-conclusion">Post-Conclusion: What about Space?</h2>
 
