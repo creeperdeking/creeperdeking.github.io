@@ -1,8 +1,7 @@
 import React from "react";
-import "./reset.css";
-import "./PostIndustrialSociety.css";
-import { Helmet } from "react-helmet-async";
-import MusicPlayer from "./MusicPlayer";
+import "../components/reset.css";
+import "../components/reportstyle.css";
+import MusicPlayer from "../components/MusicPlayer";
 import gdpCapImage from "./images/gdpcap.png";
 import hermannKahnImage from "./images/hermann-kahn.jpg";
 import prologueAndThePromiseImage from "./images/prologue_and_promise_full.jpeg";
@@ -14,66 +13,24 @@ import eternalSourcesImage from "./images/eternal_sources.png";
 import unnamedHorseMusic from "./mousic/unnamed-horse.mp3";
 import theCricketsMusic from "./mousic/the-crickets.mp3";
 import lamentMusic from "./mousic/lamento.mp3";
+import { ArticleHeader } from "../components/ArticleHeader";
 
 const PostIndustrialSociety: React.FC = () => {
   return (
     <>
-      <Helmet>
-        <title>Report on the Post-Industrial society</title>
-        <meta
-          name="description"
-          content="Our life inside Hermann Kahn's World A"
-        />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, user-scalable=yes"
-        />
-        <meta name="author" content="Alexis Gros" />
-        <meta name="dcterms.date" content="2024-08-26" />
-        <link rel="icon" href={hermannKahnImage} />
-      </Helmet>
-      <table className="header">
-        <tr>
-          <td colSpan={2} rowSpan={2} className="width-auto">
-            <h1 className="title">Report on the Post-Industrial society</h1>
-            <span className="subtitle">
-              Our life inside Hermann Kahn's World A
-            </span>
-          </td>
-          <th>Version</th>
-          <td className="width-min">v1.0</td>
-        </tr>
-        <tr>
-          <th>Updated</th>
-          <td className="width-min">
-            <time style={{ whiteSpace: "pre" }}>2024-09-14</time>
-          </td>
-        </tr>
-
-        <tr>
-          <th className="width-min">Author</th>
-          <td className="width-auto">
-            <a href="https://alexisgros.fr">
-              <cite>Alexis Gros</cite>
-            </a>{" "}
-            alexis.gros99@gmail.com
-          </td>
-          <th className="width-min">License</th>
-          <td>
-            <a
-              href="https://creativecommons.org/licenses/by/4.0/"
-              target="_blank"
-              rel="license noopener noreferrer"
-            >
-              <img
-                alt="Creative Commons Attribution 4.0 International License"
-                style={{ borderWidth: 0, verticalAlign: "middle" }}
-                src="https://i.creativecommons.org/l/by/4.0/88x31.png"
-              />
-            </a>
-          </td>
-        </tr>
-      </table>
+      <ArticleHeader
+        title="Report on the Post-Industrial society"
+        subtitle="Our life inside Hermann Kahn's World A"
+        image={hermannKahnImage}
+        author={{
+          name: "Alexis Gros",
+          email: "alexis.gros99@gmail.com",
+          website: "https://alexisgros.fr",
+        }}
+        creationDate="2024-09-14"
+        updatedDate="2024-09-22"
+        version="1.1"
+      />
 
       <nav
         id="TOC"
@@ -186,29 +143,14 @@ const PostIndustrialSociety: React.FC = () => {
         revisiting with the benefit of hindsight, since much of his work is
         concerned with forecasting. It is important to note that his forecasting
         books reflect not only his work but those of his colleagues at the
-        Hudson Institute as well.
-      </p>
-
-      <p>
-        When reading his books, I was struck by the practicality of his
-        thinking. He is clearly interested in painting a probable picture of the
-        world (what he calls the 'surprise-free' approach). He is ready to use
-        whatever intellectual fields he deems necessary to do so, while being
-        keenly aware of the difficulty of attempting to forecast the medium
-        term, or even worse, the long term. Yet he is also aware of the
-        necessity of having some picture of the future to look ahead and plan
-        for it, and to that goal he seeems to do his best with what he has. He
-        is not afraid to use simple extrapolation where theoretical
-        understanding is sparse. Being a 'big picture' thinker, reading his
-        books would undoubtely be an unpleasant experience for the specialist
-        who expects justification and citation for every claim. Yet after
-        comparing his predictions with what actually happenned, I think his
-        books at the time would have provided the businessman and political
-        leader alike with a useful framework to approach the great trends of the
-        future as it was actually going to unfold, despite some inevitable
-        mistakes. As far as forcasting go, that's as good as it gets. For this
-        reason alone it's worth trying to see how we fit in Hermann Kahn's
-        future. Because in many ways we are living in his "World A".
+        Hudson Institute as well. After comparing his predictions with what
+        actually happenned, I think his books at the time would have provided
+        the businessman and political leader alike with a useful framework to
+        approach the great trends of the future as it was actually going to
+        unfold, despite some inevitable mistakes. As far as forcasting go,
+        that's as good as it gets. For this reason alone it's worth trying to
+        see how we fit in Hermann Kahn's future. Because in many ways we are
+        living in his "World A".
       </p>
 
       <p>

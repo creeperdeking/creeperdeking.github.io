@@ -1,8 +1,7 @@
 import React from "react";
-import { Helmet } from "react-helmet-async";
 import "react-gallery-carousel/dist/index.css";
 import Carousel from "react-gallery-carousel";
-import "./PostIndustrialSociety.css";
+import { ArticleHeader } from "../components/ArticleHeader";
 import image1 from "./images/1.png";
 import image2 from "./images/2.png";
 import image3 from "./images/3.png";
@@ -14,57 +13,19 @@ import image7 from "./images/7.png";
 const Bestagon: React.FC = () => {
   return (
     <>
-      <Helmet>
-        <title>Bestagon</title>
-        <meta name="description" content="Bestagon" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, user-scalable=yes"
-        />
-        <meta name="author" content="Alexis Gros" />
-        <meta name="dcterms.date" content="2024-09-23" />
-        <link rel="icon" href={image1} />
-      </Helmet>
-      <table className="header">
-        <tr>
-          <td colSpan={2} rowSpan={2} className="width-auto">
-            <h1 className="title">Bestagon</h1>
-            <span className="subtitle">Combining density with greenery</span>
-          </td>
-          <th>Version</th>
-          <td className="width-min">v1.0</td>
-        </tr>
-        <tr>
-          <th>Updated</th>
-          <td className="width-min">
-            <time style={{ whiteSpace: "pre" }}>2024-09-23</time>
-          </td>
-        </tr>
-
-        <tr>
-          <th className="width-min">Author</th>
-          <td className="width-auto">
-            <a href="https://alexisgros.fr">
-              <cite>Alexis Gros</cite>
-            </a>{" "}
-            alexis.gros99@gmail.com
-          </td>
-          <th className="width-min">License</th>
-          <td>
-            <a
-              href="https://creativecommons.org/licenses/by/4.0/"
-              target="_blank"
-              rel="license noopener noreferrer"
-            >
-              <img
-                alt="Creative Commons Attribution 4.0 International License"
-                style={{ borderWidth: 0, verticalAlign: "middle" }}
-                src="https://i.creativecommons.org/l/by/4.0/88x31.png"
-              />
-            </a>
-          </td>
-        </tr>
-      </table>
+      <ArticleHeader
+        title="Bestagon"
+        subtitle="Combining density with greenery"
+        image={image1}
+        author={{
+          name: "Alexis Gros",
+          email: "alexis.gros99@gmail.com",
+          website: "https://alexisgros.fr",
+        }}
+        creationDate="2024-09-23"
+        updatedDate="2024-09-23"
+        version="1.0"
+      />
 
       <p>
         I have been wondering what was the limit to city densities before they
