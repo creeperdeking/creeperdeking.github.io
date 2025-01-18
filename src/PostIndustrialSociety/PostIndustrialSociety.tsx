@@ -587,7 +587,7 @@ const PostIndustrialSociety: React.FC = () => {
             318 million people, $71k per capita (projected) / $48k per capita
             (using long term trend)
           </td>
-          <td />
+          <td>.</td>
           <td>281 million people, $46k per capita</td>
         </tr>
         <tr>
@@ -596,7 +596,7 @@ const PostIndustrialSociety: React.FC = () => {
             $61k per capita (projected) / $22k per capita (using long term
             trend)
           </td>
-          <td />
+          <td>.</td>
           <td>$33k per capita</td>
         </tr>
         <tr>
@@ -605,7 +605,7 @@ const PostIndustrialSociety: React.FC = () => {
             $49k per capita (projected) / $24k per capita (using long term
             trend)
           </td>
-          <td />
+          <td>.</td>
           <td>$33k per capita</td>
         </tr>
         <tr>

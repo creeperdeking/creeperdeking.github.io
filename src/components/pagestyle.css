@@ -1,0 +1,71 @@
+table {
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 2px solid var(--text-color);
+  padding: 8px;
+}
+
+:root {
+  --font-family: "League Spartan", sans-serif;
+  --line-height: 1.5rem;
+  --border-thickness: 2px;
+
+  /* Light mode colors (default) */
+  --text-color: #000;
+  --text-color-alt: #666;
+  --background-color: #fff;
+  --background-color-alt: #eee;
+
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  font-family: var(--font-family);
+  font-optical-sizing: auto;
+  font-weight: var(--font-weight-normal);
+  font-style: normal;
+  font-variant-numeric: tabular-nums lining-nums;
+  font-size: 1.2em;
+  line-height: var(--line-height);
+  text-align: justify;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #fff;
+    --text-color-alt: #aaa;
+    --background-color: #000;
+    --background-color-alt: #111;
+  }
+
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+
+  /* Fix dropdown menu contrast */
+  .dropdown-menu {
+    background-color: var(--background-color);
+    border-color: var(--text-color);
+  }
+
+  .dropdown-item {
+    color: var(--text-color);
+  }
+
+  .dropdown-item:hover {
+    background-color: var(--background-color-alt);
+    color: var(--text-color);
+  }
+}
