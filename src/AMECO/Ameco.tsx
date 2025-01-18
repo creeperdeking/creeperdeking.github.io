@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import { Dropdown } from "react-bootstrap";
 import { ArticleHeader } from "../components/ArticleHeader";
 import GNPIncomeChart from "./GNPIncomeChart";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../components/pagestyle.css";
 
 interface YearData {
   year: string;
