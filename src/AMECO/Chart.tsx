@@ -1,9 +1,5 @@
-import _ from "lodash";
-import React, { useEffect, useState } from "react";
-import { Dropdown } from "react-bootstrap";
+import React from "react";
 import { Chart } from "react-google-charts";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../components/pagestyle.css";
 
 export type ChartData = (string | number)[][];
 

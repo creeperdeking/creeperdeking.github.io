@@ -1,11 +1,5 @@
 import _ from "lodash";
-import Papa from "papaparse";
-import React, { useEffect, useState } from "react";
-import { Dropdown } from "react-bootstrap";
-import { Chart } from "react-google-charts";
-import { ArticleHeader } from "../components/ArticleHeader";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../components/pagestyle.css";
+import React from "react";
 import StackedAreaChart, { ChartData } from "./Chart";
 
 interface YearData {
@@ -26,7 +20,6 @@ const EMPTY_CHART_DATA = [
 ];
 
 const getBaseData = (amecoData: AmecoRow[], titles: string[]) => {
-  console.log(amecoData);
   return titles.reduce(
     (acc, title) => {
       acc[title] = amecoData.find((d) => {
@@ -111,7 +104,6 @@ const makeGDPChartData = (amecoData: AmecoRow[]): ChartData => {
     "Net primary income from the rest of the world",
   ]);
   if (Object.values(baseData).some((d) => d === undefined)) {
-    console.log(baseData);
     return EMPTY_CHART_DATA;
   }
 
@@ -131,13 +123,16 @@ const makeGDPChartData = (amecoData: AmecoRow[]): ChartData => {
       })
       .value(),
   };
+  const netPrimaryIncome =
+    baseData["Net primary income from the rest of the world"];
+
   const incomingForeignIncome = {
     title: "Net primary income from the rest of the world",
-    data: baseData["Net primary income from the rest of the world"]!.data.map(
-      (d) => {
-        return { year: d.year, value: Math.max(d.value, 0) };
-      }
-    ),
+    data: netPrimaryIncome
+      ? netPrimaryIncome.data.map((d) => {
+          return { year: d.year, value: Math.max(d.value, 0) };
+        })
+      : [],
   };
 
   const rawChartData: RowWithTitles[] = [

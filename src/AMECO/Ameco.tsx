@@ -1,11 +1,7 @@
-import _ from "lodash";
 import Papa from "papaparse";
 import React, { useEffect, useState } from "react";
 import { Dropdown } from "react-bootstrap";
-import { Chart } from "react-google-charts";
 import { ArticleHeader } from "../components/ArticleHeader";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../components/pagestyle.css";
 import GNPIncomeChart from "./GNPIncomeChart";
 
 interface YearData {
@@ -40,6 +36,7 @@ const Ameco: React.FC = () => {
         header: true,
         complete: (results) => {
           const parsedData: AmecoRow[] = results.data
+            // eslint-disable-next-line @typescript-eslint/no-explicit-any
             .map((row: any) => {
               const yearData: YearData[] = [];
               // Start from 1960 to 2026
