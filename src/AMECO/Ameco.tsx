@@ -55,7 +55,7 @@ const useCSVData = (filePath: string) => {
             // Filter out invalid entries
             .filter(
               (row) =>
-                row.country && row.title && row.unit && row.data.length > 0
+                row.country || row.title || row.unit || row.data.length > 0
             );
 
           setAmecoData(parsedData);
@@ -72,37 +72,19 @@ const useCSVData = (filePath: string) => {
   };
 };
 
-const Ameco: React.FC = () => {
-  const [selectedCountry, setSelectedCountry] = useState<string | undefined>(
-    undefined
-  );
+const CountrySelector: React.FC<{
+  countries: string[];
+  setSelectedCountry: (searchTerm: string) => void;
+}> = ({ countries, setSelectedCountry }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const { countries, csvData: amecoData } = useCSVData("/ameco_data.csv");
 
   const filteredCountries = countries.filter((country) =>
     country.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  const filteredData = selectedCountry
-    ? amecoData?.filter((d) => d.country === selectedCountry)
-    : undefined;
-
   return (
     <>
-      <ArticleHeader
-        title="Economic statistics from AMECO"
-        subtitle="AMECO database"
-        image=""
-        author={{
-          name: "Alexis Gros",
-          email: "alexis.gros99@gmail.com",
-          website: "https://alexisgros.fr",
-        }}
-        creationDate="2025-01-17"
-        updatedDate="2025-01-17"
-        version="1.0"
-      />
       {countries.length > 0 && (
         <Dropdown
           className="mb-3"
@@ -163,13 +145,64 @@ const Ameco: React.FC = () => {
           </Dropdown.Menu>
         </Dropdown>
       )}
+    </>
+  );
+};
+
+const Ameco: React.FC = () => {
+  const [selectedCountry, setSelectedCountry] = useState<string | undefined>(
+    undefined
+  );
+  const [selectedGiniCountry, setSelectedGiniCountry] = useState<
+    string | undefined
+  >(undefined);
+  const { countries, csvData: amecoData } = useCSVData("/ameco_data.csv");
+  const { countries: giniCountries, csvData: giniData } =
+    useCSVData("/gini_ameco.csv");
+
+  const filteredData = selectedCountry
+    ? amecoData?.filter((d) => d.country === selectedCountry)
+    : undefined;
+  const filteredGiniData = selectedGiniCountry
+    ? giniData?.filter((d) => d.country === selectedGiniCountry)
+    : undefined;
+
+  return (
+    <>
+      <ArticleHeader
+        title="Economic statistics from AMECO"
+        subtitle="AMECO database"
+        image=""
+        author={{
+          name: "Alexis Gros",
+          email: "alexis.gros99@gmail.com",
+          website: "https://alexisgros.fr",
+        }}
+        creationDate="2025-01-17"
+        updatedDate="2025-01-17"
+        version="1.0"
+      />
+
       {amecoData && amecoData.length > 0 && (
         <>
-          <GINIChart data={filteredData} />
+          <CountrySelector
+            countries={countries}
+            setSelectedCountry={setSelectedCountry}
+          />
           <GNPIncomeChart data={filteredData} />
           <PopulationChart data={filteredData} />
           <GNPExpenditureChart data={filteredData} />
           <PublicSpendingChart data={filteredData} />
+        </>
+      )}
+
+      {giniData && giniData.length > 0 && (
+        <>
+          <CountrySelector
+            countries={giniCountries}
+            setSelectedCountry={setSelectedGiniCountry}
+          />
+          <GINIChart data={filteredGiniData} />
         </>
       )}
     </>

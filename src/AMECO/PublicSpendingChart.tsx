@@ -1,9 +1,7 @@
-import _ from "lodash";
 import React from "react";
 import StackedAreaChart, {
   AmecoRow,
   RowWithTitles,
-  calculatePercentage,
   makeChartData,
   sumData,
 } from "./Chart";

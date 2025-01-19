@@ -1,34 +1,17 @@
-import _ from "lodash";
 import React from "react";
-import StackedAreaChart, {
-  AmecoRow,
-  LineChart,
-  RowWithTitles,
-  calculatePercentage,
-  makeChartData,
-} from "./Chart";
+import { AmecoRow, LineChart, RowWithTitles, makeChartData } from "./Chart";
 
 export const makeGINIChartData = (
   baseData: Record<string, AmecoRow | undefined>
 ): RowWithTitles[] => {
   const rawChartData: RowWithTitles[] = [
     {
-      title: "Population: 0 to 14 years",
-      row: baseData["Population: 0 to 14 years"],
-    },
-    {
-      title: "Population: 15 to 64 years",
-      row: baseData["Population: 15 to 64 years"],
-    },
-    {
-      title: "Population: 65 years and over",
-      row: baseData["Population: 65 years and over"],
+      title: "GINI after taxes and transfers",
+      row: baseData["Gini coefficient"],
     },
   ];
 
-  const rawChartDataWithPercentage = calculatePercentage(rawChartData);
-
-  return rawChartDataWithPercentage;
+  return rawChartData;
 };
 
 const GINIChart: React.FC<{
@@ -36,15 +19,9 @@ const GINIChart: React.FC<{
 }> = ({ data }) => {
   return (
     <LineChart
-      title="GINI"
+      title="GINI after taxes and transfers"
       axisTitle="GINI"
-      chartData={[
-        ["Year", "GINI"],
-        ["2010", 30],
-        ["2015", ""],
-        ["2022", 31],
-        ["2023", 31],
-      ]}
+      chartData={makeChartData(data, ["Gini coefficient"], makeGINIChartData)}
     />
   );
 };

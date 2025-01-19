@@ -127,9 +127,19 @@ export const LineChart: React.FC<{
         vAxis: {
           title: axisTitle,
         },
+        legend: {
+          position: "top",
+          maxLines: 3,
+          textStyle: {
+            whiteSpace: "nowrap",
+            fontSize: 12,
+          },
+        },
       }}
       chartType="LineChart"
       data={chartData}
+      width="100%"
+      height="400px"
     />
   );
 };
@@ -159,10 +169,13 @@ const StackedAreaChart: React.FC<{
             title: axisTitle,
             format: "#.##'%'",
           },
+          /* tooltip: {
+            isHtml: true,
+            trigger: "focus",
+          }, */
         }}
         width="100%"
         height="400px"
-        style={{ zIndex: 1 }}
       />
     </>
   );
