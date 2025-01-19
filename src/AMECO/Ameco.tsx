@@ -5,6 +5,9 @@ import { ArticleHeader } from "../components/ArticleHeader";
 import GNPIncomeChart from "./GNPIncomeChart";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/pagestyle.css";
+import PopulationChart from "./PopulationChart";
+import GNPExpenditureChart from "./GNPExpenditureChart";
+import PublicSpendingChart from "./PublicSpendingChart";
 
 interface YearData {
   year: string;
@@ -154,13 +157,36 @@ const Ameco: React.FC = () => {
         </Dropdown>
       )}
       {amecoData && amecoData.length > 0 && (
-        <GNPIncomeChart
-          data={
-            selectedCountry
-              ? amecoData.filter((d) => d.country === selectedCountry)
-              : undefined
-          }
-        />
+        <>
+          <GNPIncomeChart
+            data={
+              selectedCountry
+                ? amecoData.filter((d) => d.country === selectedCountry)
+                : undefined
+            }
+          />
+          <PopulationChart
+            data={
+              selectedCountry
+                ? amecoData.filter((d) => d.country === selectedCountry)
+                : undefined
+            }
+          />
+          <GNPExpenditureChart
+            data={
+              selectedCountry
+                ? amecoData.filter((d) => d.country === selectedCountry)
+                : undefined
+            }
+          />
+          <PublicSpendingChart
+            data={
+              selectedCountry
+                ? amecoData.filter((d) => d.country === selectedCountry)
+                : undefined
+            }
+          />
+        </>
       )}
     </>
   );

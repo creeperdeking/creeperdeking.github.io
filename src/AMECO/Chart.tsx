@@ -27,6 +27,8 @@ export interface RowWithTitles {
 }
 
 export const getBaseData = (amecoData: AmecoRow[], titles: string[]) => {
+  console.log("hello");
+  console.log(amecoData);
   return titles.reduce(
     (acc, title) => {
       acc[title] = amecoData.find((d) => {
@@ -116,15 +118,17 @@ export const makeChartData = (
 };
 
 const StackedAreaChart: React.FC<{
+  title: string;
   chartData: ChartData;
-}> = ({ chartData }) => {
+}> = ({ title, chartData }) => {
+  console.log(chartData);
   return (
     <>
       <Chart
         chartType="SteppedAreaChart"
         data={chartData}
         options={{
-          title: "Components of GNP as percentage",
+          title: title,
           isStacked: true,
           legend: {
             position: "top",
