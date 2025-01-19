@@ -9,6 +9,7 @@ import GINIChart from "./GINIChart";
 import GNPIncomeChart from "./GNPIncomeChart";
 import GNPExpenditureChart from "./GNPExpenditureChart";
 import PopulationChart from "./PopulationChart";
+import HoursWorkedChart from "./HoursWorkedChart";
 
 interface YearData {
   year: string;
@@ -193,6 +194,7 @@ const Ameco: React.FC = () => {
           <PopulationChart data={filteredData} />
           <GNPExpenditureChart data={filteredData} />
           <PublicSpendingChart data={filteredData} />
+          <HoursWorkedChart data={filteredData} />
         </>
       )}
 
