@@ -8,6 +8,7 @@ import "../components/pagestyle.css";
 import PopulationChart from "./PopulationChart";
 import GNPExpenditureChart from "./GNPExpenditureChart";
 import PublicSpendingChart from "./PublicSpendingChart";
+import GINIChart from "./GINIChart";
 
 interface YearData {
   year: string;
@@ -80,6 +81,10 @@ const Ameco: React.FC = () => {
   const filteredCountries = countries.filter((country) =>
     country.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  const filteredData = selectedCountry
+    ? amecoData?.filter((d) => d.country === selectedCountry)
+    : undefined;
 
   return (
     <>
@@ -158,34 +163,11 @@ const Ameco: React.FC = () => {
       )}
       {amecoData && amecoData.length > 0 && (
         <>
-          <GNPIncomeChart
-            data={
-              selectedCountry
-                ? amecoData.filter((d) => d.country === selectedCountry)
-                : undefined
-            }
-          />
-          <PopulationChart
-            data={
-              selectedCountry
-                ? amecoData.filter((d) => d.country === selectedCountry)
-                : undefined
-            }
-          />
-          <GNPExpenditureChart
-            data={
-              selectedCountry
-                ? amecoData.filter((d) => d.country === selectedCountry)
-                : undefined
-            }
-          />
-          <PublicSpendingChart
-            data={
-              selectedCountry
-                ? amecoData.filter((d) => d.country === selectedCountry)
-                : undefined
-            }
-          />
+          <GINIChart data={filteredData} />
+          <GNPIncomeChart data={filteredData} />
+          <PopulationChart data={filteredData} />
+          <GNPExpenditureChart data={filteredData} />
+          <PublicSpendingChart data={filteredData} />
         </>
       )}
     </>

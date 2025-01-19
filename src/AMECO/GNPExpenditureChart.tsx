@@ -81,7 +81,8 @@ const GNPExpenditureChart: React.FC<{
 }> = ({ data }) => {
   return (
     <StackedAreaChart
-      title="GNP expenditure"
+      title="Gross Domestic Product (expenditure approach)"
+      axisTitle="Percentage of GDP"
       chartData={makeChartData(
         data,
         [

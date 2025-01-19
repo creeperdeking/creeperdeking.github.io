@@ -2,12 +2,13 @@ import _ from "lodash";
 import React from "react";
 import StackedAreaChart, {
   AmecoRow,
+  LineChart,
   RowWithTitles,
   calculatePercentage,
   makeChartData,
 } from "./Chart";
 
-export const makePopulationChartData = (
+export const makeGINIChartData = (
   baseData: Record<string, AmecoRow | undefined>
 ): RowWithTitles[] => {
   const rawChartData: RowWithTitles[] = [
@@ -30,24 +31,22 @@ export const makePopulationChartData = (
   return rawChartDataWithPercentage;
 };
 
-const PopulationChart: React.FC<{
+const GINIChart: React.FC<{
   data: AmecoRow[] | undefined;
 }> = ({ data }) => {
   return (
-    <StackedAreaChart
-      title="Population"
-      axisTitle="Percentage of total population"
-      chartData={makeChartData(
-        data,
-        [
-          "Population: 0 to 14 years",
-          "Population: 15 to 64 years",
-          "Population: 65 years and over",
-        ],
-        makePopulationChartData
-      )}
+    <LineChart
+      title="GINI"
+      axisTitle="GINI"
+      chartData={[
+        ["Year", "GINI"],
+        ["2010", 30],
+        ["2015", ""],
+        ["2022", 31],
+        ["2023", 31],
+      ]}
     />
   );
 };
 
-export default PopulationChart;
+export default GINIChart;

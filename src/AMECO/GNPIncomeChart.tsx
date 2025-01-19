@@ -81,7 +81,8 @@ const GNPIncomeChart: React.FC<{
 }> = ({ data }) => {
   return (
     <StackedAreaChart
-      title="GNP income"
+      title="Gross National Income"
+      axisTitle="Percentage of GNI"
       chartData={makeChartData(
         data,
         [

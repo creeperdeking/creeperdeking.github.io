@@ -117,10 +117,30 @@ export const makeChartData = (
   return transformRawChartData(rawChartData);
 };
 
+export const LineChart: React.FC<{
+  title: string;
+  axisTitle: string;
+  chartData: ChartData;
+}> = ({ title, axisTitle, chartData }) => {
+  return (
+    <Chart
+      options={{
+        title: title,
+        vAxis: {
+          title: axisTitle,
+        },
+      }}
+      chartType="LineChart"
+      data={chartData}
+    />
+  );
+};
+
 const StackedAreaChart: React.FC<{
   title: string;
+  axisTitle: string;
   chartData: ChartData;
-}> = ({ title, chartData }) => {
+}> = ({ title, axisTitle, chartData }) => {
   console.log(chartData);
   return (
     <>
@@ -139,7 +159,7 @@ const StackedAreaChart: React.FC<{
             },
           },
           vAxis: {
-            title: "Percentage of GNP",
+            title: axisTitle,
             format: "#.##'%'",
           },
         }}

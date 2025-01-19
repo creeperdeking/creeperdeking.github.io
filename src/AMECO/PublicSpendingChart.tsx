@@ -78,10 +78,10 @@ export const makePublicSpendingChartData = (
 const PublicSpendingChart: React.FC<{
   data: AmecoRow[] | undefined;
 }> = ({ data }) => {
-  console.log("wat");
   return (
     <StackedAreaChart
       title="Public spending"
+      axisTitle="Percentage of GDP"
       chartData={makeChartData(
         data,
         [
