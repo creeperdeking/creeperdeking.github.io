@@ -11,7 +11,6 @@ import StackedAreaChart, {
 export const makePublicSpendingChartData = (
   baseData: Record<string, AmecoRow | undefined>
 ): RowWithTitles[] => {
-  console.log("hello");
   const otherExpenditure = {
     title: "Other current expenditure",
     row: baseData["Other current expenditure: general government :- ESA 2010"],

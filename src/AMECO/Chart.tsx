@@ -27,8 +27,6 @@ export interface RowWithTitles {
 }
 
 export const getBaseData = (amecoData: AmecoRow[], titles: string[]) => {
-  console.log("hello");
-  console.log(amecoData);
   return titles.reduce(
     (acc, title) => {
       acc[title] = amecoData.find((d) => {
@@ -141,7 +139,6 @@ const StackedAreaChart: React.FC<{
   axisTitle: string;
   chartData: ChartData;
 }> = ({ title, axisTitle, chartData }) => {
-  console.log(chartData);
   return (
     <>
       <Chart

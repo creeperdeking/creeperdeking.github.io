@@ -2,13 +2,13 @@ import Papa from "papaparse";
 import React, { useEffect, useState } from "react";
 import { Dropdown } from "react-bootstrap";
 import { ArticleHeader } from "../components/ArticleHeader";
-import GNPIncomeChart from "./GNPIncomeChart";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/pagestyle.css";
-import PopulationChart from "./PopulationChart";
-import GNPExpenditureChart from "./GNPExpenditureChart";
 import PublicSpendingChart from "./PublicSpendingChart";
 import GINIChart from "./GINIChart";
+import GNPIncomeChart from "./GNPIncomeChart";
+import GNPExpenditureChart from "./GNPExpenditureChart";
+import PopulationChart from "./PopulationChart";
 
 interface YearData {
   year: string;
@@ -22,21 +22,13 @@ interface AmecoRow {
   data: YearData[];
 }
 
-const Ameco: React.FC = () => {
+const useCSVData = (filePath: string) => {
   const [amecoData, setAmecoData] = useState<AmecoRow[] | undefined>(undefined);
-  const [selectedCountry, setSelectedCountry] = useState<string | undefined>(
-    undefined
-  );
-  const [searchTerm, setSearchTerm] = useState("");
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   useEffect(() => {
-    const loadData = async () => {
-      const response = await fetch("/ameco_data.csv");
-      const reader = response.body?.getReader();
-      const result = await reader?.read();
-      const decoder = new TextDecoder("utf-8");
-      const csv = decoder.decode(result?.value);
+    const loadData = async (filePath: string) => {
+      const response = await fetch(filePath);
+      const csv = await response.text();
 
       Papa.parse(csv, {
         header: true,
@@ -71,12 +63,22 @@ const Ameco: React.FC = () => {
       });
     };
 
-    loadData().catch(console.error);
-  }, []);
+    loadData(filePath).catch(console.error);
+  }, [filePath]);
 
-  const countries = amecoData
-    ? Array.from(new Set(amecoData.map((row) => row.country))).sort()
-    : [];
+  return {
+    countries: Array.from(new Set(amecoData?.map((row) => row.country))).sort(),
+    csvData: amecoData,
+  };
+};
+
+const Ameco: React.FC = () => {
+  const [selectedCountry, setSelectedCountry] = useState<string | undefined>(
+    undefined
+  );
+  const [searchTerm, setSearchTerm] = useState("");
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const { countries, csvData: amecoData } = useCSVData("/ameco_data.csv");
 
   const filteredCountries = countries.filter((country) =>
     country.toLowerCase().includes(searchTerm.toLowerCase())
