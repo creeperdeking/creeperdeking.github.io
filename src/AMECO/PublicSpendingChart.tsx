@@ -58,7 +58,7 @@ export const makePublicSpendingChartData = (
           : undefined,
     },
     {
-      title: "Gross fixed capital formation",
+      title: "Investment + Depreciation",
       row: baseData[
         "Gross fixed capital formation: general government :- ESA 2010"
       ],

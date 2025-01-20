@@ -81,6 +81,47 @@ export const calculatePercentage: (
   });
 };
 
+export const calculatePercentageIncrease: (
+  baseData: RowWithTitles[]
+) => RowWithTitles[] = (baseData: RowWithTitles[]) => {
+  // now recalculate each data as a percentage of the sumData
+  return baseData.map((d) => {
+    const firstData = d.row?.data[0];
+    return {
+      ...d,
+      row: {
+        title: d.row?.title ?? d.title,
+        data:
+          d.row?.data.map((d) => ({
+            ...d,
+            value: (d.value / (firstData?.value ?? 1)) * 100,
+          })) ?? [],
+        country: d.row?.country,
+        unit: d.row?.unit,
+      },
+    };
+  });
+};
+
+export const transformAmecoRows = (
+  row1?: YearData[],
+  row2?: YearData[],
+  func?: (value1: number, value2: number) => number
+): YearData[] => {
+  if (!row1 || !row2 || !func) {
+    return [];
+  }
+  return row1
+    .filter((d) => row2.find((d2) => d.year === d2.year)?.value)
+    .map((d) => {
+      const row2Value = row2.find((d2) => d.year === d2.year)?.value;
+      return {
+        ...d,
+        value: row2Value ? func(d.value, row2Value) : 0,
+      };
+    });
+};
+
 export const transformRawChartData = (data: RowWithTitles[]) => {
   return [
     ["Year", ...data.map((d) => d.title)],
@@ -105,7 +146,6 @@ export const makeChartData = (
   }
 
   const baseData = getBaseData(amecoData, titles);
-
   if (Object.values(baseData).some((d) => d === undefined)) {
     return EMPTY_CHART_DATA;
   }
@@ -119,28 +159,32 @@ export const LineChart: React.FC<{
   title: string;
   axisTitle: string;
   chartData: ChartData;
-}> = ({ title, axisTitle, chartData }) => {
+  format?: string;
+}> = ({ title, axisTitle, chartData, format }) => {
   return (
-    <Chart
-      options={{
-        title: title,
-        vAxis: {
-          title: axisTitle,
-        },
-        legend: {
-          position: "top",
-          maxLines: 3,
-          textStyle: {
-            whiteSpace: "nowrap",
-            fontSize: 12,
+    <div className="pb-3">
+      <Chart
+        options={{
+          title: title,
+          vAxis: {
+            title: axisTitle,
+            format: format,
           },
-        },
-      }}
-      chartType="LineChart"
-      data={chartData}
-      width="100%"
-      height="400px"
-    />
+          legend: {
+            position: "top",
+            maxLines: 3,
+            textStyle: {
+              whiteSpace: "nowrap",
+              fontSize: 12,
+            },
+          },
+        }}
+        chartType="LineChart"
+        data={chartData}
+        width="100%"
+        height="20em"
+      />
+    </div>
   );
 };
 
@@ -150,7 +194,7 @@ const StackedAreaChart: React.FC<{
   chartData: ChartData;
 }> = ({ title, axisTitle, chartData }) => {
   return (
-    <>
+    <div className="pb-3">
       <Chart
         chartType="SteppedAreaChart"
         data={chartData}
@@ -169,15 +213,15 @@ const StackedAreaChart: React.FC<{
             title: axisTitle,
             format: "#.##'%'",
           },
-          /* tooltip: {
+          tooltip: {
             isHtml: true,
             trigger: "focus",
-          }, */
+          },
         }}
         width="100%"
-        height="400px"
+        height="20em"
       />
-    </>
+    </div>
   );
 };
 

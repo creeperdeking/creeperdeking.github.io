@@ -29,14 +29,14 @@ const makeGNPIncomeChartData = (
   const netPrimaryIncome =
     baseData["Net primary income from the rest of the world"];
 
-  const incomingForeignIncome = {
+  /* const incomingForeignIncome = {
     title: "Net primary income from the rest of the world",
     data: netPrimaryIncome
       ? netPrimaryIncome.data.map((d) => {
           return { year: d.year, value: Math.max(d.value, 0) };
         })
       : [],
-  };
+  }; */
 
   const rawChartData: RowWithTitles[] = [
     {
@@ -54,17 +54,13 @@ const makeGNPIncomeChartData = (
       ],
     },
     {
-      title: "Net primary foreign income",
-      row: incomingForeignIncome,
-    },
-    {
       title: "Depreciation",
       row: baseData[
         "Consumption of fixed capital at current prices: total economy"
       ],
     },
     {
-      title: "Net taxes on production",
+      title: "Net taxes on production and imports",
       row: baseData[
         "Taxes linked to imports and production minus subsidies: total economy"
       ],
@@ -81,8 +77,8 @@ const GNPIncomeChart: React.FC<{
 }> = ({ data }) => {
   return (
     <StackedAreaChart
-      title="Gross National Income"
-      axisTitle="Percentage of GNI"
+      title="Gross Domestic Product (income approach)"
+      axisTitle="Percentage of GDP"
       chartData={makeChartData(
         data,
         [
