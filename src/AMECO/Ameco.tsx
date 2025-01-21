@@ -12,6 +12,9 @@ import PopulationChart from "./PopulationChart";
 import HoursWorkedChart from "./HoursWorkedChart";
 import HouseholdConsumptionChart from "./HouseholdConsumption";
 import EmploymentChart from "./EmploymentChart";
+import EconomicSectorsChart from "./EconomicSectors";
+import EconomicSectorsGVAChart from "./EconomicSectorsGVAChart";
+import { ExportsChart, ImportsChart } from "./ImportsExportsCharts";
 
 interface YearData {
   year: string;
@@ -209,6 +212,7 @@ const Ameco: React.FC = () => {
                       2 - Population & Employment
                     </a>
                   </li>
+                  {/* // Todo: add employment of different jobs */}
                   <li>
                     <a href="#GDP" id="toc-GDP">
                       3 - Dissecting GDP
@@ -217,6 +221,11 @@ const Ameco: React.FC = () => {
                   <li>
                     <a href="#public-spending" id="toc-public-spending">
                       4 - Public Spending
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#trade" id="toc-trade">
+                      5 - Trade
                     </a>
                   </li>
                 </ul>
@@ -294,6 +303,18 @@ const Ameco: React.FC = () => {
                 "outside of the workforce" such as people not looking for work.
               </p>
               <EmploymentChart data={filteredData} />
+              <p>
+                It is interesting to see the evolution of employement in the
+                different economic sectors. Where do people work?
+              </p>
+              <EconomicSectorsChart data={filteredData} />
+              <p>
+                But how do these sectors contribute to the economy? The Gross
+                Value Added (GVA) is closely related to the GDP, so I have
+                charted the evolution of the contribution of the different
+                sectors to GVA.
+              </p>
+              <EconomicSectorsGVAChart data={filteredData} />
 
               <br />
               <h2 id="GDP">3 - Dissecting GDP</h2>
@@ -383,6 +404,28 @@ const Ameco: React.FC = () => {
                 unemployment benefits.
               </p>
               <PublicSpendingChart data={filteredData} />
+
+              <br />
+              <h2 id="trade">5 - Trade</h2>
+              <br />
+              <p>
+                The second half of the 20th century was marked by the rise of
+                globalisation. On of the ways to observe that fact is to see the
+                rise of imports and exports of a country relative to its GDP.
+              </p>
+              <p>
+                Rising trade effectively means that the countries economy is
+                more tighly linked to the rest of the world.
+              </p>
+              <ImportsChart data={filteredData} />
+              <p>
+                One thing that can be observed is that imports and exports tend
+                to rise together, with periods where imports are slightly above
+                exports, and periods where exports are slightly above imports.
+                This is because trade imbalances are not sustainable in the long
+                term.
+              </p>
+              <ExportsChart data={filteredData} />
             </>
           )}
         </>

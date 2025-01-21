@@ -22,7 +22,7 @@ export const makeGNPExpenditureChartData = (
           (baseData[
             "Consumption of fixed capital at current prices: total economy"
           ]?.data.find((d) => d.year === year)?.value || 0);
-        return { year, value: netCapitalFormation };
+        return { year, value: Math.max(netCapitalFormation, 0) };
       })
       .value(),
   };

@@ -3,7 +3,6 @@ import {
   AmecoRow,
   LineChart,
   RowWithTitles,
-  YearData,
   calculatePercentage,
   calculatePercentageIncrease,
   makeChartData,
@@ -39,8 +38,6 @@ export const makeHouseholdIncomeChartData = (
     ),
     (a, b) => (a * 0.3 + b * 0.85) * ((0.3 + 0.85) / 2)
   );
-
-  console.log(baseData);
 
   const householdConsumption: AmecoRow = {
     title: "Household consumption",

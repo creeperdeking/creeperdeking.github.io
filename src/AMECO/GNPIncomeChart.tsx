@@ -26,10 +26,10 @@ const makeGNPIncomeChartData = (
       })
       .value(),
   };
-  const netPrimaryIncome =
+  /* const netPrimaryIncome =
     baseData["Net primary income from the rest of the world"];
 
-  /* const incomingForeignIncome = {
+  const incomingForeignIncome = {
     title: "Net primary income from the rest of the world",
     data: netPrimaryIncome
       ? netPrimaryIncome.data.map((d) => {
