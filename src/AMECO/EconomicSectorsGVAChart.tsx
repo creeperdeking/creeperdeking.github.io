@@ -42,13 +42,6 @@ export const makeEconomicSectorsChartData = (
   );
   const rawChartData: RowWithTitles[] = [
     {
-      title: "Agriculture, forestry and fishery products",
-      row: {
-        title: "Agriculture, forestry and fishery products",
-        data: agricultureForestryAndFisheryProducts,
-      },
-    },
-    {
       title: "Building and construction",
       row: {
         title: "Building and construction",
@@ -67,6 +60,13 @@ export const makeEconomicSectorsChartData = (
       row: {
         title: "Services",
         data: services,
+      },
+    },
+    {
+      title: "Agriculture, forestry and fishery products",
+      row: {
+        title: "Agriculture, forestry and fishery products",
+        data: agricultureForestryAndFisheryProducts,
       },
     },
   ];

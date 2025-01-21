@@ -11,12 +11,6 @@ export const makeEconomicSectorsChartData = (
 ): RowWithTitles[] => {
   const rawChartData: RowWithTitles[] = [
     {
-      title: "Agriculture, forestry and fishery products",
-      row: baseData[
-        "Employment, persons: agriculture, forestry and fishery products"
-      ],
-    },
-    {
       title: "Building and construction",
       row: baseData["Employment, persons: building and construction"],
     },
@@ -29,6 +23,12 @@ export const makeEconomicSectorsChartData = (
     {
       title: "Services",
       row: baseData["Employment, persons: services"],
+    },
+    {
+      title: "Agriculture, forestry and fishery products",
+      row: baseData[
+        "Employment, persons: agriculture, forestry and fishery products"
+      ],
     },
   ];
 
