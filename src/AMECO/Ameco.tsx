@@ -215,7 +215,7 @@ const Ameco: React.FC = () => {
                   {/* // Todo: add employment of different jobs */}
                   <li>
                     <a href="#GDP" id="toc-GDP">
-                      3 - Dissecting GDP
+                      3 - Gross Domestic Product
                     </a>
                   </li>
                   <li>
