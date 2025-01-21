@@ -142,11 +142,17 @@ export const makeChartData = (
   transformer: (data: Record<string, AmecoRow | undefined>) => RowWithTitles[]
 ): ChartData => {
   if (!amecoData) {
+    console.log("No data");
     return EMPTY_CHART_DATA;
   }
 
   const baseData = getBaseData(amecoData, titles);
   if (Object.values(baseData).some((d) => d === undefined)) {
+    console.log(
+      "undefined data",
+      baseData,
+      Object.values(baseData).find((d) => d === undefined)
+    );
     return EMPTY_CHART_DATA;
   }
 
