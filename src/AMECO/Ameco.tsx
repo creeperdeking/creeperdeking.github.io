@@ -314,6 +314,12 @@ const Ameco: React.FC = () => {
                 charted the evolution of the contribution of the different
                 sectors to GVA.
               </p>
+              <p>
+                For many countries, as the share of the workforce employed in
+                industry decreased, the value added of industry declined much
+                slower. This mean that the low value added industry closed, and
+                the productivity of the remaining industry was very high.
+              </p>
               <EconomicSectorsGVAChart data={filteredData} />
 
               <br />
