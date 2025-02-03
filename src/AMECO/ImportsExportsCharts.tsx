@@ -1,8 +1,8 @@
 import React from "react";
 import StackedAreaChart, {
   AmecoRow,
+  ChartProps,
   RowWithTitles,
-  calculatePercentage,
   makeChartData,
   transformAmecoRows,
 } from "./Chart";
@@ -51,7 +51,6 @@ export const makeImportsChartData = (
       },
     },
   ];
-  console.log(rawChartData);
 
   return rawChartData;
 };
@@ -82,7 +81,6 @@ export const ImportsChart: React.FC<{
 export const makeExportsChartData = (
   baseData: Record<string, AmecoRow | undefined>
 ): RowWithTitles[] => {
-  console.log(baseData);
   const gdpDeflated = transformAmecoRows(
     baseData["Gross domestic product at current prices"]?.data,
     baseData["Price deflator gross domestic product"]?.data,
@@ -127,9 +125,7 @@ export const makeExportsChartData = (
   return rawChartData;
 };
 
-export const ExportsChart: React.FC<{
-  data: AmecoRow[] | undefined;
-}> = ({ data }) => {
+export const ExportsChart: React.FC<ChartProps> = ({ data }) => {
   return (
     <StackedAreaChart
       title="Exports"

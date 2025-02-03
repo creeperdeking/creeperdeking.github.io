@@ -16,6 +16,15 @@ export interface AmecoRow {
   data: YearData[];
 }
 
+export interface MultiCountryRow {
+  country: string;
+  data: AmecoRow[] | undefined;
+}
+
+export interface ChartProps {
+  data: AmecoRow[] | undefined;
+}
+
 export const EMPTY_CHART_DATA = [
   ["", ""],
   ["", 0],
@@ -142,17 +151,11 @@ export const makeChartData = (
   transformer: (data: Record<string, AmecoRow | undefined>) => RowWithTitles[]
 ): ChartData => {
   if (!amecoData) {
-    console.log("No data");
     return EMPTY_CHART_DATA;
   }
 
   const baseData = getBaseData(amecoData, titles);
   if (Object.values(baseData).some((d) => d === undefined)) {
-    console.log(
-      "undefined data",
-      baseData,
-      Object.values(baseData).find((d) => d === undefined)
-    );
     return EMPTY_CHART_DATA;
   }
 

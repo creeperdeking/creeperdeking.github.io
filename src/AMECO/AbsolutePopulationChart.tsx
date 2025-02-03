@@ -1,11 +1,5 @@
 import React from "react";
-import StackedAreaChart, {
-  AmecoRow,
-  LineChart,
-  RowWithTitles,
-  calculatePercentage,
-  makeChartData,
-} from "./Chart";
+import { AmecoRow, LineChart, RowWithTitles, makeChartData } from "./Chart";
 
 export const makePopulationChartData = (
   baseData: Record<string, AmecoRow | undefined>

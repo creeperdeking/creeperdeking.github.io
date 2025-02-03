@@ -1,6 +1,5 @@
 import Papa from "papaparse";
 import React, { useEffect, useState } from "react";
-import { Dropdown } from "react-bootstrap";
 import { ArticleHeader } from "../components/ArticleHeader";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/pagestyle.css";
@@ -16,6 +15,9 @@ import EconomicSectorsChart from "./EconomicSectors";
 import EconomicSectorsGVAChart from "./EconomicSectorsGVAChart";
 import { ExportsChart, ImportsChart } from "./ImportsExportsCharts";
 import AbsolutePopulationChart from "./AbsolutePopulationChart";
+import CountrySelector from "./CountrySelector";
+import { MultiCountryRow } from "./Chart";
+import { MultiCountryChart } from "./MultiCountryChart";
 
 interface YearData {
   year: string;
@@ -79,144 +81,21 @@ const useCSVData = (filePath: string) => {
   };
 };
 
-const CountrySelector: React.FC<{
-  countries: string[];
-  setSelectedCountry: (searchTerm: string) => void;
-}> = ({ countries, setSelectedCountry }) => {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-  const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
-
-  const filteredCountries = countries.filter((country) =>
-    country.toLowerCase().includes(searchTerm.toLowerCase())
-  );
-
-  const handleCountryToggle = (country: string) => {
-    setSelectedCountries((prev) => {
-      const newSelection = prev.includes(country)
-        ? prev.filter((c) => c !== country)
-        : [...prev, country];
-
-      // Update the main selectedCountry with the first selected country or undefined
-      setSelectedCountry(newSelection.length > 0 ? newSelection[0] : "");
-
-      return newSelection;
-    });
-  };
-
-  return (
-    <>
-      {countries.length > 0 && (
-        <Dropdown
-          className="mb-3"
-          show={isDropdownOpen}
-          onToggle={(isOpen) => setIsDropdownOpen(isOpen)}
-        >
-          <Dropdown.Toggle
-            variant="primary"
-            id="dropdown-country"
-            style={{ paddingRight: "12px" }}
-          >
-            <input
-              type="text"
-              placeholder="Search country..."
-              value={searchTerm}
-              onChange={(e) => {
-                setSearchTerm(e.target.value);
-                setIsDropdownOpen(true);
-              }}
-              onClick={(e) => {
-                e.stopPropagation();
-                setIsDropdownOpen(true);
-              }}
-              className="search-input"
-              style={{
-                border: "none",
-                background: "transparent",
-                color: "white",
-                outline: "none",
-                width: "100%",
-              }}
-            />
-          </Dropdown.Toggle>
-          <Dropdown.Menu
-            style={{
-              width: "20em",
-              maxHeight: "20em",
-              overflow: "auto",
-            }}
-          >
-            {/* Selected countries section */}
-            {selectedCountries.length > 0 && (
-              <>
-                {selectedCountries.map((country) => (
-                  <Dropdown.Item
-                    key={`selected-${country}`}
-                    as="div"
-                    className="d-flex align-items-center"
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      handleCountryToggle(country);
-                    }}
-                    style={{ cursor: "pointer" }}
-                  >
-                    <input
-                      type="checkbox"
-                      checked
-                      onChange={() => handleCountryToggle(country)}
-                      onClick={(e) => e.stopPropagation()}
-                      className="me-2"
-                    />
-                    <span style={{ margin: "auto 0" }}>{country}</span>
-                  </Dropdown.Item>
-                ))}
-              </>
-            )}
-
-            {/* Available countries list */}
-            {filteredCountries
-              .filter((country) => !selectedCountries.includes(country))
-              .map((country) => (
-                <Dropdown.Item
-                  key={country}
-                  as="div"
-                  className="d-flex align-items-center"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleCountryToggle(country);
-                  }}
-                  style={{ cursor: "pointer" }}
-                >
-                  <input
-                    type="checkbox"
-                    checked={selectedCountries.includes(country)}
-                    onChange={() => handleCountryToggle(country)}
-                    onClick={(e) => e.stopPropagation()}
-                    className="me-2"
-                  />
-                  <span style={{ margin: "auto 0" }}>{country}</span>
-                </Dropdown.Item>
-              ))}
-          </Dropdown.Menu>
-        </Dropdown>
-      )}
-    </>
-  );
-};
-
 const Ameco: React.FC = () => {
-  const [selectedCountry, setSelectedCountry] = useState<string | undefined>(
-    undefined
-  );
+  const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
   const { countries, csvData: amecoData } = useCSVData("/ameco_data.csv");
   const { csvData: giniData } = useCSVData("/gini_ameco.csv");
 
-  const filteredData = selectedCountry
-    ? amecoData?.filter((d) => d.country === selectedCountry)
-    : undefined;
-  const filteredGiniData = selectedCountry
-    ? giniData?.filter((d) => d.country.includes(selectedCountry))
-    : undefined;
+  const filteredData: MultiCountryRow[] = selectedCountries.map((country) => ({
+    country: country,
+    data: amecoData?.filter((d) => d.country === country),
+  }));
+  const filteredGiniData: MultiCountryRow[] = selectedCountries.map(
+    (country) => ({
+      country: country,
+      data: giniData?.filter((d) => d.country.includes(country)),
+    })
+  );
 
   return (
     <>
@@ -236,20 +115,23 @@ const Ameco: React.FC = () => {
 
       {amecoData && amecoData.length > 0 && (
         <>
-          <h5>Select a country to analyse:</h5>
+          <h5>Select one or more countries to analyse:</h5>
 
           <CountrySelector
             countries={countries}
-            setSelectedCountry={setSelectedCountry}
+            selectedCountries={selectedCountries}
+            setSelectedCountries={setSelectedCountries}
           />
-          {selectedCountry && (
+          {selectedCountries.length > 0 && (
             <>
               <nav
                 id="TOC"
                 role="doc-toc"
                 style={{ paddingBottom: "1em", paddingTop: "1em" }}
               >
-                <h2 id="toc-title">Analysis for {selectedCountry}</h2>
+                <h2 id="toc-title">
+                  Analysis for {selectedCountries.join(", ")}
+                </h2>
                 <ul className="incremental">
                   <li>
                     <a href="#consumption" id="toc-consumption">
@@ -319,7 +201,10 @@ const Ameco: React.FC = () => {
                 can be a big difference between how GDP per capita evolves
                 compared to the average person's actual standard of living.
               </p>
-              <HouseholdConsumptionChart data={filteredData} format="#.##'%'" />
+              <MultiCountryChart
+                data={filteredData}
+                chart={HouseholdConsumptionChart}
+              />
               <p>
                 Below I have plotted the GINI coefficient after taxes and social
                 transfers. This mean that this reflect the actual income
@@ -327,13 +212,13 @@ const Ameco: React.FC = () => {
                 income is more concentrated in the hands of a few people.
               </p>
 
-              <GINIChart data={filteredGiniData} />
+              <MultiCountryChart data={filteredGiniData} chart={GINIChart} />
               <p>
                 I have also plotted the average number of hours worked, in order
                 to help understand the chart on household comsumption per hour
                 worked.
               </p>
-              <HoursWorkedChart data={filteredData} />
+              <MultiCountryChart data={filteredData} chart={HoursWorkedChart} />
 
               <br />
               <h2 id="population">2 - Population & Employment</h2>
@@ -343,8 +228,11 @@ const Ameco: React.FC = () => {
                 To start, let's have a look at the evolution of the structure of
                 the population over time. How many children, how many elders?
               </p>
-              <PopulationChart data={filteredData} />
-              <AbsolutePopulationChart data={filteredData} />
+              <MultiCountryChart data={filteredData} chart={PopulationChart} />
+              <MultiCountryChart
+                data={filteredData}
+                chart={AbsolutePopulationChart}
+              />
               <p>
                 What about the proportion of the population that is employed? I
                 have separated the portion of the population above 14 years old
@@ -352,12 +240,15 @@ const Ameco: React.FC = () => {
                 includes students, retirees as well as people considered
                 "outside of the workforce" such as people not looking for work.
               </p>
-              <EmploymentChart data={filteredData} />
+              <MultiCountryChart data={filteredData} chart={EmploymentChart} />
               <p>
                 It is interesting to see the evolution of employement in the
                 different economic sectors. Where do people work?
               </p>
-              <EconomicSectorsChart data={filteredData} />
+              <MultiCountryChart
+                data={filteredData}
+                chart={EconomicSectorsChart}
+              />
               <p>
                 But how do these sectors contribute to the economy? The Gross
                 Value Added (GVA) is closely related to the GDP, so I have
@@ -370,7 +261,10 @@ const Ameco: React.FC = () => {
                 slower. This mean that the low value added industry closed, and
                 the productivity of the remaining industry was very high.
               </p>
-              <EconomicSectorsGVAChart data={filteredData} />
+              <MultiCountryChart
+                data={filteredData}
+                chart={EconomicSectorsGVAChart}
+              />
 
               <br />
               <h2 id="GDP">3 - Dissecting GDP</h2>
@@ -400,7 +294,7 @@ const Ameco: React.FC = () => {
                   and imports.
                 </li>
               </ul>
-              <GNPIncomeChart data={filteredData} />
+              <MultiCountryChart data={filteredData} chart={GNPIncomeChart} />
               <p>
                 Now let's have a look at the components of GDP viewed from the
                 expenditure perspective. They are:
@@ -433,7 +327,10 @@ const Ameco: React.FC = () => {
                   services imported.
                 </li>
               </ul>
-              <GNPExpenditureChart data={filteredData} />
+              <MultiCountryChart
+                data={filteredData}
+                chart={GNPExpenditureChart}
+              />
               <br />
               <h2 id="public-spending">4 - Public Spending</h2>
               <br />
@@ -459,7 +356,10 @@ const Ameco: React.FC = () => {
                 benefits and transfers such as retirement pensions and
                 unemployment benefits.
               </p>
-              <PublicSpendingChart data={filteredData} />
+              <MultiCountryChart
+                data={filteredData}
+                chart={PublicSpendingChart}
+              />
 
               <br />
               <h2 id="trade">5 - Trade</h2>
@@ -473,7 +373,7 @@ const Ameco: React.FC = () => {
                 Rising trade effectively means that the countries economy is
                 more tighly linked to the rest of the world.
               </p>
-              <ImportsChart data={filteredData} />
+              <MultiCountryChart data={filteredData} chart={ImportsChart} />
               <p>
                 One thing that can be observed is that imports and exports tend
                 to rise together, with periods where imports are slightly above
@@ -481,7 +381,7 @@ const Ameco: React.FC = () => {
                 This is because trade imbalances are not sustainable in the long
                 term.
               </p>
-              <ExportsChart data={filteredData} />
+              <MultiCountryChart data={filteredData} chart={ExportsChart} />
             </>
           )}
         </>
