@@ -11,7 +11,7 @@ export const MultiCountryChart: React.FC<{
     <div className="pb-3">
       {data.map((countryData) => (
         <div key={countryData.country} className="border p-2 mt-0">
-          {data.length > 1 && <h5>{countryData.country}</h5>}
+          {data.length > 1 && <h5 className="m-0">{countryData.country}</h5>}
           <Chart data={countryData.data} />
         </div>
       ))}
