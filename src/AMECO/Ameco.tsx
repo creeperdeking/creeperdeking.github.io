@@ -83,8 +83,23 @@ const useCSVData = (filePath: string) => {
 
 const Ameco: React.FC = () => {
   const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
+  const [isSticky, setIsSticky] = useState(false);
   const { countries, csvData: amecoData } = useCSVData("/ameco_data.csv");
   const { csvData: giniData } = useCSVData("/gini_ameco.csv");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Get the selector's position from the top of the page
+      const selectorElement = document.getElementById("country-selector");
+      if (selectorElement) {
+        const selectorPosition = selectorElement.getBoundingClientRect().top;
+        setIsSticky(selectorPosition < 0);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const filteredData: MultiCountryRow[] = selectedCountries.map((country) => ({
     country: country,
@@ -115,13 +130,28 @@ const Ameco: React.FC = () => {
 
       {amecoData && amecoData.length > 0 && (
         <>
-          <h5>Select one or more countries to analyse:</h5>
-
-          <CountrySelector
-            countries={countries}
-            selectedCountries={selectedCountries}
-            setSelectedCountries={setSelectedCountries}
-          />
+          <div id="country-selector" style={{ position: "relative" }}>
+            <h5>Select one or more countries to analyse:</h5>
+            <div
+              style={{
+                position: isSticky ? "fixed" : "static",
+                top: 0,
+                left: 0,
+                right: 0,
+                zIndex: 1000,
+                padding: isSticky ? "1rem" : "0",
+                boxShadow: isSticky ? "0 2px 4px rgba(0,0,0,0.1)" : "none",
+              }}
+            >
+              <CountrySelector
+                countries={countries}
+                selectedCountries={selectedCountries}
+                setSelectedCountries={setSelectedCountries}
+              />
+            </div>
+            {isSticky && <div style={{ height: "60px" }} />}{" "}
+            {/* Spacer to prevent content jump */}
+          </div>
           {selectedCountries.length > 0 && (
             <>
               <nav
