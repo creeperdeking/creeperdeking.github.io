@@ -140,13 +140,12 @@ const Ameco: React.FC = () => {
                 right: 0,
                 zIndex: 1000,
                 padding: isSticky ? "1rem" : "0",
+                width: "350px",
               }}
             >
               <div
                 style={{
                   display: "flex",
-                  alignItems: "flex-start",
-                  margin: "0 auto",
                 }}
                 className="d-flex flex-column"
               >
@@ -241,10 +240,10 @@ const Ameco: React.FC = () => {
               <h2 id="consumption">1 - Consumption</h2>
               <br />
               <p>
-                First, as a starting point to think about how the economy
-                impacts our lives, let's get an idea of how the average person's
-                standard of living evolved over time using the relative
-                evolution of household consumption per capita.
+                As a starting point to think about how the economy impacts our
+                lives, let's get an idea of how the average person's standard of
+                living evolved over time using the relative evolution of
+                household consumption per capita.
               </p>
               <p>
                 This household consumption is corrected for inflation and partly
@@ -261,9 +260,16 @@ const Ameco: React.FC = () => {
                 rise in inequality, and vice versa.
               </p>
               <p>
-                I have plotted the evolution of consumption per hour worked, as
-                a lot of countries have seen a decrease in working hours per
-                worker. In addition, I have plotted GDP per capita corrected for
+                In order to give an idea of the productivity of the economy per
+                worker, I have plotted the evolution of consumption per worker,
+                and per hour worked, as a lot of countries have seen a decrease
+                in working hours per worker, and some countries have seen a
+                decreasing share of the working population. I have applied no
+                correction for the évolution of the age structure of the
+                population for these metrics.
+              </p>
+              <p>
+                In addition, I have plotted GDP per capita corrected for
                 inflation and the population's age structure as sometimes there
                 can be a big difference between how GDP per capita evolves
                 compared to the average person's actual standard of living.

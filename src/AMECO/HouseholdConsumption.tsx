@@ -85,10 +85,25 @@ export const makeHouseholdIncomeChartData = (
     },
   ]);
 
-  const houseHoldIncomePerHour = {
-    title: "Household consumption per hour worked",
+  const householdConsumptionPerWorker: AmecoRow = {
+    title: "Household consumption",
     data: transformAmecoRows(
-      householdConsumption.data,
+      transformAmecoRows(
+        baseData["Private final consumption expenditure at current prices"]
+          ?.data,
+        baseData["Price deflator private final consumption expenditure"]?.data,
+
+        (a, b) => a / (b / 100)
+      ),
+      baseData["Employment, persons: total economy"]?.data,
+      (a, b) => (a / b / 1000) * 1000000000
+    ),
+  };
+
+  const houseHoldIncomePerHour = {
+    title: "Household consumption per worker per hour worked",
+    data: transformAmecoRows(
+      householdConsumptionPerWorker.data,
       hoursWorked[0].row?.data,
       (a, b) => a / b
     ),
@@ -96,14 +111,18 @@ export const makeHouseholdIncomeChartData = (
 
   const rawChartData: RowWithTitles[] = [
     {
-      title: "household consumption",
+      title: "household consumption per capita",
       row: {
         ...householdConsumption,
         data: householdConsumption.data,
       },
     },
     {
-      title: "Household consumption per hour worked",
+      title: "Household consumption per worker",
+      row: householdConsumptionPerWorker,
+    },
+    {
+      title: "Household consumption per worker per hour worked",
       row: houseHoldIncomePerHour,
     },
     {
@@ -128,9 +147,9 @@ const HouseholdConsumptionChart: React.FC<{
           "Average annual working hours per worker",
           "Price deflator private final consumption expenditure",
           "Private final consumption expenditure at current prices",
-          "Employment, persons: total economy",
           "Population: 15 to 64 years",
           "Total population",
+          "Employment, persons: total economy",
           "Population: 0 to 14 years",
           "Population: 65 years and over",
           "Gross domestic product at current prices",
