@@ -140,7 +140,6 @@ const Ameco: React.FC = () => {
                 right: 0,
                 zIndex: 1000,
                 padding: isSticky ? "1rem" : "0",
-                boxShadow: isSticky ? "0 2px 4px rgba(0,0,0,0.1)" : "none",
               }}
             >
               <CountrySelector
