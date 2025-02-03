@@ -85,10 +85,24 @@ const CountrySelector: React.FC<{
 }> = ({ countries, setSelectedCountry }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
 
   const filteredCountries = countries.filter((country) =>
     country.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+  const handleCountryToggle = (country: string) => {
+    setSelectedCountries((prev) => {
+      const newSelection = prev.includes(country)
+        ? prev.filter((c) => c !== country)
+        : [...prev, country];
+
+      // Update the main selectedCountry with the first selected country or undefined
+      setSelectedCountry(newSelection.length > 0 ? newSelection[0] : "");
+
+      return newSelection;
+    });
+  };
 
   return (
     <>
@@ -128,27 +142,61 @@ const CountrySelector: React.FC<{
           <Dropdown.Menu
             style={{
               width: "20em",
-              height: "20em",
-              overflow: "scroll",
+              maxHeight: "20em",
+              overflow: "auto",
             }}
           >
-            {filteredCountries.map((country) => (
-              <Dropdown.Item
-                key={country}
-                onClick={() => {
-                  setSelectedCountry(country);
-                  setSearchTerm(country);
-                  setIsDropdownOpen(false);
-                }}
-                style={{
-                  padding: "0.5rem 1rem",
-                  display: "block",
-                  width: "100%",
-                }}
-              >
-                {country}
-              </Dropdown.Item>
-            ))}
+            {/* Selected countries section */}
+            {selectedCountries.length > 0 && (
+              <>
+                {selectedCountries.map((country) => (
+                  <Dropdown.Item
+                    key={`selected-${country}`}
+                    as="div"
+                    className="d-flex align-items-center"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      handleCountryToggle(country);
+                    }}
+                    style={{ cursor: "pointer" }}
+                  >
+                    <input
+                      type="checkbox"
+                      checked
+                      onChange={() => handleCountryToggle(country)}
+                      onClick={(e) => e.stopPropagation()}
+                      className="me-2"
+                    />
+                    <span style={{ margin: "auto 0" }}>{country}</span>
+                  </Dropdown.Item>
+                ))}
+              </>
+            )}
+
+            {/* Available countries list */}
+            {filteredCountries
+              .filter((country) => !selectedCountries.includes(country))
+              .map((country) => (
+                <Dropdown.Item
+                  key={country}
+                  as="div"
+                  className="d-flex align-items-center"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleCountryToggle(country);
+                  }}
+                  style={{ cursor: "pointer" }}
+                >
+                  <input
+                    type="checkbox"
+                    checked={selectedCountries.includes(country)}
+                    onChange={() => handleCountryToggle(country)}
+                    onClick={(e) => e.stopPropagation()}
+                    className="me-2"
+                  />
+                  <span style={{ margin: "auto 0" }}>{country}</span>
+                </Dropdown.Item>
+              ))}
           </Dropdown.Menu>
         </Dropdown>
       )}
