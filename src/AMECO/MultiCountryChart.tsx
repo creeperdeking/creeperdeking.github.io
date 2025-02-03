@@ -8,13 +8,13 @@ export const MultiCountryChart: React.FC<{
   if (!data) return null;
 
   return (
-    <>
+    <div className="pb-3">
       {data.map((countryData) => (
-        <div key={countryData.country}>
-          {data.length > 1 && <h4>{countryData.country}</h4>}
+        <div key={countryData.country} className="border p-2 mt-0">
+          {data.length > 1 && <h5>{countryData.country}</h5>}
           <Chart data={countryData.data} />
         </div>
       ))}
-    </>
+    </div>
   );
 };

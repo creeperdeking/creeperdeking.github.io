@@ -171,29 +171,27 @@ export const LineChart: React.FC<{
   format?: string;
 }> = ({ title, axisTitle, chartData, format }) => {
   return (
-    <div className="pb-3">
-      <Chart
-        options={{
-          title: title,
-          vAxis: {
-            title: axisTitle,
-            format: format,
+    <Chart
+      options={{
+        title: title,
+        vAxis: {
+          title: axisTitle,
+          format: format,
+        },
+        legend: {
+          position: "top",
+          maxLines: 3,
+          textStyle: {
+            whiteSpace: "nowrap",
+            fontSize: 12,
           },
-          legend: {
-            position: "top",
-            maxLines: 3,
-            textStyle: {
-              whiteSpace: "nowrap",
-              fontSize: 12,
-            },
-          },
-        }}
-        chartType="LineChart"
-        data={chartData}
-        width="100%"
-        height="20em"
-      />
-    </div>
+        },
+      }}
+      chartType="LineChart"
+      data={chartData}
+      width="100%"
+      height="20em"
+    />
   );
 };
 
@@ -203,34 +201,32 @@ const StackedAreaChart: React.FC<{
   chartData: ChartData;
 }> = ({ title, axisTitle, chartData }) => {
   return (
-    <div className="pb-3">
-      <Chart
-        chartType="SteppedAreaChart"
-        data={chartData}
-        options={{
-          title: title,
-          isStacked: true,
-          legend: {
-            position: "top",
-            maxLines: 3,
-            textStyle: {
-              whiteSpace: "nowrap",
-              fontSize: 12,
-            },
+    <Chart
+      chartType="SteppedAreaChart"
+      data={chartData}
+      options={{
+        title: title,
+        isStacked: true,
+        legend: {
+          position: "top",
+          maxLines: 3,
+          textStyle: {
+            whiteSpace: "nowrap",
+            fontSize: 12,
           },
-          vAxis: {
-            title: axisTitle,
-            format: "#.##'%'",
-          },
-          tooltip: {
-            isHtml: true,
-            trigger: "focus",
-          },
-        }}
-        width="100%"
-        height="20em"
-      />
-    </div>
+        },
+        vAxis: {
+          title: axisTitle,
+          format: "#.##'%'",
+        },
+        tooltip: {
+          isHtml: true,
+          trigger: "focus",
+        },
+      }}
+      width="100%"
+      height="20em"
+    />
   );
 };
 
