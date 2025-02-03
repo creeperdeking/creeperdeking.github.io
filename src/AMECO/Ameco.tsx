@@ -142,14 +142,52 @@ const Ameco: React.FC = () => {
                 padding: isSticky ? "1rem" : "0",
               }}
             >
-              <CountrySelector
-                countries={countries}
-                selectedCountries={selectedCountries}
-                setSelectedCountries={setSelectedCountries}
-              />
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "flex-start",
+                  margin: "0 auto",
+                }}
+                className="d-flex flex-column"
+              >
+                <CountrySelector
+                  countries={countries}
+                  selectedCountries={selectedCountries}
+                  setSelectedCountries={setSelectedCountries}
+                />
+                {isSticky && selectedCountries.length > 0 && (
+                  <nav
+                    id="TOC-sticky"
+                    role="doc-toc"
+                    style={{
+                      maxWidth: "300px",
+                      fontSize: "0.9em",
+                    }}
+                  >
+                    <h2 id="toc-title" style={{ fontSize: "1em" }}>
+                      Quick Navigation
+                    </h2>
+                    <ul className="incremental" style={{ marginBottom: 0 }}>
+                      <li>
+                        <a href="#consumption">1 - Consumption</a>
+                      </li>
+                      <li>
+                        <a href="#population">2 - Population & Employment</a>
+                      </li>
+                      <li>
+                        <a href="#GDP">3 - Gross Domestic Product</a>
+                      </li>
+                      <li>
+                        <a href="#public-spending">4 - Public Spending</a>
+                      </li>
+                      <li>
+                        <a href="#trade">5 - Trade</a>
+                      </li>
+                    </ul>
+                  </nav>
+                )}
+              </div>
             </div>
-            {isSticky && <div style={{ height: "60px" }} />}{" "}
-            {/* Spacer to prevent content jump */}
           </div>
           {selectedCountries.length > 0 && (
             <>
