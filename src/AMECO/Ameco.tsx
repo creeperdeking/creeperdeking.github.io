@@ -15,6 +15,7 @@ import EmploymentChart from "./EmploymentChart";
 import EconomicSectorsChart from "./EconomicSectors";
 import EconomicSectorsGVAChart from "./EconomicSectorsGVAChart";
 import { ExportsChart, ImportsChart } from "./ImportsExportsCharts";
+import AbsolutePopulationChart from "./AbsolutePopulationChart";
 
 interface YearData {
   year: string;
@@ -291,10 +292,11 @@ const Ameco: React.FC = () => {
               <br />
 
               <p>
-                To start, let's have a look at the évolution of the structure of
+                To start, let's have a look at the evolution of the structure of
                 the population over time. How many children, how many elders?
               </p>
               <PopulationChart data={filteredData} />
+              <AbsolutePopulationChart data={filteredData} />
               <p>
                 What about the proportion of the population that is employed? I
                 have separated the portion of the population above 14 years old
