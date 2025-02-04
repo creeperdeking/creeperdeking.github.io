@@ -39,6 +39,17 @@ export const makeHouseholdIncomeChartData = (
     (a, b) => (a * 0.3 + b * 0.85) * ((0.3 + 0.85) / 2)
   );
 
+  // Get the first year's value to use as base
+  const firstYearValue = consumptionUnit?.[0]?.value ?? 100;
+
+  // Convert to percentage relative to first year
+  const consumptionUnitRelative = consumptionUnit?.map((item) => ({
+    ...item,
+    value: (item.value / firstYearValue) * 100,
+  }));
+
+  console.log(consumptionUnitRelative);
+
   const householdConsumption: AmecoRow = {
     title: "Household consumption",
     data: transformAmecoRows(
@@ -54,8 +65,8 @@ export const makeHouseholdIncomeChartData = (
         baseData["Total population"]?.data,
         (a, b) => (a / b / 1000) * 1000000000
       ),
-      consumptionUnit,
-      (a, b) => a / b
+      consumptionUnitRelative,
+      (a, b) => a / (b / 100)
     ),
   };
 
@@ -73,38 +84,43 @@ export const makeHouseholdIncomeChartData = (
         baseData["Total population"]?.data,
         (a, b) => (a / b / 1000) * 1000000000
       ),
-      consumptionUnit,
-      (a, b) => a / b
+      consumptionUnitRelative,
+      (a, b) => a / (b / 100)
     ),
   };
 
-  const hoursWorked = calculatePercentageIncrease([
-    {
-      title: "Average annual working hours per worker",
-      row: baseData["Average annual working hours per worker"],
-    },
-  ]);
+  const hoursWorkedEqFullTime = baseData[
+    "Average annual working hours per worker"
+  ]?.data.map((d) => ({
+    ...d,
+    value: d.value / 1820,
+  }));
 
   const householdConsumptionPerWorker: AmecoRow = {
     title: "Household consumption",
     data: transformAmecoRows(
       transformAmecoRows(
-        baseData["Private final consumption expenditure at current prices"]
-          ?.data,
-        baseData["Price deflator private final consumption expenditure"]?.data,
+        transformAmecoRows(
+          baseData["Private final consumption expenditure at current prices"]
+            ?.data,
+          baseData["Price deflator private final consumption expenditure"]
+            ?.data,
 
-        (a, b) => a / (b / 100)
+          (a, b) => a / (b / 100)
+        ),
+        baseData["Employment, persons: total economy"]?.data,
+        (a, b) => (a / b / 1000) * 1000000000
       ),
-      baseData["Employment, persons: total economy"]?.data,
-      (a, b) => (a / b / 1000) * 1000000000
+      consumptionUnitRelative,
+      (a, b) => a / (b / 100)
     ),
   };
 
   const houseHoldIncomePerHour = {
-    title: "Household consumption per worker per hour worked",
+    title: "Household consumption per worker eq. full time",
     data: transformAmecoRows(
       householdConsumptionPerWorker.data,
-      hoursWorked[0].row?.data,
+      hoursWorkedEqFullTime,
       (a, b) => a / b
     ),
   };
@@ -122,7 +138,7 @@ export const makeHouseholdIncomeChartData = (
       row: householdConsumptionPerWorker,
     },
     {
-      title: "Household consumption per worker per hour worked",
+      title: "Household consumption per worker eq. full time",
       row: houseHoldIncomePerHour,
     },
     {
@@ -130,7 +146,7 @@ export const makeHouseholdIncomeChartData = (
       row: gdpPerCapita,
     },
   ];
-  return calculatePercentageIncrease(rawChartData);
+  return rawChartData;
 };
 
 const HouseholdConsumptionChart: React.FC<{
