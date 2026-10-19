@@ -14,7 +14,7 @@ const App: React.FC = () => {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <AmecoPage />,
+      element: <FissiovoltPage />,
     },
     {
       path: "/techtree",

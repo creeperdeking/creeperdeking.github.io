@@ -194,19 +194,22 @@ body.film-clean *, body.film-clean *::before { backdrop-filter: none !important;
 }
 @media (prefers-reduced-motion: reduce) { .lbl, .caption, .toast { transition: none; } }
 
-/* Embedded on the Fissiovolt page: the film plays behind the site header. */
+/* Embedded on the Fissiovolt page: the film plays behind the site header, with its play bar. */
 body.embed .brand,
 body.embed .topbar,
 body.embed #panel,
 body.embed .legend,
-body.embed .transport,
-body.embed .loading b { display: none !important; }
+body.embed .loading b,
+body.embed #b_rec { display: none !important; }
 body.embed #ui { display: block; pointer-events: none; }
+body.embed #stage canvas { pointer-events: none; touch-action: pan-y; }
 body.embed .bottom {
-  position: absolute; left: 0; right: 0; bottom: max(24px, env(safe-area-inset-bottom, 0px));
-  display: block; pointer-events: none;
+  position: absolute; left: max(16px, env(safe-area-inset-left, 0px)); right: max(16px, env(safe-area-inset-right, 0px));
+  bottom: max(20px, env(safe-area-inset-bottom, 0px));
+  display: block; pointer-events: none; z-index: 5;
 }
-body.embed .caption { max-width: min(820px, calc(100% - 48px)); }
+body.embed .transport { pointer-events: auto; }
+body.embed .caption { max-width: min(820px, calc(100% - 48px)); margin-bottom: 8px; }
 
 </style>
 <div id="app">
@@ -1110,6 +1113,7 @@ const easeIO = (t) => (t <= 0 ? 0 : t >= 1 ? 1 : (t < 0.5 ? 4 * t * t * t : 1 - 
 const DEG = Math.PI / 180;
 const LIVE_ALLOWED = window.RHS_LOCAL === true;
 const QS = new URLSearchParams(location.search);
+const EMBED_START = 29;
 
 // ============================================================================ i18n
 const I18N = {
@@ -2595,7 +2599,12 @@ function updateTimeline() {
   $('tl_time').textContent = fmtTime(FILM.t) + ' / ' + fmtTime(FILM.duration);
   $('timeline').setAttribute('aria-valuenow', FILM.t.toFixed(0));
 }
-function seekFilm(t) { FILM.t = clamp(t, 0, FILM.duration); CAM.userMoved = false; camTween = null; }
+function seekFilm(t) {
+  FILM.t = clamp(t, 0, FILM.duration); CAM.userMoved = false; camTween = null;
+  if (document.body.classList.contains('embed') && (!FILM.playing || suspended)) {
+    evalFilm(FILM.t); updateCaption(FILM.t); updateTimeline(); renderFrame(0);
+  }
+}
 (function timelineInput() {
   const tl = $('timeline'); let drag = false;
   const at = (e) => { const r = tl.getBoundingClientRect(); return clamp((e.clientX - r.left) / r.width, 0, 1) * FILM.duration; };
@@ -2606,8 +2615,11 @@ function seekFilm(t) { FILM.t = clamp(t, 0, FILM.duration); CAM.userMoved = fals
 })();
 function togglePlay() {
   if (APP.mode !== 'film') setMode('film');
-  FILM.playing = !FILM.playing; if (FILM.playing && FILM.t >= FILM.duration - 0.01) seekFilm(0);
+  FILM.playing = !FILM.playing;
+  if (FILM.playing && FILM.t >= FILM.duration - 0.01) seekFilm(document.body.classList.contains('embed') ? EMBED_START : 0);
+  suspended = false;
   updatePlayIcon();
+  if (FILM.playing) scheduleTick();
 }
 function updatePlayIcon() {
   $('b_play').innerHTML = FILM.playing && APP.mode === 'film' ? '<svg viewBox="0 0 16 16"><path d="M4 2.5h3v11H4zM9 2.5h3v11H9z"/></svg>' : '<svg viewBox="0 0 16 16"><path d="M4 2.5v11l9-5.5z"/></svg>';
@@ -3018,13 +3030,22 @@ function renderFrame(dt) {
   }
 }
 let lastT = performance.now(), capInfo = null;
+let loopOn = false;
+let suspended = false;
+function scheduleTick() {
+  if (loopOn || window.RHS_CAPTURE) return;
+  loopOn = true;
+  lastT = performance.now();
+  requestAnimationFrame(tick);
+}
 function tick(now) {
   const dt = Math.min(0.1, (now - lastT) / 1000); lastT = now;
+  if (suspended) { loopOn = false; return; }
   if (APP.mode === 'film') {
     if (FILM.playing) {
       FILM.t += dt;
       if (FILM.t >= FILM.duration) {
-        if (document.body.classList.contains('embed')) FILM.t = 0;
+        if (document.body.classList.contains('embed')) FILM.t = EMBED_START;
         else { FILM.t = FILM.duration; FILM.playing = false; updatePlayIcon(); if (recorder) recorder.stop(); }
       }
     }
@@ -3041,7 +3062,9 @@ function tick(now) {
   renderFrame(dt);
   if (recorder) composite(renderer.domElement.width, renderer.domElement.height, true, capInfo);
   updateHUD(dt);
-  if (!window.RHS_CAPTURE) requestAnimationFrame(tick);
+  const keep = !window.RHS_CAPTURE && !suspended && (!document.body.classList.contains('embed') || FILM.playing);
+  if (keep) requestAnimationFrame(tick);
+  else loopOn = false;
 }
 
 // ============================================================================ boot
@@ -3069,12 +3092,29 @@ function boot() {
   lastT = performance.now();
   if (document.body.classList.contains('embed')) {
     FILM.playing = false;
-    FILM.t = 0;
-    try { evalFilm(0); updatePlayIcon(); } catch (err) { console.warn(err); }
+    FILM.t = EMBED_START;
+    try { evalFilm(EMBED_START); updatePlayIcon(); } catch (err) { console.warn(err); }
     try { window.parent.postMessage({ type: 'rhs', cmd: 'ready' }, '*'); } catch (err) { /* standalone */ }
+    window.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      try { window.parent.scrollBy(0, e.deltaY); } catch (err) { /* standalone */ }
+    }, { passive: false });
+    let touchY = null;
+    window.addEventListener('touchstart', (e) => {
+      if (e.target.closest && e.target.closest('#transport')) { touchY = null; return; }
+      touchY = e.touches[0].clientY;
+    }, { passive: true });
+    window.addEventListener('touchmove', (e) => {
+      if (touchY == null) return;
+      const y = e.touches[0].clientY;
+      try { window.parent.scrollBy(0, touchY - y); } catch (err) { /* standalone */ }
+      touchY = y;
+      e.preventDefault();
+    }, { passive: false });
+    window.addEventListener('touchend', () => { touchY = null; });
   }
   if (!window.RHS_CAPTURE) {
-    requestAnimationFrame(tick);
+    scheduleTick();
     // precompute the plate manoeuvre of the three-column chapters while the first chapters play
     setTimeout(() => { try { trioTransient(); } catch (e) { console.warn(e); } }, 4000);
   }
@@ -3099,20 +3139,26 @@ window.addEventListener('message', (event) => {
   if (!data || data.type !== 'rhs' || !document.body.classList.contains('embed')) return;
   if (data.cmd === 'restart') {
     if (APP.mode !== 'film') setMode('film');
-    FILM.t = 0;
+    FILM.t = EMBED_START;
     FILM.playing = false;
-    evalFilm(0);
-    updateCaption(0);
+    evalFilm(EMBED_START);
+    updateCaption(EMBED_START);
     updateTimeline();
     renderFrame(0);
   } else if (data.cmd === 'play') {
-    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-    if (FILM.t >= FILM.duration - 0.05) FILM.t = 0;
+    if (FILM.t >= FILM.duration - 0.05) FILM.t = EMBED_START;
+    suspended = false;
     FILM.playing = true;
     updatePlayIcon();
+    scheduleTick();
   } else if (data.cmd === 'pause') {
     FILM.playing = false;
     updatePlayIcon();
+  } else if (data.cmd === 'suspend') {
+    suspended = true;
+  } else if (data.cmd === 'resume') {
+    suspended = false;
+    if (FILM.playing) scheduleTick();
   }
 });
 try { boot(); } catch (e) { $('loadmsg').textContent = 'Erreur : ' + e.message; console.error(e); }

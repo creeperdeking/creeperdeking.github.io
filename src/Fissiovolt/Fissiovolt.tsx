@@ -14,8 +14,8 @@ function postToFilm(frame: HTMLIFrameElement | null, cmd: string) {
 
 const Fissiovolt: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const techRef = useRef<HTMLElement>(null);
-  const veilRef = useRef<HTMLDivElement>(null);
+  const [stageReady, setStageReady] = useState(false);
+  const stageRef = useRef<HTMLDivElement>(null);
   const frameRef = useRef<HTMLIFrameElement>(null);
   const syncFilmRef = useRef<() => void>(() => {});
 
@@ -58,26 +58,24 @@ const Fissiovolt: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    const section = techRef.current;
+    const stage = stageRef.current;
     const frame = frameRef.current;
-    const veil = veilRef.current;
-    if (!section || !frame || !veil) return;
+    if (!stage || !frame) return;
 
-    let frameId = 0;
     let filmPlaying = false;
+    let parked = false;
+    let parkTimer = 0;
     const sync = () => {
-      const rect = section.getBoundingClientRect();
-      const scrollable = section.offsetHeight - window.innerHeight;
-      const scrolled = Math.min(Math.max(-rect.top, 0), Math.max(scrollable, 0));
-      const raw = scrollable > 0 ? scrolled / scrollable : 0;
-      const fade = raw <= 0.28 ? 0 : Math.min(1, (raw - 0.28) / 0.55);
-      veil.style.opacity = String(1 - fade);
-
-      const onStage = rect.bottom > 80 && rect.top < window.innerHeight - 80;
-      const wantPlay = onStage && fade > 0.82;
-      if (wantPlay !== filmPlaying) {
-        filmPlaying = wantPlay;
-        postToFilm(frame, wantPlay ? "play" : "pause");
+      const rect = stage.getBoundingClientRect();
+      const visible = Math.min(rect.bottom, window.innerHeight) - Math.max(rect.top, 0);
+      const wantPlay = visible > window.innerHeight * 0.6;
+      if (wantPlay === filmPlaying) return;
+      filmPlaying = wantPlay;
+      if (wantPlay) {
+        postToFilm(frame, "restart");
+        postToFilm(frame, "play");
+      } else {
+        postToFilm(frame, "pause");
       }
     };
     syncFilmRef.current = () => {
@@ -85,14 +83,28 @@ const Fissiovolt: React.FC = () => {
       sync();
     };
 
+    const park = () => {
+      if (parked) return;
+      parked = true;
+      postToFilm(frame, "suspend");
+    };
+    const unpark = () => {
+      if (!parked) return;
+      parked = false;
+      sync();
+      postToFilm(frame, "resume");
+    };
     const onScroll = () => {
-      cancelAnimationFrame(frameId);
-      frameId = requestAnimationFrame(sync);
+      park();
+      if ("onscrollend" in window) return;
+      window.clearTimeout(parkTimer);
+      parkTimer = window.setTimeout(unpark, 120);
     };
 
     const onMessage = (event: MessageEvent) => {
       if (event.source !== frame.contentWindow) return;
       if (event.data?.type === "rhs" && event.data.cmd === "ready") {
+        setStageReady(true);
         postToFilm(frame, "restart");
         filmPlaying = false;
         sync();
@@ -100,15 +112,67 @@ const Fissiovolt: React.FC = () => {
     };
 
     window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll);
+    if ("onscrollend" in window) window.addEventListener("scrollend", unpark);
+    window.addEventListener("resize", sync);
     window.addEventListener("message", onMessage);
-    onScroll();
+    sync();
 
     return () => {
-      cancelAnimationFrame(frameId);
+      window.clearTimeout(parkTimer);
       window.removeEventListener("scroll", onScroll);
-      window.removeEventListener("resize", onScroll);
+      window.removeEventListener("scrollend", unpark);
+      window.removeEventListener("resize", sync);
       window.removeEventListener("message", onMessage);
+    };
+  }, []);
+
+  useEffect(() => {
+    const stage = stageRef.current;
+    if (!stage) return;
+
+    let locked = false;
+    let armed = true;
+    let settleTimer = 0;
+
+    const stageTop = () => stage.getBoundingClientRect().top + window.scrollY;
+    const enterDistance = () => window.innerHeight * 0.28;
+    const nudgeDistance = () => Math.min(48, window.innerHeight * 0.07);
+
+    const decide = () => {
+      const distance = window.scrollY - stageTop();
+      const abs = Math.abs(distance);
+      const enter = enterDistance();
+
+      if (abs > enter) {
+        locked = false;
+        armed = true;
+        return;
+      }
+      if (abs <= 2) {
+        locked = true;
+        return;
+      }
+      // A scroll already past a slight nudge keeps its place, so slow
+      // trackpad swipes accumulate instead of being rewound on each pause.
+      if (locked && abs >= nudgeDistance()) return;
+
+      const arriving = !locked && armed;
+      const nudged = locked && abs < nudgeDistance();
+      if (!arriving && !nudged) return;
+      locked = true;
+      armed = false;
+      window.scrollTo({ top: stageTop(), behavior: "auto" });
+    };
+
+    const schedule = () => {
+      window.clearTimeout(settleTimer);
+      settleTimer = window.setTimeout(decide, 400);
+    };
+
+    window.addEventListener("scroll", schedule, { passive: true });
+    return () => {
+      window.clearTimeout(settleTimer);
+      window.removeEventListener("scroll", schedule);
     };
   }, []);
 
@@ -121,7 +185,7 @@ const Fissiovolt: React.FC = () => {
           content="Fissiovolt’s breakthrough: a practical way to use photovoltaic to make nuclear electricity."
         />
         <meta name="theme-color" content="#07090e" />
-        <link rel="icon" type="image/png" href="/fissiovolt/logo-mark.png" />
+        <link rel="icon" type="image/png" href="/fissiovolt/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
@@ -168,25 +232,33 @@ const Fissiovolt: React.FC = () => {
         </nav>
       )}
 
-      <section id="technology" className="fv-tech" ref={techRef}>
-        <div className="fv-tech-sticky">
+      <section id="technology" className="fv-tech">
+        <div className="fv-tech-intro">
+          <p className="fv-kicker">Technology</p>
+          <h1 className="fv-hero-title">
+            Fissiovolt’s breakthrough: A practical way to use photovoltaic to make nuclear electricity
+          </h1>
+        </div>
+        <div className="fv-tech-stage" ref={stageRef}>
           <iframe
             ref={frameRef}
             className="fv-stage"
             src="/fissiovolt/rotary-heat-shuttle.html?embed=1"
             title="Rotary Heat Shuttle"
             onLoad={() => {
+              setStageReady(true);
               postToFilm(frameRef.current, "restart");
               syncFilmRef.current();
             }}
           />
-          <div className="fv-veil" ref={veilRef}>
-            <p className="fv-kicker">Technology</p>
-            <h1 className="fv-hero-title">
-              Fissiovolt’s breakthrough: A practical way to use photovoltaic to make nuclear electricity
-            </h1>
-            <p className="fv-scroll">Scroll</p>
-          </div>
+          {!stageReady && (
+            <div className="fv-stage-loading" role="status" aria-live="polite" aria-label="Loading animation">
+              <img src="/fissiovolt/logo-mark.png" alt="" />
+              <div className="fv-load-track" aria-hidden="true">
+                <div className="fv-load-bar" />
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
