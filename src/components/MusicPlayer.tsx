@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Button } from 'react-bootstrap';
-import uuid from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 
 interface MusicPlayerProps {
   playlist: Record<string, string>;
@@ -52,7 +52,7 @@ const MusicPlayer: React.FC<MusicPlayerProps> = ({ playlist }) => {
       <div className="playlist">
         {trackNames.map((trackName, index) => (
           <Button
-            key={uuid.v4()}
+            key={uuidv4()}
             onClick={() => playTrack(index)}
             variant="outline-primary"
             className="m-1"

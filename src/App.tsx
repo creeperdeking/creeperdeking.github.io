@@ -8,6 +8,7 @@ const PostIndustrialSocietyPage = React.lazy(
 );
 const BestagonPage = React.lazy(() => import("./Bestagon/Bestagon"));
 const AmecoPage = React.lazy(() => import("./AMECO/Ameco"));
+const FissiovoltPage = React.lazy(() => import("./Fissiovolt/Fissiovolt"));
 
 const App: React.FC = () => {
   const router = createBrowserRouter([
@@ -31,10 +32,16 @@ const App: React.FC = () => {
       path: "/ameco",
       element: <AmecoPage />,
     },
+    {
+      path: "/Fissiovolt",
+      element: <FissiovoltPage />,
+    },
   ]);
   return (
     <HelmetProvider>
-      <RouterProvider router={router} />
+      <React.Suspense fallback={null}>
+        <RouterProvider router={router} />
+      </React.Suspense>
     </HelmetProvider>
   );
 };
