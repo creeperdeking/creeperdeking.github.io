@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Neutron shielding study</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700&display=swap" rel="stylesheet" />
+    <style>
+      body {
+        margin: 0;
+        background: #07090e;
+        color: #f4f7fb;
+        font-family: Archivo, "Helvetica Neue", Arial, sans-serif;
+      }
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: center;
+        padding: 16px 22px;
+        background: #07090e;
+      }
+      a {
+        color: #ff9e5b;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      #status {
+        margin: 0;
+        padding: 28px 22px;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        padding: 0 16px 48px;
+      }
+      canvas {
+        width: min(920px, 100%);
+        height: auto;
+        background: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/#work">Back</a>
+      <a href="./neutron-shielding-study.pdf" download>Download PDF</a>
+    </header>
+    <p id="status">Loading the article…</p>
+    <main id="pages"></main>
+    <script type="module">
+      import * as pdfjs from "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/build/pdf.min.mjs";
+
+      pdfjs.GlobalWorkerOptions.workerSrc =
+        "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/build/pdf.worker.min.mjs";
+
+      const status = document.querySelector("#status");
+      const pages = document.querySelector("#pages");
+
+      try {
+        const pdf = await pdfjs.getDocument("./neutron-shielding-study.pdf").promise;
+        status.hidden = true;
+        for (let number = 1; number <= pdf.numPages; number += 1) {
+          const page = await pdf.getPage(number);
+          const viewport = page.getViewport({ scale: 1.6 });
+          const canvas = document.createElement("canvas");
+          canvas.width = viewport.width;
+          canvas.height = viewport.height;
+          pages.append(canvas);
+          await page.render({ canvasContext: canvas.getContext("2d"), viewport }).promise;
+        }
+      } catch (error) {
+        status.hidden = false;
+        status.textContent = "The article could not be displayed. Use Download PDF instead.";
+        console.error(error);
+      }
+    </script>
+  </body>
+</html>
