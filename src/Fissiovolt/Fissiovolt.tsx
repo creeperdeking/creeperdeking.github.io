@@ -327,11 +327,9 @@ const Fissiovolt: React.FC = () => {
           </article>
           <a
             className="fv-work-item"
-            href="/fissiovolt/neutron-shielding-study.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/fissiovolt/neutron-shielding-study.html"
           >
-            <p className="fv-kicker">Research article</p>
+            <p className="fv-kicker">Shielding Study</p>
             <h3>Neutron shielding study of a solid state heat transfer method for thermophotovoltaic nuclear reactors</h3>
             <span>Open the PDF</span>
           </a>
