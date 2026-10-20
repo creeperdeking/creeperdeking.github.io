@@ -5,11 +5,37 @@ import "./fissiovolt.css";
 const SECTIONS = [
   { id: "technology", label: "Technology" },
   { id: "mission", label: "Mission" },
+  { id: "work", label: "Our Work" },
   { id: "team", label: "Team" },
+] as const;
+
+const TEAM = [
+  {
+    name: "Alexis Gros",
+    role: "Founder",
+    photo: "/fissiovolt/alexis-gros.jpg",
+    linkedin: "https://www.linkedin.com/in/alexis-gros/?isSelfProfile=true",
+  },
+  {
+    name: "Sully Marigliano Crevecoeur",
+    role: "Advisor",
+    photo: "/fissiovolt/sully-marigliano-crevecoeur.jpg",
+    linkedin: "https://www.linkedin.com/in/sullymc",
+  },
 ] as const;
 
 function postToFilm(frame: HTMLIFrameElement | null, cmd: string) {
   frame?.contentWindow?.postMessage({ type: "rhs", cmd }, "*");
+}
+
+function ScrollHint() {
+  return (
+    <div className="fv-scroll-hint" aria-hidden="true">
+      <span />
+      <span />
+      <span />
+    </div>
+  );
 }
 
 const Fissiovolt: React.FC = () => {
@@ -182,9 +208,23 @@ const Fissiovolt: React.FC = () => {
         <title>Fissiovolt</title>
         <meta
           name="description"
-          content="Fissiovolt’s breakthrough: a practical way to use photovoltaic to make nuclear electricity."
+          content="Fissiovolt’s breakthrough: A practical way to use photovoltaic to make nuclear electricity."
         />
         <meta name="theme-color" content="#07090e" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Fissiovolt" />
+        <meta property="og:url" content="https://fissiovolta.com/" />
+        <meta property="og:title" content="Fissiovolt" />
+        <meta
+          property="og:description"
+          content="Fissiovolt’s breakthrough: A practical way to use photovoltaic to make nuclear electricity."
+        />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Fissiovolt" />
+        <meta
+          name="twitter:description"
+          content="Fissiovolt’s breakthrough: A practical way to use photovoltaic to make nuclear electricity."
+        />
         <link rel="icon" type="image/png" href="/fissiovolt/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
@@ -238,6 +278,7 @@ const Fissiovolt: React.FC = () => {
           <h1 className="fv-hero-title">
             Fissiovolt’s breakthrough: A practical way to use photovoltaic to make nuclear electricity
           </h1>
+          <ScrollHint />
         </div>
         <div className="fv-tech-stage" ref={stageRef}>
           <iframe
@@ -253,7 +294,7 @@ const Fissiovolt: React.FC = () => {
           />
           {!stageReady && (
             <div className="fv-stage-loading" role="status" aria-live="polite" aria-label="Loading animation">
-              <img src="/fissiovolt/logo-mark.png" alt="" />
+              <img src="/fissiovolt/logo-spin.png" alt="" width="128" height="128" />
               <div className="fv-load-track" aria-hidden="true">
                 <div className="fv-load-bar" />
               </div>
@@ -272,13 +313,47 @@ const Fissiovolt: React.FC = () => {
         </p>
       </section>
 
+      <section id="work" className="fv-section">
+        <h2>Our Work</h2>
+        <div className="fv-work">
+          <article className="fv-work-item">
+            <img
+              src="/fissiovolt/patent-17900-001wo.png"
+              alt="Cross-section drawing of thermal energy transfer systems for radioactive heat sources"
+            />
+            <p className="fv-kicker">International patent pending</p>
+            <h3>17900-001WO</h3>
+            <p>Thermal Energy Transfer Systems for Radioactive Heat Sources</p>
+          </article>
+          <a
+            className="fv-work-item"
+            href="/fissiovolt/neutron-shielding-study.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p className="fv-kicker">Research article</p>
+            <h3>Neutron shielding study of a solid state heat transfer method for thermophotovoltaic nuclear reactors</h3>
+            <span>Open the PDF</span>
+          </a>
+        </div>
+      </section>
+
       <section id="team" className="fv-section">
         <h2>Team</h2>
-        <div className="fv-person">
-          <img src="/fissiovolt/alexis-gros.jpg" alt="Alexis Gros" />
-          <strong>Alexis Gros</strong>
-          <span>Founder</span>
+        <div className="fv-team">
+          {TEAM.map((person) => (
+            <div className="fv-person" key={person.linkedin}>
+              <a className="fv-person-link" href={person.linkedin} target="_blank" rel="noopener noreferrer">
+                <img src={person.photo} alt="" />
+                <strong>{person.name}</strong>
+              </a>
+              <span>{person.role}</span>
+            </div>
+          ))}
         </div>
+        <p className="fv-join">
+          Join us. Write to <a href="mailto:contact@fissiovolt.com">contact@fissiovolt.com</a>
+        </p>
       </section>
 
       <footer className="fv-footer">
